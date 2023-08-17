@@ -1,2 +1,2 @@
 # competitive-programming
-Dump of solutions alogn with logic
+Dump of solutions along with logic
