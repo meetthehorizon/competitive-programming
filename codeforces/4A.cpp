@@ -1,7 +1,6 @@
 /*
 Kshitij Sharma
 github: meetthehorizon
-cf: Kiminowarui
 probelem: 4A 
 */
 
