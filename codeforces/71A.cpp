@@ -1,7 +1,6 @@
 /*
 Kshitij Sharma
 github: meetthehorizon
-cf: Kiminowarui
 problem: 71A.cpp
 */
 
