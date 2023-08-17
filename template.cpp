@@ -1,3 +1,9 @@
+/*
+Kshitij Sharma
+github: meetthehorizon
+cf: Kiminowarui
+*/
+
 #include <bits/stdc++.h>
 using namespace std;
 
