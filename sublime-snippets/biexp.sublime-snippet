@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+ll bin_exp(ll a, ll b, ll m = 0){
+    ll y = 1;
+    while(b > 0){
+        if(b%2) y *= a;
+        a *= a; b /= 2;
+        if(m) {y %= m; a %= m;}
+    }
+    return y;
+}
+]]></content>
+	<tabTrigger>biexp</tabTrigger>
+</snippet>
