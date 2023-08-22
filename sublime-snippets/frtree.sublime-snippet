@@ -1,0 +1,35 @@
+<snippet>
+	<content><![CDATA[
+template <typename T>
+class fenwick{
+    public:
+        int fin;
+        vector<T> tree;
+        fenwick(int n){
+            fin = n;
+            tree.resize(n+1, 0);
+        }
+
+        void update(int i, T val){
+            while(i <= fin){
+                tree[i] += val;
+                i += i&(-i);
+            }
+        }
+
+        T sum(int i){
+            T res = 0;
+            while(i>0){
+                res += tree[i];
+                i -= (i&(-i));
+            }
+            return res;
+        }
+};
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>ftree</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
