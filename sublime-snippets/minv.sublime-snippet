@@ -1,0 +1,29 @@
+<snippet>
+	<content><![CDATA[
+ll gcdExtended(ll a, ll b, ll &x, ll &y){
+    if(a == 0){
+        x = 0;
+        y = 1;
+        return b;
+    }
+
+    ll xf, yf;
+    ll gcd = gcdExtended(b%a, a, xf, yf);
+
+    x = yf - (b / a) * xf;
+    y = xf;
+    return gcd;
+}
+
+ll modularInverse(ll a, ll m){
+    ll x, y;
+    ll gcd = gcdExtended(a, m, x, y);
+    if(gcd != 1) return -1;
+    else return (x%m + m)%m;
+}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>minv</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
