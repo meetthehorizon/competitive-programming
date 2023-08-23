@@ -1,0 +1,38 @@
+<snippet>
+	<content><![CDATA[
+template <typename T>
+class sumseg{
+    public:
+        int seg;
+        vector<T> tree;
+        sumseg(int n){
+            seg = n;
+            tree.resize(2*n, 0);
+        }
+
+        void update(int i, T val){
+            i += seg;
+
+            while(i!=0){
+                tree[i] += val;
+                i /= 2;
+            }
+        }
+
+        T sum(int l, int r){
+            T ans = 0;
+            l += seg; r += seg;
+            while(l <= r){
+                if(l%2==1) ans += tree[l++];
+                if(r%2==0) ans += tree[r--];
+                l /= 2; r /= 2;
+            }
+            return ans;
+        }
+};
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>sumseg</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
