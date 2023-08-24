@@ -29,6 +29,7 @@ vll input_vec(ll n){vll vec(n); FOR(i, n) cin>>vec[i]; return vec;}
 ll gcd(ll a, ll b) {if (a == 0) return b; return gcd(b % a, a);}
 void yes() {cout<<"YES"<<'\n';}
 void no() {cout<<"NO"<<'\n'; }
+int next_2(int v){v--;v|=v>>1;v|=v>>2;v|=v>>4;v|=v>>8;v|=v>>16;v++;v+=(v==0);return v;}
 
 void solve()
 {
