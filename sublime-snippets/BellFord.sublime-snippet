@@ -1,15 +1,10 @@
 <snippet>
 	<content><![CDATA[
-void dfs(int s, vector<vll> &graph, vector<bool> &visited){
-    if(visited[s]) return; visited[s] = true;
-    
-    //process node s
-    
-    for(auto u:graph[s]) dfs(u, graph, visited);
-}
+vll d(n+1, INF); d[${1:1}] = 0;
+FOR(i, n-1) for(auto e:${2:edges}){ll a, b, w; tie(a, b, w) = e; d[b] = minll(d[b], d[a] + w);}
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>dfs</tabTrigger>
+	<tabTrigger>BellFord</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
 	<!-- <scope>source.python</scope> -->
 </snippet>
