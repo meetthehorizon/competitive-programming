@@ -11,23 +11,17 @@ class fenwick{
         }
 
         void update(int i, T val){
-            while(i <= fin){
-                tree[i] += val;
-                i += i&(-i);
-            }
+            for(++i; i <= fin; i += i&(-i)) tree[i] += val;    
         }
 
-        T sum(int i){
+        T psum(int i){
             T res = 0;
-            while(i>0){
-                res += tree[i];
-                i -= (i&(-i));
-            }
+            for(++i; i > 0; i -= i&(-i)) res += tree[i];
             return res;
         }
-};
 
-]]></content>
+        T sum(int l, int r){return psum(r) - psum(l-1);}
+};]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>ftree</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
