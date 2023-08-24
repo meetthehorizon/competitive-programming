@@ -30,7 +30,6 @@ ll gcd(ll a, ll b) {if (a == 0) return b; return gcd(b % a, a);}
 void yes() {cout<<"YES"<<'\n';}
 void no() {cout<<"NO"<<'\n'; }
 
-
 void solve()
 {
     // CHILL BRO
@@ -43,7 +42,7 @@ int main(void)
     std::ios_base::sync_with_stdio(false);
     cin.tie(NULL);
     ll t=1;
-    // cin>>t;
+    cin>>t;
     for(ll i = 1; i <= t; i++){
         // cout<<"TEST CASE#"<<i<<'\n';
         solve();
