@@ -10,25 +10,25 @@ problem:
 using namespace std;
 
 typedef long long ll;
+typedef pair<ll, ll> pll;
 typedef vector<long long> vll;
 typedef vector<pair<long long, long long>> vpll;
 
 #define FOR(i, n) for (ll(i) = 0; (i) < (n); (i)++)
 #define PB push_back
-#define PP pop_back
 #define MOD 1000000007
+#define all(x) (x).begin(), (x).end()
+#define rall(x) (x).rbegin(), (x).rend()
 #define INF 10000000000000000
 #define F first
 #define S second
 #define MP make_pair
 
 void print_vec(vector<ll> vec){for (auto &itr : vec) cout << itr << ' '; cout << '\n';}
-ll maxll(ll a, ll b) {if(a>b) return a; return b;}
-ll minll(ll a, ll b) {if(a>b) return b; return a;}
-vll input_vec(ll n){vll vec(n); FOR(i, n) cin>>vec[i]; return vec;}
-ll gcd(ll a, ll b) {if (a == 0) return b; return gcd(b % a, a);}
-void yes() {cout<<"YES"<<'\n';}
 void no() {cout<<"NO"<<'\n'; }
+void yes() {cout<<"YES"<<'\n';}
+ll nxt(){ll x; cin>>x; return x;}
+vll input_vec(ll n){vll vec(n); FOR(i, n) cin>>vec[i]; return vec;}
 int next_2(int v){v--;v|=v>>1;v|=v>>2;v|=v>>4;v|=v>>8;v|=v>>16;v++;v+=(v==0);return v;}
 
 void solve()
@@ -43,7 +43,7 @@ int main(void)
     std::ios_base::sync_with_stdio(false);
     cin.tie(NULL);
     ll t=1;
-    cin>>t;
+    cin>>t;$1
     for(ll i = 1; i <= t; i++){
         // cout<<"TEST CASE#"<<i<<'\n';
         solve();
