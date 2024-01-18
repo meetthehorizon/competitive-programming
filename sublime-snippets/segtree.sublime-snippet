@@ -1,69 +1,31 @@
 <snippet>
 	<content><![CDATA[
-class segment{
-private:
-    int n;
-    vll sm, mi, mx;
-
+class SegmentTree{
 public:
-    segment(int no){
-        no = next_2(no);
-        n = no;
-        sm.resize(2*n, 0);
-        mi.resize(2*n, INF);
-        mx.resize(2*n, -INF);
-    }   
-
-    segment(int no, vll vec){
-        no = next_2(no);
-        n = no;
-        sm.resize(2*n, 0);
-        mi.resize(2*n, INF);
-        mx.resize(2*n, -INF);
-        FOR(i, vec.size()) usm(i, vec[i]);
-        FOR(i, vec.size()) umi(i, vec[i]);
-        FOR(i, vec.size()) umx(i, vec[i]);
-    }   
-
-    void usm(int i, ll val){
-        for(sm[i+=n]=val; i; i >>= 1) sm[i>>1] = sm[i] + sm[i^1];
+    int n;
+    vector<${1:int}> tree;
+    SegmentTree(int n) : n(n) { tree.assign(2*n, ${3:0}); }
+    SegmentTree(const vector<${1:int}>& vec) : SegmentTree(vec.size()) {
+        for (int i = 0; i < n; ++i) tree[n+i] = vec[i];
+        build();
     }
-
-    void umi(int i, ll val){
-        for(mi[i+=n]=val; i; i >>= 1) mi[i>>1] = min(mi[i], mi[i^1]);
+    void update(int ind, ${1:int} val) {
+        for (tree[ind += n] = val; ind > 1; ind >>= 1) 
+            tree[ind >>= 1] = op(tree[ind], tree[ind^1]);
     }
-
-    void umx(int i, ll val){
-        for(mx[i+=n]=val; i; i >>= 1) mx[i>>1] = max(mx[i], mx[i^1]);
-    }
-
-    ll qsm(int l, int r){
-        ll res = 0;
-        for(l += n, r += n; l <= r; l >>= 1, r >>= 1){
-            if(l&1) res += sm[l++];
-            if((r^1)&1) res += sm[r--];
+    ${1:int} query(int l, int r) {
+        ${1:int} res = ${3:0};
+        for (l += n, r += n; l <= r; l >>= 1, r >>= 1) {
+            if (l&1) res = op(res, tree[l++]);
+            if (!(r&1)) res = op(res, tree[r--]);
         }
         return res;
     }
-
-    ll qmi(int l, int r){
-        ll res = INF;
-        for(l += n, r += n; l <= r; l >>= 1, r >>= 1){
-            if(l&1) res = min(res, mi[l++]);
-            if((r^1)&1) res = min(res, mi[r--]);
-        }
-        return res;
+    void build() {
+        for (int i = n - 1; i > 0; --i) tree[i] = op(tree[i<<1], tree[i<<1|1]);
     }
-
-    ll qmx(int l, int r){
-        ll res = -INF;
-        for(l += n, r += n; l <= r; l >>= 1, r >>= 1){
-            if(l&1) res = max(res, mx[l++]);
-            if((r^1)&1) res = max(res, mx[r--]);
-        }
-        return res;
-    }
-};$0
+    ${1:int} op(${1:int} a, ${1:int} b) { return ${2:a + b}; }
+};
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>segtree</tabTrigger>
