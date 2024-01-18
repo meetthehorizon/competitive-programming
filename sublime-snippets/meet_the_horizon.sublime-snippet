@@ -7,10 +7,7 @@ problem:
 */
 
 #include <bits/stdc++.h> 
-#include <ext/pb_ds/assoc_container.hpp> 
-#include <ext/pb_ds/tree_policy.hpp> 
 using namespace std; 
-using namespace __gnu_pbds; 
 
 typedef long long ll;
 typedef vector<ll> vll;
@@ -24,15 +21,12 @@ typedef vector<vll> vvll;
 #define INF 10000000000000000
 #define F first
 #define S second
-#define ordered_set tree<int, null_type,less<int>, rb_tree_tag,tree_order_statistics_node_update> 
 
-void print_vec(vector<ll> vec){for (auto &itr : vec) cout << itr << ' '; cout << '\n';}
-void no() {cout<<"NO"<<'\n'; } void yes() {cout<<"YES"<<'\n';} ll nxt(){ll x; cin >> x; return x;}
+void no() {cout<<"NO"<<'\n'; } void yes() {cout<<"YES"<<'\n';} ll nxt() {ll x; cin >> x; return x;}
 vll input_vec(ll n, ll off = 0){vll vec(n); FOR(i, n) cin>>vec[i]; FOR(i, n) vec[i] += off; return vec;}
-int next_2(int v){v--;v|=v>>1;v|=v>>2;v|=v>>4;v|=v>>8;v|=v>>16;v++;v+=(v==0);return v;}
-void solve();
+void solve(ll);
 
-bool debug = ${1:false}, test_cases = ${2:true};
+bool test_cases = ${2:true};
 
 int main(void)
 {
@@ -41,14 +35,13 @@ int main(void)
     ll t=1;
     if(test_cases) cin>>t;
     for(ll i = 1; i <= t; i++){
-        if(debug) cout<<"TEST CASE#"<<i<<'\n';
-        solve();
+        solve(t);
     }
     return 0;
 }
 $3
 
-void solve()
+void solve(ll t)
 {
     // CHILL BRO
     // I ASSUME YOU ARE HERE BECAUSE YOU HAVE A COMPLETE ALGORITHIM?
