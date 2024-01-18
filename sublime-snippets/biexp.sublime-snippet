@@ -1,11 +1,11 @@
 <snippet>
 	<content><![CDATA[
-ll bin_exp(ll a, ll b, ll m = 0){
-    ll y = 1;
-    while(b > 0){
-        if(b&1) y *= a;
+${1:int} biexp(${1:int} a, ${1:int} b, ${1:int} m = 0) {
+    ${1:int} y = 1;
+    while (b > 0) {
+        if (b&1) y *= a;
         a *= a; b >>= 1;
-        if(m) {y %= m; a %= m;}
+        if (m) { y %= m; a %= m; }
     }
     return y;
 }
