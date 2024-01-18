@@ -1,0 +1,19 @@
+<snippet>
+	<content><![CDATA[
+${1:int} exgcd(${1:int} a, ${1:int} b, ${1:int}& x, ${1:int}& y) {
+    x = 1; y = 0;
+    ${1:int} x1 = 0, y1 = 1;
+    while (b) {
+        ${1:int} q = a / b;
+        tie(x, x1) = make_tuple(x1, x - q * x1);
+        tie(y, y1) = make_tuple(y1, y - q * y1);
+        tie(a, b) = make_tuple(b, a - q * b);
+    }
+    return a;
+}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>exgcd</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
