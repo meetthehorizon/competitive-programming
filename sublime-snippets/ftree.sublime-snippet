@@ -1,29 +1,44 @@
 <snippet>
 	<content><![CDATA[
-template <typename T>
-class fenwick{
-    public:
-        int fin;
-        vector<T> tree;
-        fenwick(int n){
-            fin = n;
-            tree.resize(n+1, 0);
-        }
+struct FenwickTree {
+    int n; // number of elements in original vector
+    vector<${1:int}> bit; // bit tree (0 - indexed)
+    FenwickTree (int n) {
+        this -> n = n;
+        bit.assign(n, 0);
+    }
 
-        void update(int i, T val){
-            for(++i; i <= fin; i += i&(-i)) tree[i] += val;    
+    FenwickTree (vector<${1:int}> const &vec) : FenwickTree(vec.size()) {
+        for (int i = 0; i < n; ++i) {
+            bit[i] += vec[i];
+            int r = i | (i + 1);
+            if (r < n) bit[r] += bit[i];
         }
+    }
 
-        T psum(int i){
-            T res = 0;
-            for(++i; i > 0; i -= i&(-i)) res += tree[i];
-            return res;
-        }
+    void update (int idx, ${1:int} val) {
+        // at idx (0 - indexed) sets value equal to val
+        val -= this->sum(idx, idx);
+        for (; idx < n; idx |= idx + 1) 
+            bit[idx] += val;
+    }
 
-        T sum(int l, int r){return psum(r) - psum(l-1);}
-};]]></content>
+    ${1:int} prefix_sum (int idx) {
+        // give prefix sum until idx (0 - indexed)
+        ${1:int} ret = 0;
+        for (; idx >= 0; idx = (idx & (idx + 1)) - 1) 
+            ret += bit[idx];
+        return ret;
+    }
+
+    ${1:int} sum (int l, int r) {
+        // gives sum of all numbers in range [l, r]
+        return prefix_sum(r) - prefix_sum(l - 1);
+    }
+};
+]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>ftree</tabTrigger>
+	<tabTrigger>FenwickTree</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
 	<!-- <scope>source.python</scope> -->
 </snippet>
