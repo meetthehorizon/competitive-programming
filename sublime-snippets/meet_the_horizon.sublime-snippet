@@ -9,22 +9,12 @@ problem:
 #include <bits/stdc++.h> 
 using namespace std; 
 
-typedef long long ll;
-typedef vector<ll> vll;
-typedef vector<vll> vvll;
-
-#define FOR(i, n) for (ll i = 0; (i) < (n); (i)++)
-#define PB push_back
 #define MOD 1000000007
+#define INF 10000000000000000
 #define all(x) (x).begin(), (x).end()
 #define rall(x) (x).rbegin(), (x).rend()
-#define INF 10000000000000000
-#define F first
-#define S second
 
-void no() {cout<<"NO"<<'\n'; } void yes() {cout<<"YES"<<'\n';} ll nxt() {ll x; cin >> x; return x;}
-vll input_vec(ll n, ll off = 0){vll vec(n); FOR(i, n) cin>>vec[i]; FOR(i, n) vec[i] += off; return vec;}
-void solve(ll);
+void solve(int);
 
 bool test_cases = ${2:true};
 
@@ -32,24 +22,21 @@ int main(void)
 {
     std::ios_base::sync_with_stdio(false);
     cin.tie(NULL);
-    ll t=1;
+    int t = 1;
     if(test_cases) cin>>t;
-    for(ll i = 1; i <= t; i++){
+    for(size_t i = 1; i <= t; i++){
         solve(t);
     }
     return 0;
 }
 $3
 
-void solve(ll t)
+void solve(int t)
 {
     // CHILL BRO
     // I ASSUME YOU ARE HERE BECAUSE YOU HAVE A COMPLETE ALGORITHIM?
     $0
 }
 ]]></content>
-	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>meet_the_horizon</tabTrigger>
-	<!-- Optional: Set a scope to limit where the snippet will trigger -->
-	<!-- <scope>source.python</scope> -->
+    <tabTrigger>meet_the_horizon</tabTrigger>
 </snippet>
