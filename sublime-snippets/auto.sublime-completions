@@ -1,0 +1,51 @@
+{
+	"source": "source.cpp",
+	"completions": [
+		{
+			"trigger": "pb",
+			"trigger": "push_back",
+			"contents": "push_back",
+			"kind": "function",
+		},
+		{
+			"trigger": "ll",
+			"contents": "long long ",
+			"kind": "type",
+		},
+		{
+			"trigger": "vll",
+			"contents": "vector<long long> ",
+			"kind": "type"
+		},
+		{
+			"trigger": "vvll",
+			"contents": "vector<vector<long long>> ",
+			"kind": "type",
+		},
+		{
+			"trigger": "vi",
+			"contents": "vector<int> ",
+			"kind": "type",
+		},
+		{
+			"trigger": "vvi",
+			"contents": "vector<vector<int>> ",
+			"kind": "type",
+		},
+		{
+			"trigger": "first",
+			"contents": "first",
+			"kind": "keyword",	
+		},
+		{
+			"trigger": "second",
+			"contents": "second",
+			"kind": "keyword"
+		},
+		{
+			"trigger": "vs",
+			"contents": "vector<string> ",
+			"kind": "type"
+		}
+	]
+}
