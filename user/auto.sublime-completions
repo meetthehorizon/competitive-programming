@@ -1,0 +1,135 @@
+{
+	"source": "source.cpp",
+	"completions": [
+		{
+			"trigger": "pb",
+			"contents": "push_back",
+			"kind": "function",
+		},
+		{
+			"trigger": "pp",
+			"contents": "pop_back()",
+			"kind": "function",
+		},
+		{
+			"trigger": "po",
+			"contents": "pop()",
+			"kind": "function",
+		},
+		{
+			"trigger": "pu",
+			"contents": "push()",
+			"kind": "function",
+		},
+		{
+			"trigger": "ll",
+			"contents": "long long ",
+			"kind": "type",
+		},
+		{
+			"trigger": "msll",
+			"contents": "multiset<long long>",
+			"kind": "type"
+		},
+		{
+			"trigger": "msi",
+			"contents": "multiset<int>",
+			"kind": "type"
+		},
+		{
+			"trigger": "vll",
+			"contents": "vector<long long> ",
+			"kind": "type"
+		},
+		{
+			"trigger": "vb",
+			"contents": "vector<bool> ",
+			"kind": "type"
+		},
+		{
+			"trigger": "vvll",
+			"contents": "vector<vector<long long>> ",
+			"kind": "type",
+		},
+		{
+			"trigger": "vi",
+			"contents": "vector<int> ",
+			"kind": "type",
+		},
+		{
+			"trigger": "vvi",
+			"contents": "vector<vector<int>> ",
+			"kind": "type",
+		},
+		{
+			"trigger": "st",
+			"contents": "string ",
+			"kind": "type",
+		},
+		{
+			"trigger": "vst",
+			"contents": "vector<string> ",
+			"kind": "type",
+		},
+		{
+			"trigger": "first",
+			"contents": "first",
+			"kind": "keyword",	
+		},
+		{
+			"trigger": "second",
+			"contents": "second",
+			"kind": "keyword"
+		},
+		{
+			"trigger": "vs",
+			"contents": "vector<string> ",
+			"kind": "type"
+		},
+		{
+			"trigger": "lb",
+			"contents": "lower_bound",
+			"kind": "function"
+		},
+		{
+			"trigger": "ub",
+			"contents": "upper_bound",
+			"kind": "function"
+		},
+		{
+			"trigger": "nll",
+			"contents": "next<long long>()",
+			"kind": "function"
+		},
+		{
+			"trigger": "ni",
+			"contents": "next<int>()",
+			"kind": "function"
+		},
+		{
+			"trigger": "nc",
+			"contents": "next<char>()",
+			"kind": "function"
+		},
+		{
+			"trigger": "nst",
+			"contents": "next<string>()",
+			"kind": "function"
+		},
+		{
+			"trigger": "ook",
+			"contents": "order_of_key",
+			"kind": "function"
+		},
+		{
+			"trigger": "fbo",
+			"contents": "find_by_order",
+			"kind": "function"
+		},
+		{
+			"trigger": "dijakstra",
+			"contents": "priority_queue<pair<long long, int>, vector<pair<long long, int>>, greater<pair<long long, int>>>",
+			"kind": "function"
+		}
+	]
+}
