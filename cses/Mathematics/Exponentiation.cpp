@@ -1,9 +1,6 @@
 /*
 Kshitij Sharma
 github: meetthehorizon
-   /\_/\
-  (= ._.)
-  / >  \>
 */
 
 #include <bits/stdc++.h> 
@@ -22,16 +19,28 @@ template <typename T> T next() { T x; cin >> x; return x; }
 signed main(void) {
     ios_base::sync_with_stdio(false);
     cin.tie(NULL);
-    int t = 1; if(test_cases) cin >> t;
-    for(size_t i = 1; i <= t; i++)
-        solve(i);
-    return 0;
+    int t = 1;
+    if(test_cases) cin >> t;
+    for(size_t i = 1; i <= t; i++){
+    solve(i);
+    }
+return 0;
 }
 
+long long binpow(long long a, long long b, long long m=MOD) {
+	long long res = 1;
+	while (b) {
+		if (b%2) res = res * a % MOD;
+		a = a * a % MOD;
+		b >>= 1;
+	}
+	return res;
+}
 
 void solve(int t)
 {
     // CHILL BRO
     // I ASSUME YOU ARE HERE BECAUSE YOU HAVE A COMPLETE ALGORITHIM?
-        
+    long long a = next<long long>(), b = next<long long>();
+    cout << binpow(a, b) << '\n';
 }
