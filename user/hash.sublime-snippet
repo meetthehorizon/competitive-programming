@@ -1,0 +1,30 @@
+<snippet>
+	<content><![CDATA[
+struct Hash{
+	string s;
+	long long p = 31, m = 1e9+9;
+	vector<long long> pre, p_pow;
+
+	Hash(string s="") : s(s) {
+		int n = s.size();
+
+		pre.resize(n + 1);
+		p_pow.resize(n); p_pow[0] = 1;
+
+		for (int i = 1; i < n; i++)
+	        p_pow[i] = (p_pow[i-1] * p) % m;
+
+		for (int i = 0; i < n; i++)
+	        pre[i+1] = (pre[i] + (s[i] - 'a' + 1) * p_pow[i]) % m;
+	}
+
+	long long code(int l, int r) {
+		return (pre[r+1] - pre[l]) * biexp(biexp(p, l, m), m-2, m) % m;
+	}
+};
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>hash</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

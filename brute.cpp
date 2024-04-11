@@ -33,8 +33,7 @@ void solve(int t)
 {
     // CHILL BRO
     // I ASSUME YOU ARE HERE BECAUSE YOU HAVE A COMPLETE ALGORITHIM?
+    
     int a, b; cin >> a >> b;
-    while (b--) a++;
-
-    cout << --a << '\n';    
+    cout << a + b << '\n';        
 }

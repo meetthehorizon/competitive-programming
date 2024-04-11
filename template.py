@@ -1,3 +1,11 @@
+"""
+Kshitij Sharma
+github: meetthehorizon
+   /\_/\
+  (= ._.)
+  / >  \>
+"""
+
 import sys
 def input(): return sys.stdin.readline().strip()
 
