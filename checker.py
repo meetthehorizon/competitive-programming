@@ -1,4 +1,6 @@
 import os
+import time
+import string
 import shutil
 import random
 import subprocess
@@ -33,40 +35,44 @@ def run(executable_name, input_path, output_path):
 
 def checker(output_file, expected_output_file):
     with open(output_file, "r") as f:
-        output = f.readlines()
+        output = f.read()
+
     with open(expected_output_file, "r") as f:
-        expected_output = f.readlines()
+        expected_output = f.read()
 
-    if output == expected_output:
-        return True
-    else:
-        return False
-
+    return output == expected_output
 
 def generate_test_case(input_file):
-    t = random.randint(3, 10)
-    
     with open(input_file, "w") as f:
-        f.write(f"{t}\n")
+        f.write("1\n")
+        n = 100000
+        single = random.randint(0, n)
+        double = random.randint(0, (n - single) // 2)
 
-        for _ in range(t):
-            a = random.randint(1, 10)
-            b = random.randint(1, 10)
+        lst = []
+        for _ in range(single):
+            lst += [(1, 1)]
+        
+        for _ in range(double):
+            lst += [(1, 2)]
 
-            f.write(f"{a} {b}\n")
-
+        f.write(f"{n} {single + double}\n")
+        for asdas in lst:
+            f.write(f"{asdas[0]} {asdas[1]} ")
 
 if __name__ == "__main__":
     code = compile("code.cpp")
     brute = compile("brute.cpp")
 
+    random.seed(time.time())
+
     for i in range(100):
         generate_test_case(f"inputf.in")
 
-        run(brute, "inputf.in", "outputf.in")
-        run(code, "inputf.in", "ex_output.in")
+        run(brute, "inputf.in", "ex_outputf.in")
+        run(code, "inputf.in", "outputf.in")
 
-        if not checker("outputf.in", "ex_output.in"):
+        if not checker("outputf.in", "ex_outputf.in"):
             print("Test case failed")
             os.remove(code)
             os.remove(brute)

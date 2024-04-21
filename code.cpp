@@ -28,13 +28,46 @@ signed main(void) {
     return 0;
 }
 
+vector<long long> cache{1};
+long long fact(long long n) {
+    while (cache.size() <= n)
+        cache.push_back(cache.size() * cache.back() % MOD);
+    return cache[n];
+}
+long long minv(long long a) {
+    long long y = 1, b = MOD - 2;
+    while (b > 0) {
+        if (b&1) y = y * a % MOD;
+        a = a * a % MOD; b >>= 1;
+    }
+    return y;
+}
+long long ncr(long long n, long long r) {
+    if (r < 0 || r > n || n < 0)
+        return 0LL;
+    long long ans = fact(n);
+    ans = ans * minv(fact(r)) % MOD;
+    ans = ans * minv(fact(n-r)) % MOD;
+    return ans;
+}
 
+int dp[200000];
 void solve(int t)
 {
     // CHILL BRO
     // I ASSUME YOU ARE HERE BECAUSE YOU HAVE A COMPLETE ALGORITHIM?
-    int a, b; cin >> a >> b;
-    while (b--) a++;
+    long long n, k; cin >> n >> k;
+    FOR(i, k) {
+        int x, y; cin >> x >> y;
+        n -= 2 - (x == y);
+    }
 
-    cout << --a << '\n';    
+    long long ans = 0;
+    for (int i = n&1; i <= n; i += 2) {
+        long long temp = ncr(n, i);
+        temp *= fact(n-i) * minv(fact((n-i)/2)) % MOD;
+        ans = (ans + temp) % MOD;
+    }
+
+    cout << ans << '\n';
 }
