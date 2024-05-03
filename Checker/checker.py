@@ -45,20 +45,11 @@ def checker(output_file, expected_output_file):
 def generate_test_case(input_file):
     with open(input_file, "w") as f:
         f.write("1\n")
-        n = 100000
-        single = random.randint(0, n)
-        double = random.randint(0, (n - single) // 2)
+        n = 500
+        f.write(f"{n}\n")
 
-        lst = []
-        for _ in range(single):
-            lst += [(1, 1)]
-        
-        for _ in range(double):
-            lst += [(1, 2)]
-
-        f.write(f"{n} {single + double}\n")
-        for asdas in lst:
-            f.write(f"{asdas[0]} {asdas[1]} ")
+        lst = [500 for _ in range(n - 1)]
+        f.write(" ".join(map(str, lst)))
 
 if __name__ == "__main__":
     code = compile("code.cpp")

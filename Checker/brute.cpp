@@ -9,6 +9,7 @@ github: meetthehorizon
 #include <bits/stdc++.h> 
 using namespace std; 
 
+#define int long long
 #define MOD 1000000007
 #define INF 10000000000000000
 #define FOR(i, n) for (size_t i = 0; (i) < (n); (i)++)
@@ -28,34 +29,18 @@ signed main(void) {
     return 0;
 }
 
-
 void solve(int t)
 {
     // CHILL BRO
     // I ASSUME YOU ARE HERE BECAUSE YOU HAVE A COMPLETE ALGORITHIM?
     int n; cin >> n;
+    vector<int> vec{1000000};
 
-    vector<int> vec(n);
-    for (auto &v: vec) cin >> v;
+    while(--n) {
+        int x; cin >> x;
+        vec.push_back(vec.back() + x);
+    }
 
-    auto res = [&](int l, int r) {
-        int ans = 0;
-        for (int i = l; i <= r; ++i)
-            ans ^= vec[i];
+    for (auto &v: vec) cout << v << ' '; cout << '\n';
 
-        return ans;
-    };
-
-    int c = 0;
-    for (int i = 0; i < n; ++i) {
-        for (int j = i; j < n; ++j) {
-            for (int k = j; k < n; ++k) {
-                if ((res(i, j) ^ res(j, k)) > res(i, k)) {
-                    ++c;
-                }
-            }
-        }
-    } 
-
-    cout << c << '\n';
 }
