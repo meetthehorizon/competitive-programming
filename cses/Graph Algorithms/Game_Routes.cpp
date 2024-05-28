@@ -17,7 +17,7 @@ using namespace std;
 #define rall(x) (x).rbegin(), (x).rend()
 
 void solve(int);
-bool test_cases = true;
+bool test_cases = false;
 template <typename T> T next() { T x; cin >> x; return x; }
  
 signed main(void) {
@@ -34,19 +34,25 @@ void solve(int t)
 {
     // CHILL BRO
     // I ASSUME YOU ARE HERE BECAUSE YOU HAVE A COMPLETE ALGORITHIM?
-    int n; cin >> n;
-    vector<int> vec;
+    int n, m; cin >> n >> m;
+    vector<vector<int>> adj(n);
 
-    FOR(i, n) {
-        string row; cin >> row;
-        vec.push_back(count_if(all(row), [](char x) { return x == '1'; }));
+    while(m--) {    
+    	int x, y; cin >> x >> y;
+    	adj[--x].push_back(--y);
     }
 
-    while (!vec.back()) vec.pop_back();
-    while (!vec[0]) vec.erase(vec.begin());
- 
-    bool ans = 0;
-    if (vec.size() != 1 && vec[0] != vec[1]) ans = 1;
+    vector<int> dp(n, -1);
+    function<int(int)> dfs = [&](int v) -> int {
+    	if (dp[v] != -1) return dp[v];
+    	if (v == n - 1) return dp[v] = 1;
 
-    cout << (ans ? "TRIANGLE\n" : "SQUARE\n");
+   		dp[v] = 0;
+   		for (auto &u: adj[v]) 
+   			dp[v] = (dp[v] + dfs(u)) % MOD;;
+
+   		return dp[v];
+    };
+
+    cout << dfs(0) << '\n';
 }

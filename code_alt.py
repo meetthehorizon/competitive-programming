@@ -1,17 +1,12 @@
-"""
-Kshitij Sharma
-github: meetthehorizon
-   /\_/\
-  (= ._.)
-  / >  \>
-"""
+q = 6
 
-import sys
-def input(): return sys.stdin.readline().strip()
+ncr = [[0] * q] * q
+for i in range(q):
+    ncr[i][0] = 1
 
-def solve():
-    pass  
+for i in range(1, q):
+    for j in range(1, i + 1):
+        print(f"({i}, {j})", end=" ")
+    print()
 
-test_cases = False
-t = 1 if not test_cases else int(input())
-for _ in range(t): solve()
+print(*ncr, sep="\n")
