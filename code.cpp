@@ -35,18 +35,35 @@ void solve(int t)
     // CHILL BRO
     // I ASSUME YOU ARE HERE BECAUSE YOU HAVE A COMPLETE ALGORITHIM?
     int n; cin >> n;
-    vector<int> vec;
+    vector<int> vec(n); for (auto &v: vec) cin >> v;
 
-    FOR(i, n) {
-        string row; cin >> row;
-        vec.push_back(count_if(all(row), [](char x) { return x == '1'; }));
+    sort(all(vec));
+    int64_t sad = 1;
+
+    for (int i = 0; i < n; ++i) {
+        sad = lcm(vec[i], sad);
+        if (sad > vec.back()) {
+            cout << n << '\n';
+            return;
+        }
     }
 
-    while (!vec.back()) vec.pop_back();
-    while (!vec[0]) vec.erase(vec.begin());
- 
-    bool ans = 0;
-    if (vec.size() != 1 && vec[0] != vec[1]) ans = 1;
+    set<int> div;
+    for (int i = 1; i * i <= sad; ++i) if(!(sad%i)) {
+        div.insert(i);
+        div.insert(sad / i);
+    }
 
-    cout << (ans ? "TRIANGLE\n" : "SQUARE\n");
+    int ans = 0;
+    for (auto &d: div) {
+        if (binary_search(all(vec), d)) continue;
+        int cnt = 0, lcm2 = 1;
+        for (auto &v: vec) {
+            if (!(d%v)) {++cnt;
+                        lcm2 = lcm(lcm2, v);}
+        }
+        if (lcm2 == d) ans = max(ans, cnt);
+    }
+
+    cout << ans << '\n';
 }
