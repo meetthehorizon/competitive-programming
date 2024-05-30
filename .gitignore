@@ -3,4 +3,5 @@ cp
 code
 code__Generator
 code__Good
-code.cpp::tests
+*:*
+    

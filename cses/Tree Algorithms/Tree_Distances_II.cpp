@@ -35,43 +35,37 @@ void solve(int t)
     // CHILL BRO
     // I ASSUME YOU ARE HERE BECAUSE YOU HAVE A COMPLETE ALGORITHIM?
     int n; cin >> n;
-    vector<int> vec(n); for (auto &v: vec) cin >> v;
-
     vector<vector<int>> adj(n);
+
     FOR(i, n-1) {
         int x, y; cin >> x >> y;
         adj[--x].push_back(--y);
         adj[y].push_back(x);
     }
 
-    vector<int> ans(n);
-    map<int, set<int>*> hash;
-    function<void(int, int)> dfs = [&](int v, int p) -> void {
-        set<int>* mx = nullptr;
-        for (auto &u: adj[v])
-            if (p != u) {
-                dfs(u, v);
-                if (!mx || mx->size() < hash[u]->size())
-                    mx = hash[u];
-            }
+    vector<bool> vis(n, false);
+    vector<int> sz(n, 1), val(n);
+    function<int(int)> dfs = [&](int v) -> int {
+        vis[v] = true;
 
-        if (!mx) {
-            ans[v] = 1;
-            hash[v] = new set<int>({vec[v]});
-            return;
+        for (auto u: adj[v]) if (!vis[u]) {
+            val[v] += dfs(u);
+            sz[v] += sz[u];
+            val[v] += sz[u];
         }
 
-        for (auto &u: adj[v]) {
-            if (p != u && mx != hash[u]) {
-                for (auto &c: *hash[u]) {
-                    mx->insert(c);
-                }
-            }
+        return val[v];
+    }; dfs(0);
+
+    vis.assign(n, false);
+    function<void(int)> upd = [&](int v) -> void {
+        vis[v] = true;
+
+        for (auto u: adj[v]) if (!vis[u]) {
+            val[u] = val[v] + (n - 2 * sz[u]);
+            upd(u);
         }
+    }; upd(0);
 
-        ans[v] = mx->size();
-        hash[v] = mx;
-    }; dfs(0, 0);
-
-    for (auto &a: ans) cout << a << ' '; cout << '\n';
+    for (auto u: val) cout << u << ' ';
 }

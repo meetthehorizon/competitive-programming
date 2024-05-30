@@ -35,8 +35,6 @@ void solve(int t)
     // CHILL BRO
     // I ASSUME YOU ARE HERE BECAUSE YOU HAVE A COMPLETE ALGORITHIM?
     int n; cin >> n;
-    vector<int> vec(n); for (auto &v: vec) cin >> v;
-
     vector<vector<int>> adj(n);
     FOR(i, n-1) {
         int x, y; cin >> x >> y;
@@ -44,34 +42,33 @@ void solve(int t)
         adj[y].push_back(x);
     }
 
-    vector<int> ans(n);
-    map<int, set<int>*> hash;
-    function<void(int, int)> dfs = [&](int v, int p) -> void {
-        set<int>* mx = nullptr;
-        for (auto &u: adj[v])
-            if (p != u) {
-                dfs(u, v);
-                if (!mx || mx->size() < hash[u]->size())
-                    mx = hash[u];
-            }
-
-        if (!mx) {
-            ans[v] = 1;
-            hash[v] = new set<int>({vec[v]});
-            return;
+    vector<bool> vis(n, false);
+    vector<pair<int, int>> d1(n, {0, -1}), d2(n, {0, -1});
+    function<pair<int, int>(int)> dfs = [&](int v) -> pair<int, int> {
+        vis[v] = true;
+        for (auto u: adj[v]) if (!vis[u]) {
+            pair<int, int> x = dfs(u);
+            if (x > d1[v]) swap(x, d1[v]);
+            if (x > d2[v]) swap(x, d2[v]);
         }
 
-        for (auto &u: adj[v]) {
-            if (p != u && mx != hash[u]) {
-                for (auto &c: *hash[u]) {
-                    mx->insert(c);
-                }
-            }
+        return {d1[v].first+1, v};
+    }; dfs(0);
+
+    vis.assign(n, false);
+    function<void(int)> upd = [&](int v) -> void {
+        vis[v] = true;
+        for (auto u: adj[v]) if (!vis[u]) {
+            pair<int, int> p = d1[v];
+            if (p.second == u) p = d2[v];
+
+            p.first++; p.second = v;
+            if (p > d1[u]) swap(p, d1[u]);
+            if (p > d2[u]) swap(p, d2[u]);
+
+            upd(u);
         }
+    }; upd(0);
 
-        ans[v] = mx->size();
-        hash[v] = mx;
-    }; dfs(0, 0);
-
-    for (auto &a: ans) cout << a << ' '; cout << '\n';
-}
+    FOR(u, n) cout << d1[u].first << ' ';
+} 

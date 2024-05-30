@@ -63,12 +63,13 @@ void solve(int t)
 
         for (auto &u: adj[v]) {
             if (p != u && mx != hash[u]) {
-                for (auto &c: *hash[u]) {
+                for (auto c: *hash[u]) {
                     mx->insert(c);
                 }
             }
         }
 
+        mx->insert(vec[v]);
         ans[v] = mx->size();
         hash[v] = mx;
     }; dfs(0, 0);
