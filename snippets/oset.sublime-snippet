@@ -4,10 +4,10 @@
 #include <ext/pb_ds/tree_policy.hpp>
 using namespace __gnu_pbds;
 
-typedef tree<${1:int}, null_type, less_equal<${1:int}>, rb_tree_tag, tree_order_statistics_node_update> mset;
+typedef tree<${1:int}, null_type, less<${1:int}>, rb_tree_tag, tree_order_statistics_node_update> oset;
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>mset</tabTrigger>
+	<tabTrigger>oset</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
-	<!-- <scope>source.python</scope> -->
+	<scope>source.c++</scope>
 </snippet>

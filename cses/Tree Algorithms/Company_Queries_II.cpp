@@ -34,7 +34,7 @@ void solve(int t)
 {
     // CHILL BRO
     // I ASSUME YOU ARE HERE BECAUSE YOU HAVE A COMPLETE ALGORITHIM?
-    auto lg2 = [](int n) { return  n ? __builtin_clzll(1) - __builtin_clzll(n) : -1; };
+    auto lg2 = [](int n) { return n ? __builtin_clzll(1) - __builtin_clzll(n) : -1; };
 
     int n, q; cin >> n >> q;
     vector<vector<int>> adj(n);

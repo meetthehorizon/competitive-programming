@@ -2,10 +2,10 @@
 	<content><![CDATA[
 struct DSU{
 	int n;
-	vector<int> par, rank;
+	vector<int> par, size;
 	DSU(int n) : n(n) {
 		par.resize(n);
-		rank.assign(n, 1);
+		size.assign(n, 1);
 		iota(all(par), 0);
 	}
 	int find(int v) {
@@ -15,8 +15,8 @@ struct DSU{
 	int join(int u, int v) {
 		u = find(u), v = find(v);
 		if (u == v) return u;
-		if (rank[v] > rank[u]) swap(u, v);
-		if (rank[u] == rank[v]) rank[u]++;
+		if (size[v] > size[u]) swap(u, v);
+		size[u] += size[v];
 		par[v] = u;
 
 		return u;
@@ -26,5 +26,5 @@ struct DSU{
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>dsu</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
-	<!-- <scope>source.python</scope> -->
+	<scope>source.c++</scope>
 </snippet>

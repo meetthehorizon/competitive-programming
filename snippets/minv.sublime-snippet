@@ -1,22 +1,20 @@
 <snippet>
 	<content><![CDATA[
-${1:int} gcdExtended(${1:int} a, ${1:int} b, ${1:int}& x, ${1:int}& y){
+int gcdExtended(int a, int b, int& x, int& y){
     x = 1; y = 0;
-    ${1:int} x1 = 0, y1 = 1;
-
+    int x1 = 0, y1 = 1;
     while(b){
-        ${1:int} q = a / b;
+        int q = a / b;
         tie(x, x1) = make_tuple(x1, x - q * x1);
         tie(y, y1) = make_tuple(y1, y - q * y1);
         tie(a, b) = make_tuple(b, a % b);
     }
-
     return a;
 }
 
-${1:int} modularInverse(${1:int} a, ${1:int} m){
-    ${1:int} x, y;
-    ${1:int} gcd = gcdExtended(a, m, x, y);
+int modularInverse(int a, int m){
+    int x, y;
+    int gcd = gcdExtended(a, m, x, y);
     if(gcd != 1) return -1;
     else return (x%m + m)%m;
 }
@@ -24,5 +22,5 @@ ${1:int} modularInverse(${1:int} a, ${1:int} m){
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>minv</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
-	<!-- <scope>source.python</scope> -->
+	<scope>source.c++</scope>
 </snippet>

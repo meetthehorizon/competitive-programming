@@ -1,9 +1,9 @@
 /*
 Kshitij Sharma
 github: meetthehorizon
-   /\_/\
-  (= ._.)
-  / >  \>
+     /\_/\
+    (= ._.)
+    / >  \>
 */
 
 #include <bits/stdc++.h> 
@@ -17,7 +17,7 @@ using namespace std;
 #define rall(x) (x).rbegin(), (x).rend()
 
 void solve(int);
-bool test_cases = false;
+bool test_cases = true;
 template <typename T> T next() { T x; cin >> x; return x; }
  
 signed main(void) {
@@ -30,34 +30,9 @@ signed main(void) {
 }
 
 
-void solve(int t)
+void solve(int test_num)
 {
     // CHILL BRO
     // I ASSUME YOU ARE HERE BECAUSE YOU HAVE A COMPLETE ALGORITHIM?
-    int n; cin >> n;
-    vector<vector<int>> adj(n);
-    FOR(i, n-1) {
-        int x, y; cin >> x >> y;
-        adj[--x].push_back(--y);
-        adj[y].push_back(x);
-    }
-
-    int ans = -1;
-    function<int(int, int)> dfs = [&](int v, int p) -> int {
-        int mx = 0, sz = 1;
-        for (auto u: adj[v]) {
-            if (p != u) {
-                int x = dfs(u, v);
-                mx = max(mx, x);
-                sz += x;
-            }
-        }
-
-        mx = max(mx, n - sz);
-        if (mx <= (n / 2)) ans = v;
-
-        return sz;
-    }; dfs(0, 0);
-
-    cout << ++ans << '\n';
+        
 }

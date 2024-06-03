@@ -1,10 +1,10 @@
 <snippet>
 	<content><![CDATA[
-long long flg2(long long n) 
-{ return __builtin_clzll(0LL) - __builtin_clzll(n) - 1; }
+inline int flg2(int n) 
+{ return n ? __builtin_clzll(1LL) - __builtin_clzll(n) : -1; }
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>flg2</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
-	<!-- <scope>source.python</scope> -->
+	<scope>source.c++</scope>
 </snippet>

@@ -3,11 +3,11 @@
 struct op;
 struct monoid {
     int l, r;
-    long long val;
+    int val;
 
     // default should be identity element of monoid
     monoid(int l=-1, int r=-1) : val(0LL), l(l), r(r) {} 
-    monoid(int l, int r, long long val) : monoid(l, r) { this->val = val; }
+    monoid(int l, int r, int val) : monoid(l, r) { this->val = val; }
 
     monoid operator+(const monoid& other) {
         // combines two monoids togethor
@@ -19,10 +19,10 @@ struct monoid {
 
 struct op {
     int l, r;
-    long long a, d;
+    int a, d;
     
     // define identity operation to be default
-    op(int l=-1, int r=-1, long long a=0, long long d=0) : l(l), r(r), a(a), d(d) { }
+    op(int l=-1, int r=-1, int a=0, int d=0) : l(l), r(r), a(a), d(d) { }
 
     monoid apply(monoid node) {
         // returns a new aggregate monoid after op application
@@ -57,17 +57,17 @@ public:
             fxn[i+n].l = fxn[i+n].r = seg[i+n].l = seg[i+n].r = i;
         build();
     }    
-    GenSegmentTree(vector<long long>& vec) : GenSegmentTree(vec.size()) {
+    GenSegmentTree(vector<int>& vec) : GenSegmentTree(vec.size()) {
         for (int i = 0; i < vec.size(); ++i)
             seg[i+n].val = vec[i];
 
         build();
     }
-    long long query(int a, int b) {
+    int query(int a, int b) {
         return _query(a, b, 1, 0, n - 1).val;
     }
-    void fun(int a, int b, long long x, long long y) {
-        op func = op(a, b, x, y);
+    void fun(int a, int b, int x, int y) {
+        op func = op(a, b, x, y); // modify this call
         _fun(a, b, func, 1, 0, n - 1);
     }
 private:
@@ -110,5 +110,5 @@ private:
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>gensegtree</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
-	<!-- <scope>source.python</scope> -->
+	<scope>source.c++</scope>
 </snippet>

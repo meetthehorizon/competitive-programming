@@ -1,0 +1,41 @@
+<snippet>
+	<content><![CDATA[
+template<typename Graph, typename SCC>
+int Kosaraju(int n, SCC& scc, Graph& sadj, const Graph& adj, const Graph& radj) {
+    int cc = 0;
+    vector<int> order;
+    vector<bool> vis(n, false);
+
+    function<void(int)> dfs = [&](int v) -> void {
+        vis[v] = true;
+        for (auto u: adj[v])
+            if (!vis[u]) dfs(u);
+        order.push_back(v);
+    };
+
+    FOR(i, n) if (!vis[i]) dfs(i);
+    reverse(all(order));
+    scc.resize(n, -1);
+
+    function<void(int)> dfs2 = [&](int v) -> void {
+        scc[v] = cc;
+        for (auto u: radj[v])
+            if (scc[u] == -1)
+                dfs2(u);
+            else if (scc[u] != scc[v])
+                sadj[scc[u]].push_back(scc[v]);
+    };
+
+    for (auto v: order) if (scc[v] == -1) {
+        sadj.push_back({});
+        dfs2(v); ++cc;
+    }
+
+    return sadj.size();
+}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>kosaraju</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.c++</scope>
+</snippet>

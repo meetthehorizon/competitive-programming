@@ -3,9 +3,9 @@
 /*
 Kshitij Sharma
 github: meetthehorizon
-   /\_/\
-  (= ._.)
-  / >  \>
+     /\_/\
+    (= ._.)  ~~meow~~
+    / >  \>
 */
 
 #include <bits/stdc++.h> 
@@ -32,12 +32,14 @@ signed main(void) {
 }
 $3
 
-void solve(int t)
+void solve(int test_num)
 {
     // CHILL BRO
     // I ASSUME YOU ARE HERE BECAUSE YOU HAVE A COMPLETE ALGORITHIM?
     $0    
 }
+
 ]]></content>
     <tabTrigger>meet_the_horizon</tabTrigger>
+    <scope>source.c++</scope>
 </snippet>

@@ -1,23 +1,23 @@
 <snippet>
 	<content><![CDATA[
-vector<long long> cache{1};
-long long fact(long long n) {
+vector<int> cache{1};
+int fact(int n) {
 	while (cache.size() <= n)
 		cache.push_back(cache.size() * cache.back() % MOD);
 	return cache[n];
 }
-long long minv(long long a) {
-    long long y = 1, b = MOD - 2;
+int minv(int a) {
+    int y = 1, b = MOD - 2;
     while (b > 0) {
         if (b&1) y = y * a % MOD;
         a = a * a % MOD; b >>= 1;
     }
     return y;
 }
-long long ncr(long long n, long long r) {
+int ncr(int n, int r) {
 	if (r < 0 || r > n || n < 0)
 		return 0LL;
-	long long ans = fact(n);
+	int ans = fact(n);
 	ans = ans * minv(fact(r)) % MOD;
 	ans = ans * minv(fact(n-r)) % MOD;
 	return ans;
@@ -26,5 +26,5 @@ long long ncr(long long n, long long r) {
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>ncr</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
-	<!-- <scope>source.python</scope> -->
+	<scope>source.c++</scope>
 </snippet>

@@ -7,11 +7,24 @@ vector<int> gen_arr(int n, int low, int high) {
 	return vec;
 }
 
-template<typename T>
-void print_vec(T vec) {
+void print_vec(vector<int> vec, int off=0) {
 	for (auto &v: vec) {
-		cout << v << ' ';
+		cout << v + off<< ' ';
 	} cout << '\n';
+}
+
+vector<vector<int>> gen_perm(int n) {
+	vector<int> vec(n); iota(vec.begin(), vec.end(), 1);
+	vector<vector<int>> perm;
+	do{
+		perm.push_back(vec);
+	}while(next_permutation(vec.begin(), vec.end()));
+
+	return perm;
+}
+
+vector<vector<int>> gen_all(int n, int low, int high) {
+	vector<vector<int>> perms;
 }
 
 int main(void) {
@@ -19,11 +32,9 @@ int main(void) {
 	srand(seed);
 
 	int tc = 1;
-	cout << tc << '\n';
-	while (tc--) {
-		auto vec = gen_arr(10, 1, 500);
+	int l = rand()%((int)1e9), r = rand()%((int)1e9);
 
-		cout << vec.size() << '\n';
-		print_vec(vec);
-	}	
+	if (l > r) swap(l, r);
+	cout << tc << '\n';
+	cout << ++l << ' ' << ++r << '\n';
 }

@@ -1,0 +1,37 @@
+<snippet>
+	<content><![CDATA[
+class SegmentTree {
+public:
+    int n;
+    long long id = 0LL;
+    vector<long long> seg;
+    SegmentTree(int sz=0) {
+        n = 1 << (32 - __builtin_clz(sz - 1));
+        seg.assign(n << 1, id);
+    }
+    SegmentTree(vector<long long> vec) : SegmentTree(vec.size()) {
+        for (int i = 0; i < vec.size(); ++i) seg[i+n] = vec[i];
+        build();
+    }
+    void update(int idx, long long val) {
+        for (seg[idx += n] = val; idx > 1; idx >>= 1) seg[idx>>1] = op(seg[idx], seg[idx^1]);
+    }
+    long long query(int l, int r) {
+        long long res = id;
+        for (l += n, r += n; r >= l; l >>= 1, r >>= 1) {
+            if (r%2 == 0) res = op(res, seg[r--]);
+            if (l%2 == 1) res = op(res, seg[l++]);
+        }
+        return res;
+    }
+    void build() {
+        for (int i = n - 1; i > 0; --i) seg[i] = op(seg[i<<1], seg[i<<1|1]);
+    }
+    long long op(long long a, long long b) { return (a + b); }
+};
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>segtree</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.c++</scope>
+</snippet>
