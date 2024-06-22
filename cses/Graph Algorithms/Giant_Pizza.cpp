@@ -50,7 +50,7 @@ int main(){
     }
     
     memset(visited, false, sizeof(visited));
-    reverse(topo.begin(),topo.end());
+    reverse(topo.begin(), topo.end());
     int color = 0;
     for (int node:topo){
         if (!visited[node])

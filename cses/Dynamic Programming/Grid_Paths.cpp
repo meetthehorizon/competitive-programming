@@ -17,7 +17,7 @@ using namespace std;
 #define rall(x) (x).rbegin(), (x).rend()
 
 void solve(int);
-bool test_cases = true;
+bool test_cases = false;
 template <typename T> T next() { T x; cin >> x; return x; }
  
 signed main(void) {
@@ -34,5 +34,20 @@ void solve([[maybe_unused]] int test_num)
 {
     // CHILL BRO
     // I ASSUME YOU ARE HERE BECAUSE YOU HAVE A COMPLETE ALGORITHIM?
-        
+    int n; cin >> n;
+    vector<string> grid(n);
+    for(auto &x : grid) cin >> x;
+
+    vector<vector<int>> dp(n, vector<int> (n));
+    dp[0][0] = grid[0][0] != '*';
+
+    for (int i = 0; i < n; ++i) {
+        for (int j = 0; j < n; ++j) {
+            while (dp[i][j] >= MOD) dp[i][j] -= MOD;
+            if (i+1 < n && grid[i+1][j] != '*') dp[i+1][j] += dp[i][j];
+            if (j+1 < n && grid[i][j+1] != '*') dp[i][j+1] += dp[i][j];
+        }
+    }
+
+    cout << dp[n-1][n-1] << '\n';
 }

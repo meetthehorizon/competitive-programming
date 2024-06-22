@@ -17,7 +17,7 @@ using namespace std;
 #define rall(x) (x).rbegin(), (x).rend()
 
 void solve(int);
-bool test_cases = true;
+bool test_cases = false;
 template <typename T> T next() { T x; cin >> x; return x; }
  
 signed main(void) {
@@ -34,5 +34,21 @@ void solve([[maybe_unused]] int test_num)
 {
     // CHILL BRO
     // I ASSUME YOU ARE HERE BECAUSE YOU HAVE A COMPLETE ALGORITHIM?
-        
+    int n; cin >> n;
+    vector<vector<int>> dp(n, vector<int> (n, -1));
+    vector<int> vec(n); for (auto &v: vec) cin >> v;
+
+    auto rec = [&](int i, int j, auto&& rec) {
+        if (i > j) return 0LL;
+
+        if (dp[i][j] != -1) return dp[i][j];
+        if (i == j) return dp[i][j] = vec[i];
+
+        return dp[i][j] = max({
+            min(rec(i+1, j-1, rec), rec(i+2, j, rec)) + vec[i],
+            min(rec(i+1, j-1, rec), rec(i, j-2, rec)) + vec[j]
+        });
+    };
+
+    cout << rec(0, n-1, rec);
 }

@@ -23,18 +23,11 @@ vector<vector<int>> gen_perm(int n) {
 	return perm;
 }
 
-vector<vector<int>> gen_all(int n, int low, int high) {
-	vector<vector<int>> perms;
-}
-
 int main(void) {
-	int seed; cin >> seed;
-	srand(seed);
 
-	int tc = 1;
-	int l = rand()%((int)1e9), r = rand()%((int)1e9);
-
-	if (l > r) swap(l, r);
-	cout << tc << '\n';
-	cout << ++l << ' ' << ++r << '\n';
-}
+	cout << 13 << '\n';
+	for (int i = 0; i <= 24; i += 2) {
+		cout << 6 << ' ' << i << '\n';
+	}
+}	
+	
