@@ -1,0 +1,19 @@
+ID,Title,Acceptance,Difficulty,Frequency,Leetcode Question Link,Status
+130,Surrounded Regions,28.1%,Medium,0.2265787147939701, https://leetcode.com/problems/surrounded-regions,Not Done
+498,Diagonal Traverse,48.2%,Medium,0.1532041582232274, https://leetcode.com/problems/diagonal-traverse,Not Done
+317,Shortest Distance from All Buildings,41.4%,Hard,0.0798296016524848, https://leetcode.com/problems/shortest-distance-from-all-buildings,Not Done
+341,Flatten Nested List Iterator,52.9%,Medium,0.0424391832751566, https://leetcode.com/problems/flatten-nested-list-iterator,Not Done
+273,Integer to English Words,27.1%,Hard,0.0257672429361468, https://leetcode.com/problems/integer-to-english-words,Not Done
+143,Reorder List,37.1%,Medium,0.0245444554627325, https://leetcode.com/problems/reorder-list,Not Done
+622,Design Circular Queue,43.8%,Medium,0.021345527620223, https://leetcode.com/problems/design-circular-queue,Not Done
+133,Clone Graph,34.8%,Medium,0.0173816658759955, https://leetcode.com/problems/clone-graph,Not Done
+146,LRU Cache,33.2%,Medium,0.0173690862406136, https://leetcode.com/problems/lru-cache,Not Done
+200,Number of Islands,46.8%,Medium,0.0171589659526821, https://leetcode.com/problems/number-of-islands,Not Done
+977,Squares of a Sorted Array,72.1%,Easy,0.0148494607958862, https://leetcode.com/problems/squares-of-a-sorted-array,Not Done
+236,Lowest Common Ancestor of a Binary Tree,45.7%,Medium,0.010113582102794, https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree,Not Done
+1,Two Sum,45.6%,Easy,0.0095840505153881, https://leetcode.com/problems/two-sum,Not Done
+238,Product of Array Except Self,60.1%,Medium,0.0084341236536108, https://leetcode.com/problems/product-of-array-except-self,Not Done
+173,Binary Search Tree Iterator,56.6%,Medium,0.008121872057349, https://leetcode.com/problems/binary-search-tree-iterator,Not Done
+15,3Sum,26.8%,Medium,0.0046765478839018, https://leetcode.com/problems/3sum,Not Done
+14,Longest Common Prefix,35.4%,Easy,0.0031776321622032, https://leetcode.com/problems/longest-common-prefix,Not Done
+20,Valid Parentheses,39.0%,Easy,0.0021976823306058, https://leetcode.com/problems/valid-parentheses,Not Done

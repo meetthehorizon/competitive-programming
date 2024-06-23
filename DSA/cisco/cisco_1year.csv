@@ -1,0 +1,38 @@
+ID,Title,Acceptance,Difficulty,Frequency,Leetcode Question Link,Status
+1290,Convert Binary Number in a Linked List to Integer,80.4%,Easy,0.1574807219490428, https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer,Not Done
+394,Decode String,50.0%,Medium,0.1232801760013658, https://leetcode.com/problems/decode-string,Not Done
+1235,Maximum Profit in Job Scheduling,44.0%,Hard,0.0890796300536887, https://leetcode.com/problems/maximum-profit-in-job-scheduling,Not Done
+909,Snakes and Ladders,38.4%,Medium,0.083926207699934, https://leetcode.com/problems/snakes-and-ladders,Not Done
+198,House Robber,42.0%,Easy,0.0734691126642639, https://leetcode.com/problems/house-robber,Not Done
+5,Longest Palindromic Substring,29.5%,Medium,0.0554804200598678, https://leetcode.com/problems/longest-palindromic-substring,Not Done
+56,Merge Intervals,39.3%,Medium,0.0541679202125642, https://leetcode.com/problems/merge-intervals,Not Done
+241,Different Ways to Add Parentheses,55.2%,Medium,0.0388021518564797, https://leetcode.com/problems/different-ways-to-add-parentheses,Not Done
+3,Longest Substring Without Repeating Characters,30.4%,Medium,0.03818277748849, https://leetcode.com/problems/longest-substring-without-repeating-characters,Not Done
+905,Sort Array By Parity,74.1%,Easy,0.0378743492924358, https://leetcode.com/problems/sort-array-by-parity,Not Done
+91,Decode Ways,24.7%,Medium,0.0367310279187948, https://leetcode.com/problems/decode-ways,Not Done
+1,Two Sum,45.6%,Easy,0.0340971924442843, https://leetcode.com/problems/two-sum,Not Done
+246,Strobogrammatic Number,45.0%,Easy,0.032549659510785, https://leetcode.com/problems/strobogrammatic-number,Not Done
+53,Maximum Subarray,46.5%,Easy,0.0262285548596283, https://leetcode.com/problems/maximum-subarray,Not Done
+25,Reverse Nodes in k-Group,42.1%,Hard,0.0228320420426457, https://leetcode.com/problems/reverse-nodes-in-k-group,Not Done
+450,Delete Node in a BST,43.1%,Medium,0.0185362119079152, https://leetcode.com/problems/delete-node-in-a-bst,Not Done
+146,LRU Cache,33.2%,Medium,0.0182757799387368, https://leetcode.com/problems/lru-cache,Not Done
+191,Number of 1 Bits,49.8%,Easy,0.0167352362404584, https://leetcode.com/problems/number-of-1-bits,Not Done
+48,Rotate Image,56.7%,Medium,0.0114286958236227, https://leetcode.com/problems/rotate-image,Not Done
+234,Palindrome Linked List,39.3%,Easy,0.0101718779387339, https://leetcode.com/problems/palindrome-linked-list,Not Done
+739,Daily Temperatures,63.3%,Medium,0.0100326901218144, https://leetcode.com/problems/daily-temperatures,Not Done
+212,Word Search II,34.9%,Hard,0.0098450216788048, https://leetcode.com/problems/word-search-ii,Not Done
+22,Generate Parentheses,62.7%,Medium,0.0097858778106325, https://leetcode.com/problems/generate-parentheses,Not Done
+279,Perfect Squares,47.4%,Medium,0.009216655104924, https://leetcode.com/problems/perfect-squares,Not Done
+49,Group Anagrams,56.9%,Medium,0.0085389513142321, https://leetcode.com/problems/group-anagrams,Not Done
+102,Binary Tree Level Order Traversal,54.6%,Medium,0.0081692384971294, https://leetcode.com/problems/binary-tree-level-order-traversal,Not Done
+14,Longest Common Prefix,35.4%,Easy,0.0074553029209059, https://leetcode.com/problems/longest-common-prefix,Not Done
+88,Merge Sorted Array,39.4%,Easy,0.0067603352186382, https://leetcode.com/problems/merge-sorted-array,Not Done
+54,Spiral Matrix,34.1%,Medium,0.006594155117513, https://leetcode.com/problems/spiral-matrix,Not Done
+108,Convert Sorted Array to Binary Search Tree,57.9%,Easy,0.0055540270513749, https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree,Not Done
+20,Valid Parentheses,39.0%,Easy,0.0051688605776653, https://leetcode.com/problems/valid-parentheses,Not Done
+207,Course Schedule,43.1%,Medium,0.0049640211142117, https://leetcode.com/problems/course-schedule,Not Done
+125,Valid Palindrome,36.7%,Easy,0.0039805008274065, https://leetcode.com/problems/valid-palindrome,Not Done
+8,String to Integer (atoi),15.4%,Medium,0.0037925521897059, https://leetcode.com/problems/string-to-integer-atoi,Not Done
+344,Reverse String,68.5%,Easy,0.0032695795025198, https://leetcode.com/problems/reverse-string,Not Done
+21,Merge Two Sorted Lists,53.5%,Easy,0.0022551737583973, https://leetcode.com/problems/merge-two-sorted-lists,Not Done
+2,Add Two Numbers,33.9%,Medium,0.001688619111144, https://leetcode.com/problems/add-two-numbers,Not Done

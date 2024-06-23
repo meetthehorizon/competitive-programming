@@ -1,0 +1,5 @@
+ID,Title,Acceptance,Difficulty,Frequency,Leetcode Question Link,Status
+974,Subarray Sums Divisible by K,48.9%,Medium,0.1398017725916072, https://leetcode.com/problems/subarray-sums-divisible-by-k,Not Done
+935,Knight Dialer,45.2%,Medium,0.0973741640251763, https://leetcode.com/problems/knight-dialer,Not Done
+146,LRU Cache,33.2%,Medium,0.0549465554587454, https://leetcode.com/problems/lru-cache,Not Done
+68,Text Justification,27.7%,Hard,0.0276451606661453, https://leetcode.com/problems/text-justification,Not Done

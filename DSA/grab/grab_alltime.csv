@@ -1,0 +1,15 @@
+ID,Title,Acceptance,Difficulty,Frequency,Leetcode Question Link,Status
+984,String Without AAA or BBB,37.7%,Medium,0.4954247677613364, https://leetcode.com/problems/string-without-aaa-or-bbb,Not Done
+915,Partition Array into Disjoint Intervals,45.4%,Medium,0.3729263523213906, https://leetcode.com/problems/partition-array-into-disjoint-intervals,Not Done
+983,Minimum Cost For Tickets,60.5%,Medium,0.2670139864319188, https://leetcode.com/problems/minimum-cost-for-tickets,Not Done
+527,Word Abbreviation,54.3%,Hard,0.2436220826577504, https://leetcode.com/problems/word-abbreviation,Not Done
+1017,Convert to Base -2,59.0%,Medium,0.1790482314489854, https://leetcode.com/problems/convert-to-base-2,Not Done
+1253,Reconstruct a 2-Row Binary Matrix,40.4%,Medium,0.1609893760475994, https://leetcode.com/problems/reconstruct-a-2-row-binary-matrix,Not Done
+42,Trapping Rain Water,48.9%,Hard,0.0384909606076536, https://leetcode.com/problems/trapping-rain-water,Not Done
+2,Add Two Numbers,33.9%,Medium,0.020491663368639, https://leetcode.com/problems/add-two-numbers,Not Done
+41,First Missing Positive,32.0%,Hard,0.0143680632669201, https://leetcode.com/problems/first-missing-positive,Not Done
+121,Best Time to Buy and Sell Stock,50.5%,Easy,0.0084687956530031, https://leetcode.com/problems/best-time-to-buy-and-sell-stock,Not Done
+234,Palindrome Linked List,39.3%,Easy,0.0045336131148289, https://leetcode.com/problems/palindrome-linked-list,Not Done
+238,Product of Array Except Self,60.1%,Medium,0.0039304364247245, https://leetcode.com/problems/product-of-array-except-self,Not Done
+215,Kth Largest Element in an Array,55.4%,Medium,0.0039024439769317, https://leetcode.com/problems/kth-largest-element-in-an-array,Not Done
+1073,Adding Two Negabinary Numbers,34.2%,Medium,0.0, https://leetcode.com/problems/adding-two-negabinary-numbers,Not Done

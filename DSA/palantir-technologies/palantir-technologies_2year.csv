@@ -1,0 +1,14 @@
+ID,Title,Acceptance,Difficulty,Frequency,Leetcode Question Link,Status
+393,UTF-8 Validation,37.5%,Medium,2.874057982362032, https://leetcode.com/problems/utf-8-validation,Not Done
+539,Minimum Time Difference,51.5%,Medium,1.8729990749579872, https://leetcode.com/problems/minimum-time-difference,Not Done
+56,Merge Intervals,39.3%,Medium,0.8719401675539429, https://leetcode.com/problems/merge-intervals,Not Done
+733,Flood Fill,55.3%,Easy,0.1659254163717918, https://leetcode.com/problems/flood-fill,Not Done
+277,Find the Celebrity,41.8%,Medium,0.1138399121279475, https://leetcode.com/problems/find-the-celebrity,Not Done
+200,Number of Islands,46.8%,Medium,0.0452629940835575, https://leetcode.com/problems/number-of-islands,Not Done
+285,Inorder Successor in BST,40.4%,Medium,0.0223348201005798, https://leetcode.com/problems/inorder-successor-in-bst,Not Done
+695,Max Area of Island,62.7%,Medium,0.0126865006310038, https://leetcode.com/problems/max-area-of-island,Not Done
+273,Integer to English Words,27.1%,Hard,0.0120810892503397, https://leetcode.com/problems/integer-to-english-words,Not Done
+42,Trapping Rain Water,48.9%,Hard,0.0097625246556591, https://leetcode.com/problems/trapping-rain-water,Not Done
+10,Regular Expression Matching,26.8%,Hard,0.0071865203293987, https://leetcode.com/problems/regular-expression-matching,Not Done
+48,Rotate Image,56.7%,Medium,0.0050955524266001, https://leetcode.com/problems/rotate-image,Not Done
+53,Maximum Subarray,46.5%,Easy,0.0021670828721507, https://leetcode.com/problems/maximum-subarray,Not Done

@@ -1,0 +1,12 @@
+ID,Title,Acceptance,Difficulty,Frequency,Leetcode Question Link,Status
+1,Two Sum,45.6%,Easy,0.0070502818376284, https://leetcode.com/problems/two-sum,Not Done
+204,Count Primes,31.5%,Easy,0.0067613509780438, https://leetcode.com/problems/count-primes,Not Done
+543,Diameter of Binary Tree,48.4%,Easy,0.0050479662973047, https://leetcode.com/problems/diameter-of-binary-tree,Not Done
+20,Valid Parentheses,39.0%,Easy,0.0049380106923926, https://leetcode.com/problems/valid-parentheses,Not Done
+234,Palindrome Linked List,39.3%,Easy,0.0043299483107622, https://leetcode.com/problems/palindrome-linked-list,Not Done
+238,Product of Array Except Self,60.1%,Medium,0.0037572841496589, https://leetcode.com/problems/product-of-array-except-self,Not Done
+2,Add Two Numbers,33.9%,Medium,0.003640486182288, https://leetcode.com/problems/add-two-numbers,Not Done
+206,Reverse Linked List,62.5%,Easy,0.0022317701613936, https://leetcode.com/problems/reverse-linked-list,Not Done
+21,Merge Two Sorted Lists,53.5%,Easy,0.0021580801469849, https://leetcode.com/problems/merge-two-sorted-lists,Not Done
+53,Maximum Subarray,46.5%,Easy,0.0020745819379855, https://leetcode.com/problems/maximum-subarray,Not Done
+121,Best Time to Buy and Sell Stock,50.5%,Easy,0.002038321129697, https://leetcode.com/problems/best-time-to-buy-and-sell-stock,Not Done

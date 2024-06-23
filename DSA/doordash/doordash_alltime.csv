@@ -1,0 +1,23 @@
+ID,Title,Acceptance,Difficulty,Frequency,Leetcode Question Link,Status
+759,Employee Free Time,66.3%,Hard,1.429184272146321, https://leetcode.com/problems/employee-free-time,Not Done
+1359,Count All Valid Pickup and Delivery Options,57.9%,Hard,1.2093743507330703, https://leetcode.com/problems/count-all-valid-pickup-and-delivery-options,Not Done
+695,Max Area of Island,62.7%,Medium,1.0938588036906711, https://leetcode.com/problems/max-area-of-island,Not Done
+1229,Meeting Scheduler,52.7%,Medium,0.7486612660050764, https://leetcode.com/problems/meeting-scheduler,Not Done
+355,Design Twitter,30.3%,Medium,0.6726996677085982, https://leetcode.com/problems/design-twitter,Not Done
+121,Best Time to Buy and Sell Stock,50.5%,Easy,0.3275021300230036, https://leetcode.com/problems/best-time-to-buy-and-sell-stock,Not Done
+227,Basic Calculator II,36.9%,Medium,0.1422270995920765, https://leetcode.com/problems/basic-calculator-ii,Not Done
+210,Course Schedule II,40.7%,Medium,0.1293014627493875, https://leetcode.com/problems/course-schedule-ii,Not Done
+1174,Immediate Food Delivery II,58.5%,Medium,0.1255565339897638, https://leetcode.com/problems/immediate-food-delivery-ii,Not Done
+56,Merge Intervals,39.3%,Medium,0.0680763502586962, https://leetcode.com/problems/merge-intervals,Not Done
+1173,Immediate Food Delivery I,80.4%,Easy,0.0659217208048242, https://leetcode.com/problems/immediate-food-delivery-i,Not Done
+37,Sudoku Solver,43.6%,Hard,0.0405278336121183, https://leetcode.com/problems/sudoku-solver,Not Done
+528,Random Pick with Weight,43.9%,Medium,0.0330669362665733, https://leetcode.com/problems/random-pick-with-weight,Not Done
+15,3Sum,26.8%,Medium,0.0266103130111179, https://leetcode.com/problems/3sum,Not Done
+348,Design Tic-Tac-Toe,54.3%,Medium,0.0242142581205946, https://leetcode.com/problems/design-tic-tac-toe,Not Done
+269,Alien Dictionary,33.3%,Hard,0.0127309166940399, https://leetcode.com/problems/alien-dictionary,Not Done
+986,Interval List Intersections,67.3%,Medium,0.0119690237953207, https://leetcode.com/problems/interval-list-intersections,Not Done
+200,Number of Islands,46.8%,Medium,0.0115092624205908, https://leetcode.com/problems/number-of-islands,Not Done
+146,LRU Cache,33.2%,Medium,0.0103211925402749, https://leetcode.com/problems/lru-cache,Not Done
+36,Valid Sudoku,48.7%,Medium,0.0072582427158053, https://leetcode.com/problems/valid-sudoku,Not Done
+20,Valid Parentheses,39.0%,Easy,0.0023005704055949, https://leetcode.com/problems/valid-parentheses,Not Done
+772,Basic Calculator III,41.3%,Hard,0.0, https://leetcode.com/problems/basic-calculator-iii,Not Done

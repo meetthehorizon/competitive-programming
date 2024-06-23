@@ -1,0 +1,19 @@
+ID,Title,Acceptance,Difficulty,Frequency,Leetcode Question Link,Status
+840,Magic Squares In Grid,37.3%,Easy,0.4449565940664958, https://leetcode.com/problems/magic-squares-in-grid,Not Done
+811,Subdomain Visit Count,69.9%,Easy,0.2818511521409877, https://leetcode.com/problems/subdomain-visit-count,Not Done
+1189,Maximum Number of Balloons,61.2%,Easy,0.1187457102154797, https://leetcode.com/problems/maximum-number-of-balloons,Not Done
+759,Employee Free Time,66.3%,Hard,0.1014382428454883, https://leetcode.com/problems/employee-free-time,Not Done
+1204,Last Person to Fit in the Elevator,69.8%,Medium,0.0851578083403068, https://leetcode.com/problems/last-person-to-fit-in-the-elevator,Not Done
+1212,Team Scores in Football Tournament,55.8%,Medium,0.0786259423834273, https://leetcode.com/problems/team-scores-in-football-tournament,Not Done
+443,String Compression,41.3%,Easy,0.0523337200490236, https://leetcode.com/problems/string-compression,Not Done
+85,Maximal Rectangle,37.7%,Hard,0.0501358124243554, https://leetcode.com/problems/maximal-rectangle,Not Done
+412,Fizz Buzz,62.3%,Easy,0.0271525250309554, https://leetcode.com/problems/fizz-buzz,Not Done
+718,Maximum Length of Repeated Subarray,49.4%,Medium,0.0269921920143562, https://leetcode.com/problems/maximum-length-of-repeated-subarray,Not Done
+5,Longest Palindromic Substring,29.5%,Medium,0.0194254206193164, https://leetcode.com/problems/longest-palindromic-substring,Not Done
+184,Department Highest Salary,36.7%,Medium,0.0180185055026783, https://leetcode.com/problems/department-highest-salary,Not Done
+125,Valid Palindrome,36.7%,Easy,0.0151060274310132, https://leetcode.com/problems/valid-palindrome,Not Done
+69,Sqrt(x),33.9%,Easy,0.0109490144896704, https://leetcode.com/problems/sqrtx,Not Done
+56,Merge Intervals,39.3%,Medium,0.0074386655924217, https://leetcode.com/problems/merge-intervals,Not Done
+41,First Missing Positive,32.0%,Hard,0.0061633477076686, https://leetcode.com/problems/first-missing-positive,Not Done
+53,Maximum Subarray,46.5%,Easy,0.0020745819379855, https://leetcode.com/problems/maximum-subarray,Not Done
+210,Course Schedule II,40.7%,Medium,0.0018850146957713, https://leetcode.com/problems/course-schedule-ii,Not Done

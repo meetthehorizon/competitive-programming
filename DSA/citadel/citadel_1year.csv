@@ -1,0 +1,30 @@
+ID,Title,Acceptance,Difficulty,Frequency,Leetcode Question Link,Status
+829,Consecutive Numbers Sum,37.5%,Hard,1.0192107113585394, https://leetcode.com/problems/consecutive-numbers-sum,Not Done
+1048,Longest String Chain,54.7%,Medium,0.6021288528371614, https://leetcode.com/problems/longest-string-chain,Not Done
+285,Inorder Successor in BST,40.4%,Medium,0.1850469943157836, https://leetcode.com/problems/inorder-successor-in-bst,Not Done
+241,Different Ways to Add Parentheses,55.2%,Medium,0.1469181445772459, https://leetcode.com/problems/different-ways-to-add-parentheses,Not Done
+647,Palindromic Substrings,60.6%,Medium,0.1205091763778271, https://leetcode.com/problems/palindromic-substrings,Not Done
+935,Knight Dialer,45.2%,Medium,0.0444517625708338, https://leetcode.com/problems/knight-dialer,Not Done
+32,Longest Valid Parentheses,28.4%,Hard,0.0359589303874438, https://leetcode.com/problems/longest-valid-parentheses,Not Done
+332,Reconstruct Itinerary,36.7%,Medium,0.0306877132312374, https://leetcode.com/problems/reconstruct-itinerary,Not Done
+20,Valid Parentheses,39.0%,Easy,0.0278237344500103, https://leetcode.com/problems/valid-parentheses,Not Done
+42,Trapping Rain Water,48.9%,Hard,0.0268862307342506, https://leetcode.com/problems/trapping-rain-water,Not Done
+221,Maximal Square,37.7%,Medium,0.0221084907542034, https://leetcode.com/problems/maximal-square,Not Done
+239,Sliding Window Maximum,43.0%,Hard,0.0176856643462755, https://leetcode.com/problems/sliding-window-maximum,Not Done
+240,Search a 2D Matrix II,43.2%,Medium,0.0169815401480941, https://leetcode.com/problems/search-a-2d-matrix-ii,Not Done
+628,Maximum Product of Three Numbers,47.1%,Easy,0.0165293019512105, https://leetcode.com/problems/maximum-product-of-three-numbers,Not Done
+225,Implement Stack using Queues,45.1%,Easy,0.0164409786334575, https://leetcode.com/problems/implement-stack-using-queues,Not Done
+340,Longest Substring with At Most K Distinct Characters,44.1%,Hard,0.0161228804865631, https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters,Not Done
+85,Maximal Rectangle,37.7%,Hard,0.0133335308694651, https://leetcode.com/problems/maximal-rectangle,Not Done
+232,Implement Queue using Stacks,49.6%,Easy,0.0112423893489338, https://leetcode.com/problems/implement-queue-using-stacks,Not Done
+146,LRU Cache,33.2%,Medium,0.0103211925402749, https://leetcode.com/problems/lru-cache,Not Done
+212,Word Search II,34.9%,Hard,0.0098450216788048, https://leetcode.com/problems/word-search-ii,Not Done
+295,Find Median from Data Stream,44.3%,Hard,0.0089989358685695, https://leetcode.com/problems/find-median-from-data-stream,Not Done
+253,Meeting Rooms II,45.7%,Medium,0.0080792198705464, https://leetcode.com/problems/meeting-rooms-ii,Not Done
+297,Serialize and Deserialize Binary Tree,47.5%,Hard,0.007077170374085, https://leetcode.com/problems/serialize-and-deserialize-binary-tree,Not Done
+15,3Sum,26.8%,Medium,0.0049409927587425, https://leetcode.com/problems/3sum,Not Done
+121,Best Time to Buy and Sell Stock,50.5%,Easy,0.0047725193990346, https://leetcode.com/problems/best-time-to-buy-and-sell-stock,Not Done
+28,Implement strStr(),34.5%,Easy,0.00394322277504, https://leetcode.com/problems/implement-strstr,Not Done
+200,Number of Islands,46.8%,Medium,0.0028897578265903, https://leetcode.com/problems/number-of-islands,Not Done
+53,Maximum Subarray,46.5%,Easy,0.0021670828721507, https://leetcode.com/problems/maximum-subarray,Not Done
+70,Climbing Stairs,47.8%,Easy,0.0015084665529624, https://leetcode.com/problems/climbing-stairs,Not Done

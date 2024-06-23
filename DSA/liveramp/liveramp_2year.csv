@@ -1,0 +1,5 @@
+ID,Title,Acceptance,Difficulty,Frequency,Leetcode Question Link,Status
+529,Minesweeper,59.1%,Medium,0.0185568662691121, https://leetcode.com/problems/minesweeper,Not Done
+785,Is Graph Bipartite?,47.5%,Medium,0.0106610817861136, https://leetcode.com/problems/is-graph-bipartite,Not Done
+200,Number of Islands,46.8%,Medium,0.0027652973031151, https://leetcode.com/problems/number-of-islands,Not Done
+20,Valid Parentheses,39.0%,Easy,0.0021976823306058, https://leetcode.com/problems/valid-parentheses,Not Done

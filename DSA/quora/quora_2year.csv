@@ -1,0 +1,26 @@
+ID,Title,Acceptance,Difficulty,Frequency,Leetcode Question Link,Status
+923,3Sum With Multiplicity,35.7%,Medium,2.764795138719407, https://leetcode.com/problems/3sum-with-multiplicity,Not Done
+855,Exam Room,43.1%,Medium,1.610689085571983, https://leetcode.com/problems/exam-room,Not Done
+525,Contiguous Array,42.8%,Medium,0.4565830324245594, https://leetcode.com/problems/contiguous-array,Not Done
+297,Serialize and Deserialize Binary Tree,47.5%,Hard,0.3967767600825713, https://leetcode.com/problems/serialize-and-deserialize-binary-tree,Not Done
+498,Diagonal Traverse,48.2%,Medium,0.3533581913127385, https://leetcode.com/problems/diagonal-traverse,Not Done
+437,Path Sum III,47.2%,Medium,0.3499312788602187, https://leetcode.com/problems/path-sum-iii,Not Done
+1053,Previous Permutation With One Swap,48.5%,Medium,0.2006706954621511, https://leetcode.com/problems/previous-permutation-with-one-swap,Not Done
+1027,Longest Arithmetic Sequence,53.4%,Medium,0.1112256351102243, https://leetcode.com/problems/longest-arithmetic-sequence,Not Done
+780,Reaching Points,29.4%,Hard,0.1040197878075301, https://leetcode.com/problems/reaching-points,Not Done
+390,Elimination Game,44.5%,Medium,0.0922312242160336, https://leetcode.com/problems/elimination-game,Not Done
+1329,Sort the Matrix Diagonally,78.4%,Medium,0.085848682730252, https://leetcode.com/problems/sort-the-matrix-diagonally,Not Done
+113,Path Sum II,46.7%,Medium,0.0813640346226458, https://leetcode.com/problems/path-sum-ii,Not Done
+380,Insert Delete GetRandom O(1),47.5%,Medium,0.0810889781757635, https://leetcode.com/problems/insert-delete-getrandom-o1,Not Done
+852,Peak Index in a Mountain Array,71.6%,Easy,0.0734760468306218, https://leetcode.com/problems/peak-index-in-a-mountain-array,Not Done
+162,Find Peak Element,43.3%,Medium,0.0719417845029992, https://leetcode.com/problems/find-peak-element,Not Done
+253,Meeting Rooms II,45.7%,Medium,0.0671267791208397, https://leetcode.com/problems/meeting-rooms-ii,Not Done
+452,Minimum Number of Arrows to Burst Balloons,49.6%,Medium,0.0623470580185278, https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons,Not Done
+14,Longest Common Prefix,35.4%,Easy,0.0382470718111217, https://leetcode.com/problems/longest-common-prefix,Not Done
+15,3Sum,26.8%,Medium,0.0252006136172983, https://leetcode.com/problems/3sum,Not Done
+31,Next Permutation,32.6%,Medium,0.0227995056767467, https://leetcode.com/problems/next-permutation,Not Done
+39,Combination Sum,56.1%,Medium,0.01221513559565, https://leetcode.com/problems/combination-sum,Not Done
+48,Rotate Image,56.7%,Medium,0.0109330535089476, https://leetcode.com/problems/rotate-image,Not Done
+560,Subarray Sum Equals K,43.9%,Medium,0.0040766464937634, https://leetcode.com/problems/subarray-sum-equals-k,Not Done
+198,House Robber,42.0%,Easy,0.0036114159872163, https://leetcode.com/problems/house-robber,Not Done
+1,Two Sum,45.6%,Easy,0.0007858237801736, https://leetcode.com/problems/two-sum,Not Done

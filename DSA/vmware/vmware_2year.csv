@@ -1,0 +1,103 @@
+ID,Title,Acceptance,Difficulty,Frequency,Leetcode Question Link,Status
+146,LRU Cache,33.2%,Medium,0.1499900812285872, https://leetcode.com/problems/lru-cache,Not Done
+37,Sudoku Solver,43.6%,Hard,0.1324217001492015, https://leetcode.com/problems/sudoku-solver,Not Done
+221,Maximal Square,37.7%,Medium,0.1148533190698158, https://leetcode.com/problems/maximal-square,Not Done
+609,Find Duplicate File in System,59.5%,Medium,0.0989818335488509, https://leetcode.com/problems/find-duplicate-file-in-system,Not Done
+20,Valid Parentheses,39.0%,Easy,0.0928626343812616, https://leetcode.com/problems/valid-parentheses,Not Done
+1048,Longest String Chain,54.7%,Medium,0.0752942533018759, https://leetcode.com/problems/longest-string-chain,Not Done
+49,Group Anagrams,56.9%,Medium,0.0743461524573368, https://leetcode.com/problems/group-anagrams,Not Done
+697,Degree of an Array,53.8%,Easy,0.0711762784678949, https://leetcode.com/problems/degree-of-an-array,Not Done
+460,LFU Cache,34.2%,Hard,0.0683637428093902, https://leetcode.com/problems/lfu-cache,Not Done
+706,Design HashMap,61.3%,Easy,0.0683442674369718, https://leetcode.com/problems/design-hashmap,Not Done
+1328,Break a Palindrome,43.3%,Medium,0.0591013922759133, https://leetcode.com/problems/break-a-palindrome,Not Done
+829,Consecutive Numbers Sum,37.5%,Hard,0.0534172374969858, https://leetcode.com/problems/consecutive-numbers-sum,Not Done
+85,Maximal Rectangle,37.7%,Hard,0.0522994994028489, https://leetcode.com/problems/maximal-rectangle,Not Done
+186,Reverse Words in a String II,43.3%,Medium,0.0506437328187549, https://leetcode.com/problems/reverse-words-in-a-string-ii,Not Done
+269,Alien Dictionary,33.3%,Hard,0.0499791705746588, https://leetcode.com/problems/alien-dictionary,Not Done
+981,Time Based Key-Value Store,53.1%,Medium,0.0494063153870712, https://leetcode.com/problems/time-based-key-value-store,Not Done
+322,Coin Change,35.5%,Medium,0.0482804826131978, https://leetcode.com/problems/coin-change,Not Done
+698,Partition to K Equal Sum Subsets,45.0%,Medium,0.0468591711409418, https://leetcode.com/problems/partition-to-k-equal-sum-subsets,Not Done
+556,Next Greater Element III,31.7%,Medium,0.0467921615067589, https://leetcode.com/problems/next-greater-element-iii,Not Done
+97,Interleaving String,31.5%,Hard,0.0454853543941165, https://leetcode.com/problems/interleaving-string,Not Done
+93,Restore IP Addresses,35.6%,Medium,0.0439309292257267, https://leetcode.com/problems/restore-ip-addresses,Not Done
+56,Merge Intervals,39.3%,Medium,0.0417330422533176, https://leetcode.com/problems/merge-intervals,Not Done
+243,Shortest Word Distance,61.0%,Easy,0.040780370344928, https://leetcode.com/problems/shortest-word-distance,Not Done
+380,Insert Delete GetRandom O(1),47.5%,Medium,0.0387176353507079, https://leetcode.com/problems/insert-delete-getrandom-o1,Not Done
+47,Permutations II,46.4%,Medium,0.0381452682596904, https://leetcode.com/problems/permutations-ii,Not Done
+905,Sort Array By Parity,74.1%,Easy,0.0378743492924358, https://leetcode.com/problems/sort-array-by-parity,Not Done
+295,Find Median from Data Stream,44.3%,Hard,0.0355198272485353, https://leetcode.com/problems/find-median-from-data-stream,Not Done
+277,Find the Celebrity,41.8%,Medium,0.029697802391742, https://leetcode.com/problems/find-the-celebrity,Not Done
+33,Search in Rotated Sorted Array,34.5%,Medium,0.0287009496170278, https://leetcode.com/problems/search-in-rotated-sorted-array,Not Done
+733,Flood Fill,55.3%,Easy,0.0250639686632162, https://leetcode.com/problems/flood-fill,Not Done
+23,Merge k Sorted Lists,40.2%,Hard,0.0250564321052577, https://leetcode.com/problems/merge-k-sorted-lists,Not Done
+1,Two Sum,45.6%,Easy,0.0245304116230177, https://leetcode.com/problems/two-sum,Not Done
+426,Convert Binary Search Tree to Sorted Doubly Linked List,59.1%,Medium,0.0242142581205946, https://leetcode.com/problems/convert-binary-search-tree-to-sorted-doubly-linked-list,Not Done
+1209,Remove All Adjacent Duplicates in String II,56.9%,Medium,0.0232433473723272, https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string-ii,Not Done
+206,Reverse Linked List,62.5%,Easy,0.0208642746707607, https://leetcode.com/problems/reverse-linked-list,Not Done
+341,Flatten Nested List Iterator,52.9%,Medium,0.0199806846904834, https://leetcode.com/problems/flatten-nested-list-iterator,Not Done
+525,Contiguous Array,42.8%,Medium,0.0197537287362325, https://leetcode.com/problems/contiguous-array,Not Done
+402,Remove K Digits,28.4%,Medium,0.0168638060520048, https://leetcode.com/problems/remove-k-digits,Not Done
+116,Populating Next Right Pointers in Each Node,45.2%,Medium,0.0164327232515676, https://leetcode.com/problems/populating-next-right-pointers-in-each-node,Not Done
+238,Product of Array Except Self,60.1%,Medium,0.0156298971608747, https://leetcode.com/problems/product-of-array-except-self,Not Done
+4,Median of Two Sorted Arrays,29.6%,Hard,0.0155101984817014, https://leetcode.com/problems/median-of-two-sorted-arrays,Not Done
+80,Remove Duplicates from Sorted Array II,44.0%,Medium,0.0148150857851406, https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii,Not Done
+102,Binary Tree Level Order Traversal,54.6%,Medium,0.0144772705882875, https://leetcode.com/problems/binary-tree-level-order-traversal,Not Done
+109,Convert Sorted List to Binary Search Tree,47.7%,Medium,0.0144406841547943, https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree,Not Done
+150,Evaluate Reverse Polish Notation,36.3%,Medium,0.0141345109349047, https://leetcode.com/problems/evaluate-reverse-polish-notation,Not Done
+3,Longest Substring Without Repeating Characters,30.4%,Medium,0.0139143434564941, https://leetcode.com/problems/longest-substring-without-repeating-characters,Not Done
+304,Range Sum Query 2D - Immutable,38.6%,Medium,0.013913267916985, https://leetcode.com/problems/range-sum-query-2d-immutable,Not Done
+39,Combination Sum,56.1%,Medium,0.0128152116928675, https://leetcode.com/problems/combination-sum,Not Done
+226,Invert Binary Tree,65.0%,Easy,0.0123509186340091, https://leetcode.com/problems/invert-binary-tree,Not Done
+88,Merge Sorted Array,39.4%,Easy,0.0119869580329825, https://leetcode.com/problems/merge-sorted-array,Not Done
+98,Validate Binary Search Tree,27.8%,Medium,0.0117234636960592, https://leetcode.com/problems/validate-binary-search-tree,Not Done
+647,Palindromic Substrings,60.6%,Medium,0.010400509768078, https://leetcode.com/problems/palindromic-substrings,Not Done
+25,Reverse Nodes in k-Group,42.1%,Hard,0.0102119856050282, https://leetcode.com/problems/reverse-nodes-in-k-group,Not Done
+72,Edit Distance,44.8%,Hard,0.0100176144523177, https://leetcode.com/problems/edit-distance,Not Done
+17,Letter Combinations of a Phone Number,46.8%,Medium,0.009877165461676, https://leetcode.com/problems/letter-combinations-of-a-phone-number,Not Done
+113,Path Sum II,46.7%,Medium,0.0097848138799982, https://leetcode.com/problems/path-sum-ii,Not Done
+21,Merge Two Sorted Lists,53.5%,Easy,0.0089903398146512, https://leetcode.com/problems/merge-two-sorted-lists,Not Done
+215,Kth Largest Element in an Array,55.4%,Medium,0.0087591800898815, https://leetcode.com/problems/kth-largest-element-in-an-array,Not Done
+977,Squares of a Sorted Array,72.1%,Easy,0.0087336799687546, https://leetcode.com/problems/squares-of-a-sorted-array,Not Done
+63,Unique Paths II,34.6%,Medium,0.0087127538749611, https://leetcode.com/problems/unique-paths-ii,Not Done
+416,Partition Equal Subset Sum,43.7%,Medium,0.0086862652559603, https://leetcode.com/problems/partition-equal-subset-sum,Not Done
+8,String to Integer (atoi),15.4%,Medium,0.0085131047622482, https://leetcode.com/problems/string-to-integer-atoi,Not Done
+394,Decode String,50.0%,Medium,0.0081666440002722, https://leetcode.com/problems/decode-string,Not Done
+133,Clone Graph,34.8%,Medium,0.0081367413930617, https://leetcode.com/problems/clone-graph,Not Done
+239,Sliding Window Maximum,43.0%,Hard,0.0078989352245344, https://leetcode.com/problems/sliding-window-maximum,Not Done
+16,3Sum Closest,46.0%,Medium,0.0075259057003469, https://leetcode.com/problems/3sum-closest,Not Done
+692,Top K Frequent Words,51.8%,Medium,0.0075160068209353, https://leetcode.com/problems/top-k-frequent-words,Not Done
+36,Valid Sudoku,48.7%,Medium,0.0072582427158053, https://leetcode.com/problems/valid-sudoku,Not Done
+297,Serialize and Deserialize Binary Tree,47.5%,Hard,0.007077170374085, https://leetcode.com/problems/serialize-and-deserialize-binary-tree,Not Done
+2,Add Two Numbers,33.9%,Medium,0.0067374349519933, https://leetcode.com/problems/add-two-numbers,Not Done
+200,Number of Islands,46.8%,Medium,0.0064902513827793, https://leetcode.com/problems/number-of-islands,Not Done
+41,First Missing Positive,32.0%,Hard,0.0064113058208121, https://leetcode.com/problems/first-missing-positive,Not Done
+162,Find Peak Element,43.3%,Medium,0.0063502356593458, https://leetcode.com/problems/find-peak-element,Not Done
+230,Kth Smallest Element in a BST,60.2%,Medium,0.0063361529894967, https://leetcode.com/problems/kth-smallest-element-in-a-bst,Not Done
+76,Minimum Window Substring,34.6%,Hard,0.0062315203987232, https://leetcode.com/problems/minimum-window-substring,Not Done
+127,Word Ladder,29.6%,Medium,0.005979091056058, https://leetcode.com/problems/word-ladder,Not Done
+199,Binary Tree Right Side View,54.1%,Medium,0.0056826406650506, https://leetcode.com/problems/binary-tree-right-side-view,Not Done
+124,Binary Tree Maximum Path Sum,34.3%,Hard,0.0055317524548331, https://leetcode.com/problems/binary-tree-maximum-path-sum,Not Done
+287,Find the Duplicate Number,55.5%,Medium,0.0055013204348376, https://leetcode.com/problems/find-the-duplicate-number,Not Done
+300,Longest Increasing Subsequence,42.6%,Medium,0.0052645554600032, https://leetcode.com/problems/longest-increasing-subsequence,Not Done
+55,Jump Game,34.6%,Medium,0.0050226122662913, https://leetcode.com/problems/jump-game,Not Done
+75,Sort Colors,47.3%,Medium,0.0049925216031209, https://leetcode.com/problems/sort-colors,Not Done
+15,3Sum,26.8%,Medium,0.0049409927587425, https://leetcode.com/problems/3sum,Not Done
+268,Missing Number,51.7%,Easy,0.0048804391649084, https://leetcode.com/problems/missing-number,Not Done
+62,Unique Paths,54.1%,Medium,0.004621080312067, https://leetcode.com/problems/unique-paths,Not Done
+234,Palindrome Linked List,39.3%,Easy,0.0045336131148289, https://leetcode.com/problems/palindrome-linked-list,Not Done
+46,Permutations,63.5%,Medium,0.0042163022301392, https://leetcode.com/problems/permutations,Not Done
+28,Implement strStr(),34.5%,Easy,0.00394322277504, https://leetcode.com/problems/implement-strstr,Not Done
+139,Word Break,40.1%,Medium,0.0038944650526901, https://leetcode.com/problems/word-break,Not Done
+153,Find Minimum in Rotated Sorted Array,45.1%,Medium,0.0037558729598054, https://leetcode.com/problems/find-minimum-in-rotated-sorted-array,Not Done
+141,Linked List Cycle,41.1%,Easy,0.0034937584669245, https://leetcode.com/problems/linked-list-cycle,Not Done
+101,Symmetric Tree,46.8%,Easy,0.0034057078469827, https://leetcode.com/problems/symmetric-tree,Not Done
+347,Top K Frequent Elements,61.2%,Medium,0.0033396446491217, https://leetcode.com/problems/top-k-frequent-elements,Not Done
+19,Remove Nth Node From End of List,35.2%,Medium,0.0030764522033934, https://leetcode.com/problems/remove-nth-node-from-end-of-list,Not Done
+11,Container With Most Water,50.8%,Medium,0.0030677223230101, https://leetcode.com/problems/container-with-most-water,Not Done
+621,Task Scheduler,50.1%,Medium,0.0023417843381444, https://leetcode.com/problems/task-scheduler,Not Done
+5,Longest Palindromic Substring,29.5%,Medium,0.0022793331425074, https://leetcode.com/problems/longest-palindromic-substring,Not Done
+121,Best Time to Buy and Sell Stock,50.5%,Easy,0.0021239321954525, https://leetcode.com/problems/best-time-to-buy-and-sell-stock,Not Done
+26,Remove Duplicates from Sorted Array,45.1%,Easy,0.0019513153174351, https://leetcode.com/problems/remove-duplicates-from-sorted-array,Not Done
+79,Word Search,35.6%,Medium,0.0016647248725526, https://leetcode.com/problems/word-search,Not Done
+151,Reverse Words in a String,21.9%,Medium,0.0015375156780384, https://leetcode.com/problems/reverse-words-in-a-string,Not Done
+50,Pow(x;n),30.3%,Medium,0.0014016892647828, https://leetcode.com/problems/powx-n,Not Done

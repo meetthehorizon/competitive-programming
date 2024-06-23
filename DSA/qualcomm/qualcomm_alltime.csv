@@ -1,0 +1,12 @@
+ID,Title,Acceptance,Difficulty,Frequency,Leetcode Question Link,Status
+160,Intersection of Two Linked Lists,40.6%,Easy,0.061349468013542, https://leetcode.com/problems/intersection-of-two-linked-lists,Not Done
+191,Number of 1 Bits,49.8%,Easy,0.0548421976464481, https://leetcode.com/problems/number-of-1-bits,Not Done
+206,Reverse Linked List,62.5%,Easy,0.0442501729265154, https://leetcode.com/problems/reverse-linked-list,Not Done
+72,Edit Distance,44.8%,Hard,0.0377492332177894, https://leetcode.com/problems/edit-distance,Not Done
+237,Delete Node in a Linked List,63.8%,Easy,0.0302540015192531, https://leetcode.com/problems/delete-node-in-a-linked-list,Not Done
+2,Add Two Numbers,33.9%,Medium,0.0196619767993204, https://leetcode.com/problems/add-two-numbers,Not Done
+1,Two Sum,45.6%,Easy,0.0194626827709269, https://leetcode.com/problems/two-sum,Not Done
+283,Move Zeroes,57.8%,Easy,0.0171178435169685, https://leetcode.com/problems/move-zeroes,Not Done
+151,Reverse Words in a String,21.9%,Medium,0.0094999954477771, https://leetcode.com/problems/reverse-words-in-a-string,Not Done
+53,Maximum Subarray,46.5%,Easy,0.0082726287412289, https://leetcode.com/problems/maximum-subarray,Not Done
+1183,Maximum Number of Ones,54.5%,Hard,0.0, https://leetcode.com/problems/maximum-number-of-ones,Not Done

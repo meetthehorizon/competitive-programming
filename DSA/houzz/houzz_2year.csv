@@ -1,0 +1,17 @@
+ID,Title,Acceptance,Difficulty,Frequency,Leetcode Question Link,Status
+227,Basic Calculator II,36.9%,Medium,0.1061446359481895, https://leetcode.com/problems/basic-calculator-ii,Not Done
+43,Multiply Strings,33.9%,Medium,0.0794418417015836, https://leetcode.com/problems/multiply-strings,Not Done
+721,Accounts Merge,48.8%,Medium,0.0734949557533648, https://leetcode.com/problems/accounts-merge,Not Done
+556,Next Greater Element III,31.7%,Medium,0.0467921615067589, https://leetcode.com/problems/next-greater-element-iii,Not Done
+727,Minimum Window Subsequence,41.8%,Hard,0.0423792229688614, https://leetcode.com/problems/minimum-window-subsequence,Not Done
+304,Range Sum Query 2D - Immutable,38.6%,Medium,0.0310369739955764, https://leetcode.com/problems/range-sum-query-2d-immutable,Not Done
+218,The Skyline Problem,34.6%,Hard,0.0254790853009849, https://leetcode.com/problems/the-skyline-problem,Not Done
+698,Partition to K Equal Sum Subsets,45.0%,Medium,0.0210978289646358, https://leetcode.com/problems/partition-to-k-equal-sum-subsets,Not Done
+301,Remove Invalid Parentheses,43.3%,Hard,0.0144667984177533, https://leetcode.com/problems/remove-invalid-parentheses,Not Done
+120,Triangle,44.2%,Medium,0.0132364606258309, https://leetcode.com/problems/triangle,Not Done
+200,Number of Islands,46.8%,Medium,0.0115092624205908, https://leetcode.com/problems/number-of-islands,Not Done
+48,Rotate Image,56.7%,Medium,0.0114286958236227, https://leetcode.com/problems/rotate-image,Not Done
+212,Word Search II,34.9%,Hard,0.0098450216788048, https://leetcode.com/problems/word-search-ii,Not Done
+10,Regular Expression Matching,26.8%,Hard,0.0071865203293987, https://leetcode.com/problems/regular-expression-matching,Not Done
+31,Next Permutation,32.6%,Medium,0.0059898352191796, https://leetcode.com/problems/next-permutation,Not Done
+4,Median of Two Sorted Arrays,29.6%,Hard,0.0039001609500947, https://leetcode.com/problems/median-of-two-sorted-arrays,Not Done

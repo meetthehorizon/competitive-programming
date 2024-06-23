@@ -1,0 +1,9 @@
+ID,Title,Acceptance,Difficulty,Frequency,Leetcode Question Link,Status
+1048,Longest String Chain,54.7%,Medium,1.4879693177026767, https://leetcode.com/problems/longest-string-chain,Not Done
+547,Friend Circles,58.6%,Medium,0.820469331242052, https://leetcode.com/problems/friend-circles,Not Done
+710,Random Pick with Blacklist,32.5%,Hard,0.1529693447814272, https://leetcode.com/problems/random-pick-with-blacklist,Not Done
+123,Best Time to Buy and Sell Stock III,37.5%,Hard,0.097058881582045, https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii,Not Done
+1163,Last Substring in Lexicographical Order,33.9%,Hard,0.0513591683706447, https://leetcode.com/problems/last-substring-in-lexicographical-order,Not Done
+146,LRU Cache,33.2%,Medium,0.0406605982112689, https://leetcode.com/problems/lru-cache,Not Done
+528,Random Pick with Weight,43.9%,Medium,0.0148315659059952, https://leetcode.com/problems/random-pick-with-weight,Not Done
+56,Merge Intervals,39.3%,Medium,0.0034728286335985, https://leetcode.com/problems/merge-intervals,Not Done

@@ -1,0 +1,16 @@
+ID,Title,Acceptance,Difficulty,Frequency,Leetcode Question Link,Status
+592,Fraction Addition and Subtraction,49.0%,Medium,2.1852914017256677, https://leetcode.com/problems/fraction-addition-and-subtraction,Not Done
+691,Stickers to Spell Word,42.9%,Hard,1.614456743546043, https://leetcode.com/problems/stickers-to-spell-word,Not Done
+598,Range Addition II,49.6%,Easy,1.5459245067117746, https://leetcode.com/problems/range-addition-ii,Not Done
+634,Find the Derangement of An Array,40.1%,Medium,1.3910002521573033, https://leetcode.com/problems/find-the-derangement-of-an-array,Not Done
+166,Fraction to Recurring Decimal,21.6%,Medium,1.1471239400937834, https://leetcode.com/problems/fraction-to-recurring-decimal,Not Done
+697,Degree of an Array,53.8%,Easy,0.5762892819141592, https://leetcode.com/problems/degree-of-an-array,Not Done
+717,1-bit and 2-bit Characters,48.8%,Easy,0.3324150781189461, https://leetcode.com/problems/1-bit-and-2-bit-characters,Not Done
+14,Longest Common Prefix,35.4%,Easy,0.276319223139963, https://leetcode.com/problems/longest-common-prefix,Not Done
+945,Minimum Increment to Make Array Unique,46.3%,Medium,0.2612154992636176, https://leetcode.com/problems/minimum-increment-to-make-array-unique,Not Done
+234,Palindrome Linked List,39.3%,Easy,0.1927894665491898, https://leetcode.com/problems/palindrome-linked-list,Not Done
+23,Merge k Sorted Lists,40.2%,Hard,0.1308579191643603, https://leetcode.com/problems/merge-k-sorted-lists,Not Done
+227,Basic Calculator II,36.9%,Medium,0.0720357424842973, https://leetcode.com/problems/basic-calculator-ii,Not Done
+518,Coin Change 2,50.2%,Medium,0.0465606354939475, https://leetcode.com/problems/coin-change-2,Not Done
+33,Search in Rotated Sorted Array,34.5%,Medium,0.0373291360812718, https://leetcode.com/problems/search-in-rotated-sorted-array,Not Done
+162,Find Peak Element,43.3%,Medium,0.0136077092181494, https://leetcode.com/problems/find-peak-element,Not Done

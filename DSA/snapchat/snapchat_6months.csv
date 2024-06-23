@@ -1,0 +1,8 @@
+ID,Title,Acceptance,Difficulty,Frequency,Leetcode Question Link,Status
+146,LRU Cache,33.2%,Medium,0.0337676331942729, https://leetcode.com/problems/lru-cache,Not Done
+317,Shortest Distance from All Buildings,41.4%,Hard,0.0310622549834395, https://leetcode.com/problems/shortest-distance-from-all-buildings,Not Done
+212,Word Search II,34.9%,Hard,0.0220165448709614, https://leetcode.com/problems/word-search-ii,Not Done
+340,Longest Substring with At Most K Distinct Characters,44.1%,Hard,0.0161228804865631, https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters,Not Done
+297,Serialize and Deserialize Binary Tree,47.5%,Hard,0.007077170374085, https://leetcode.com/problems/serialize-and-deserialize-binary-tree,Not Done
+234,Palindrome Linked List,39.3%,Easy,0.0045336131148289, https://leetcode.com/problems/palindrome-linked-list,Not Done
+210,Course Schedule II,40.7%,Medium,0.0019086707135282, https://leetcode.com/problems/course-schedule-ii,Not Done

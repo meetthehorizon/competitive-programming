@@ -1,0 +1,17 @@
+ID,Title,Acceptance,Difficulty,Frequency,Leetcode Question Link,Status
+274,H-Index,36.1%,Medium,0.1881019783526969, https://leetcode.com/problems/h-index,Not Done
+146,LRU Cache,33.2%,Medium,0.1464242680744936, https://leetcode.com/problems/lru-cache,Not Done
+149,Max Points on a Line,16.9%,Hard,0.1381121172948091, https://leetcode.com/problems/max-points-on-a-line,Not Done
+1213,Intersection of Three Sorted Arrays,78.9%,Easy,0.0964344070166058, https://leetcode.com/problems/intersection-of-three-sorted-arrays,Not Done
+73,Set Matrix Zeroes,43.1%,Medium,0.0791245349020386, https://leetcode.com/problems/set-matrix-zeroes,Not Done
+692,Top K Frequent Words,51.8%,Medium,0.0626291590704414, https://leetcode.com/problems/top-k-frequent-words,Not Done
+528,Random Pick with Weight,43.9%,Medium,0.0563330904575865, https://leetcode.com/problems/random-pick-with-weight,Not Done
+65,Valid Number,15.3%,Hard,0.0481376355981544, https://leetcode.com/problems/valid-number,Not Done
+206,Reverse Linked List,62.5%,Easy,0.0351240627761099, https://leetcode.com/problems/reverse-linked-list,Not Done
+98,Validate Binary Search Tree,27.8%,Medium,0.0338617205129458, https://leetcode.com/problems/validate-binary-search-tree,Not Done
+1002,Find Common Characters,67.7%,Easy,0.0331766513177327, https://leetcode.com/problems/find-common-characters,Not Done
+33,Search in Rotated Sorted Array,34.5%,Medium,0.0192195337936351, https://leetcode.com/problems/search-in-rotated-sorted-array,Not Done
+384,Shuffle an Array,52.8%,Medium,0.0147061473896954, https://leetcode.com/problems/shuffle-an-array,Not Done
+101,Symmetric Tree,46.8%,Easy,0.0130030275803871, https://leetcode.com/problems/symmetric-tree,Not Done
+70,Climbing Stairs,47.8%,Easy,0.0058882148559497, https://leetcode.com/problems/climbing-stairs,Not Done
+139,Word Break,40.1%,Medium,0.0037551677623236, https://leetcode.com/problems/word-break,Not Done

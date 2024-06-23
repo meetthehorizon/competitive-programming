@@ -1,0 +1,9 @@
+ID,Title,Acceptance,Difficulty,Frequency,Leetcode Question Link,Status
+529,Minesweeper,59.1%,Medium,0.0942087820667236, https://leetcode.com/problems/minesweeper,Not Done
+575,Distribute Candies,61.4%,Easy,0.0832900210892226, https://leetcode.com/problems/distribute-candies,Not Done
+581,Shortest Unsorted Continuous Subarray,31.1%,Easy,0.0500730379823211, https://leetcode.com/problems/shortest-unsorted-continuous-subarray,Not Done
+785,Is Graph Bipartite?,47.5%,Medium,0.0419788813386612, https://leetcode.com/problems/is-graph-bipartite,Not Done
+20,Valid Parentheses,39.0%,Easy,0.0087618982317597, https://leetcode.com/problems/valid-parentheses,Not Done
+200,Number of Islands,46.8%,Medium,0.0027652973031151, https://leetcode.com/problems/number-of-islands,Not Done
+594,Longest Harmonious Subsequence,46.6%,Easy,0.0, https://leetcode.com/problems/longest-harmonious-subsequence,Not Done
+949,Largest Time for Given Digits,35.8%,Easy,0.0, https://leetcode.com/problems/largest-time-for-given-digits,Not Done

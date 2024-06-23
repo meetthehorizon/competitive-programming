@@ -1,0 +1,8 @@
+ID,Title,Acceptance,Difficulty,Frequency,Leetcode Question Link,Status
+160,Intersection of Two Linked Lists,40.6%,Easy,0.0098405756419628, https://leetcode.com/problems/intersection-of-two-linked-lists,Not Done
+191,Number of 1 Bits,49.8%,Easy,0.0071697743954238, https://leetcode.com/problems/number-of-1-bits,Not Done
+237,Delete Node in a Linked List,63.8%,Easy,0.0049025714079326, https://leetcode.com/problems/delete-node-in-a-linked-list,Not Done
+206,Reverse Linked List,62.5%,Easy,0.0022317701613936, https://leetcode.com/problems/reverse-linked-list,Not Done
+1,Two Sum,45.6%,Easy,0.0017672359146114, https://leetcode.com/problems/two-sum,Not Done
+2,Add Two Numbers,33.9%,Medium,0.0016196302686159, https://leetcode.com/problems/add-two-numbers,Not Done
+151,Reverse Words in a String,21.9%,Medium,0.0015260771341435, https://leetcode.com/problems/reverse-words-in-a-string,Not Done

@@ -1,0 +1,7 @@
+ID,Title,Acceptance,Difficulty,Frequency,Leetcode Question Link,Status
+115,Distinct Subsequences,38.3%,Hard,0.1025909286813903, https://leetcode.com/problems/distinct-subsequences,Not Done
+509,Fibonacci Number,67.2%,Easy,0.0795899942690007, https://leetcode.com/problems/fibonacci-number,Not Done
+273,Integer to English Words,27.1%,Hard,0.0689692947543546, https://leetcode.com/problems/integer-to-english-words,Not Done
+20,Valid Parentheses,39.0%,Easy,0.0631039942300807, https://leetcode.com/problems/valid-parentheses,Not Done
+91,Decode Ways,24.7%,Medium,0.0324826195045857, https://leetcode.com/problems/decode-ways,Not Done
+7,Reverse Integer,25.8%,Easy,0.0018612447790907, https://leetcode.com/problems/reverse-integer,Not Done

@@ -1,0 +1,23 @@
+ID,Title,Acceptance,Difficulty,Frequency,Leetcode Question Link,Status
+609,Find Duplicate File in System,59.5%,Medium,5.67594859888821, https://leetcode.com/problems/find-duplicate-file-in-system,Not Done
+289,Game of Life,54.5%,Medium,4.950737575757486, https://leetcode.com/problems/game-of-life,Not Done
+924,Minimize Malware Spread,42.0%,Hard,4.063669925125272, https://leetcode.com/problems/minimize-malware-spread,Not Done
+379,Design Phone Directory,46.8%,Medium,3.480254851884649, https://leetcode.com/problems/design-phone-directory,Not Done
+291,Word Pattern II,43.4%,Hard,3.080206637191811, https://leetcode.com/problems/word-pattern-ii,Not Done
+362,Design Hit Counter,63.7%,Medium,2.7212063428291318, https://leetcode.com/problems/design-hit-counter,Not Done
+928,Minimize Malware Spread II,40.5%,Hard,1.8341386921969165, https://leetcode.com/problems/minimize-malware-spread-ii,Not Done
+1242,Web Crawler Multithreaded,45.9%,Medium,1.7713921664036212, https://leetcode.com/problems/web-crawler-multithreaded,Not Done
+1178,Number of Valid Words for Each Puzzle,37.8%,Hard,1.0828639316999706, https://leetcode.com/problems/number-of-valid-words-for-each-puzzle,Not Done
+1001,Grid Illumination,35.9%,Hard,1.0479685558493548, https://leetcode.com/problems/grid-illumination,Not Done
+642,Design Search Autocomplete System,44.7%,Hard,0.9534648850908104, https://leetcode.com/problems/design-search-autocomplete-system,Not Done
+17,Letter Combinations of a Phone Number,46.8%,Medium,0.8219594485525382, https://leetcode.com/problems/letter-combinations-of-a-phone-number,Not Done
+290,Word Pattern,37.0%,Easy,0.3813449098066498, https://leetcode.com/problems/word-pattern,Not Done
+1236,Web Crawler,64.3%,Medium,0.3364722366212129, https://leetcode.com/problems/web-crawler,Not Done
+146,LRU Cache,33.2%,Medium,0.3173527847177825, https://leetcode.com/problems/lru-cache,Not Done
+1010,Pairs of Songs With Total Durations Divisible by 60,47.4%,Easy,0.091713927690136, https://leetcode.com/problems/pairs-of-songs-with-total-durations-divisible-by-60,Not Done
+140,Word Break II,32.6%,Hard,0.0788116814891779, https://leetcode.com/problems/word-break-ii,Not Done
+1,Two Sum,45.6%,Easy,0.0164875806374676, https://leetcode.com/problems/two-sum,Not Done
+4,Median of Two Sorted Arrays,29.6%,Hard,0.0155101984817014, https://leetcode.com/problems/median-of-two-sorted-arrays,Not Done
+64,Minimum Path Sum,54.5%,Medium,0.0137343834495983, https://leetcode.com/problems/minimum-path-sum,Not Done
+28,Implement strStr(),34.5%,Easy,0.0088504855425745, https://leetcode.com/problems/implement-strstr,Not Done
+1250,Check If It Is a Good Array,55.7%,Hard,0.0, https://leetcode.com/problems/check-if-it-is-a-good-array,Not Done

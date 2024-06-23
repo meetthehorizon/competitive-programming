@@ -1,0 +1,10 @@
+ID,Title,Acceptance,Difficulty,Frequency,Leetcode Question Link,Status
+256,Paint House,52.1%,Easy,0.0264733126093994, https://leetcode.com/problems/paint-house,Not Done
+1143,Longest Common Subsequence,58.4%,Medium,0.0197721731155797, https://leetcode.com/problems/longest-common-subsequence,Not Done
+394,Decode String,50.0%,Medium,0.0182820448374491, https://leetcode.com/problems/decode-string,Not Done
+143,Reorder List,37.1%,Medium,0.0115809053436294, https://leetcode.com/problems/reorder-list,Not Done
+136,Single Number,65.5%,Easy,0.0064451669687133, https://leetcode.com/problems/single-number,Not Done
+543,Diameter of Binary Tree,48.4%,Easy,0.0053057559141498, https://leetcode.com/problems/diameter-of-binary-tree,Not Done
+206,Reverse Linked List,62.5%,Easy,0.0052570214528016, https://leetcode.com/problems/reverse-linked-list,Not Done
+21,Merge Two Sorted Lists,53.5%,Easy,0.0022551737583973, https://leetcode.com/problems/merge-two-sorted-lists,Not Done
+190,Reverse Bits,39.8%,Easy,0.0018316700789167, https://leetcode.com/problems/reverse-bits,Not Done

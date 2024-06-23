@@ -1,0 +1,14 @@
+ID,Title,Acceptance,Difficulty,Frequency,Leetcode Question Link,Status
+1189,Maximum Number of Balloons,61.2%,Easy,0.0744175709741674, https://leetcode.com/problems/maximum-number-of-balloons,Not Done
+146,LRU Cache,33.2%,Medium,0.0549465554587454, https://leetcode.com/problems/lru-cache,Not Done
+724,Find Pivot Index,44.0%,Easy,0.0542874128378284, https://leetcode.com/problems/find-pivot-index,Not Done
+1239,Maximum Length of a Concatenated String with Unique Characters,47.8%,Medium,0.0348163973224064, https://leetcode.com/problems/maximum-length-of-a-concatenated-string-with-unique-characters,Not Done
+728,Self Dividing Numbers,74.3%,Easy,0.024662162384069, https://leetcode.com/problems/self-dividing-numbers,Not Done
+41,First Missing Positive,32.0%,Hard,0.0143680632669201, https://leetcode.com/problems/first-missing-positive,Not Done
+767,Reorganize String,48.7%,Medium,0.0132980683046314, https://leetcode.com/problems/reorganize-string,Not Done
+273,Integer to English Words,27.1%,Hard,0.0120810892503397, https://leetcode.com/problems/integer-to-english-words,Not Done
+127,Word Ladder,29.6%,Medium,0.005979091056058, https://leetcode.com/problems/word-ladder,Not Done
+20,Valid Parentheses,39.0%,Easy,0.0051688605776653, https://leetcode.com/problems/valid-parentheses,Not Done
+49,Group Anagrams,56.9%,Medium,0.003804093983556, https://leetcode.com/problems/group-anagrams,Not Done
+33,Search in Rotated Sorted Array,34.5%,Medium,0.0032299769683326, https://leetcode.com/problems/search-in-rotated-sorted-array,Not Done
+283,Move Zeroes,57.8%,Easy,0.0028853803470673, https://leetcode.com/problems/move-zeroes,Not Done

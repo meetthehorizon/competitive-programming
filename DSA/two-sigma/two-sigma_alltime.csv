@@ -1,0 +1,20 @@
+ID,Title,Acceptance,Difficulty,Frequency,Leetcode Question Link,Status
+547,Friend Circles,58.6%,Medium,3.4457325845151185, https://leetcode.com/problems/friend-circles,Not Done
+1048,Longest String Chain,54.7%,Medium,2.6183158453084423, https://leetcode.com/problems/longest-string-chain,Not Done
+918,Maximum Sum Circular Subarray,33.7%,Medium,1.7908991061017665, https://leetcode.com/problems/maximum-sum-circular-subarray,Not Done
+146,LRU Cache,33.2%,Medium,1.0128053210090022, https://leetcode.com/problems/lru-cache,Not Done
+123,Best Time to Buy and Sell Stock III,37.5%,Hard,0.8103008499673461, https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii,Not Done
+44,Wildcard Matching,24.7%,Hard,0.8088199846507318, https://leetcode.com/problems/wildcard-matching,Not Done
+342,Power of Four,41.6%,Easy,0.5106053351870626, https://leetcode.com/problems/power-of-four,Not Done
+528,Random Pick with Weight,43.9%,Medium,0.3729408873318706, https://leetcode.com/problems/random-pick-with-weight,Not Done
+380,Insert Delete GetRandom O(1),47.5%,Medium,0.348524374235988, https://leetcode.com/problems/insert-delete-getrandom-o1,Not Done
+710,Random Pick with Blacklist,32.5%,Hard,0.3161972427598021, https://leetcode.com/problems/random-pick-with-blacklist,Not Done
+289,Game of Life,54.5%,Medium,0.2465460268751668, https://leetcode.com/problems/game-of-life,Not Done
+1163,Last Substring in Lexicographical Order,33.9%,Hard,0.1120574089157173, https://leetcode.com/problems/last-substring-in-lexicographical-order,Not Done
+4,Median of Two Sorted Arrays,29.6%,Hard,0.0932119909444548, https://leetcode.com/problems/median-of-two-sorted-arrays,Not Done
+53,Maximum Subarray,46.5%,Easy,0.0429934068559204, https://leetcode.com/problems/maximum-subarray,Not Done
+56,Merge Intervals,39.3%,Medium,0.0215099061352744, https://leetcode.com/problems/merge-intervals,Not Done
+384,Shuffle an Array,52.8%,Medium,0.0152500096097238, https://leetcode.com/problems/shuffle-an-array,Not Done
+221,Maximal Square,37.7%,Medium,0.0098863879885551, https://leetcode.com/problems/maximal-square,Not Done
+349,Intersection of Two Arrays,62.5%,Easy,0.0072503489623068, https://leetcode.com/problems/intersection-of-two-arrays,Not Done
+1186,Maximum Subarray Sum with One Deletion,37.5%,Medium,0.0, https://leetcode.com/problems/maximum-subarray-sum-with-one-deletion,Not Done

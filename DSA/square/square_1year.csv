@@ -1,0 +1,12 @@
+ID,Title,Acceptance,Difficulty,Frequency,Leetcode Question Link,Status
+336,Palindrome Pairs,33.7%,Hard,0.1050145875563629, https://leetcode.com/problems/palindrome-pairs,Not Done
+72,Edit Distance,44.8%,Hard,0.0867386659253104, https://leetcode.com/problems/edit-distance,Not Done
+271,Encode and Decode Strings,31.5%,Medium,0.0719734996250892, https://leetcode.com/problems/encode-and-decode-strings,Not Done
+999,Available Captures for Rook,66.7%,Easy,0.067365531827576, https://leetcode.com/problems/available-captures-for-rook,Not Done
+969,Pancake Sorting,67.5%,Medium,0.0490896101965235, https://leetcode.com/problems/pancake-sorting,Not Done
+165,Compare Version Numbers,27.4%,Medium,0.0351873674509732, https://leetcode.com/problems/compare-version-numbers,Not Done
+273,Integer to English Words,27.1%,Hard,0.026980053764546, https://leetcode.com/problems/integer-to-english-words,Not Done
+415,Add Strings,47.5%,Easy,0.0169911582472193, https://leetcode.com/problems/add-strings,Not Done
+332,Reconstruct Itinerary,36.7%,Medium,0.0137553750684853, https://leetcode.com/problems/reconstruct-itinerary,Not Done
+91,Decode Ways,24.7%,Medium,0.013379120336324, https://leetcode.com/problems/decode-ways,Not Done
+17,Letter Combinations of a Phone Number,46.8%,Medium,0.0044018999217624, https://leetcode.com/problems/letter-combinations-of-a-phone-number,Not Done

@@ -1,0 +1,13 @@
+ID,Title,Acceptance,Difficulty,Frequency,Leetcode Question Link,Status
+915,Partition Array into Disjoint Intervals,45.4%,Medium,0.3106928945241581, https://leetcode.com/problems/partition-array-into-disjoint-intervals,Not Done
+984,String Without AAA or BBB,37.7%,Medium,0.2735260204188947, https://leetcode.com/problems/string-without-aaa-or-bbb,Not Done
+527,Word Abbreviation,54.3%,Hard,0.1813886248605179, https://leetcode.com/problems/word-abbreviation,Not Done
+1017,Convert to Base -2,59.0%,Medium,0.1168147736517529, https://leetcode.com/problems/convert-to-base-2,Not Done
+983,Minimum Cost For Tickets,60.5%,Medium,0.0246773780933762, https://leetcode.com/problems/minimum-cost-for-tickets,Not Done
+42,Trapping Rain Water,48.9%,Hard,0.0097625246556591, https://leetcode.com/problems/trapping-rain-water,Not Done
+2,Add Two Numbers,33.9%,Medium,0.0067374349519933, https://leetcode.com/problems/add-two-numbers,Not Done
+41,First Missing Positive,32.0%,Hard,0.0064113058208121, https://leetcode.com/problems/first-missing-positive,Not Done
+234,Palindrome Linked List,39.3%,Easy,0.0045336131148289, https://leetcode.com/problems/palindrome-linked-list,Not Done
+238,Product of Array Except Self,60.1%,Medium,0.0039304364247245, https://leetcode.com/problems/product-of-array-except-self,Not Done
+215,Kth Largest Element in an Array,55.4%,Medium,0.0039024439769317, https://leetcode.com/problems/kth-largest-element-in-an-array,Not Done
+121,Best Time to Buy and Sell Stock,50.5%,Easy,0.0021239321954525, https://leetcode.com/problems/best-time-to-buy-and-sell-stock,Not Done

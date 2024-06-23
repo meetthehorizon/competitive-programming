@@ -1,0 +1,23 @@
+ID,Title,Acceptance,Difficulty,Frequency,Leetcode Question Link,Status
+202,Happy Number,50.4%,Easy,3.472501931831341, https://leetcode.com/problems/happy-number,Not Done
+20,Valid Parentheses,39.0%,Easy,2.091183527592892, https://leetcode.com/problems/valid-parentheses,Not Done
+322,Coin Change,35.5%,Medium,0.7098651233544434, https://leetcode.com/problems/coin-change,Not Done
+121,Best Time to Buy and Sell Stock,50.5%,Easy,0.2477881938482591, https://leetcode.com/problems/best-time-to-buy-and-sell-stock,Not Done
+1328,Break a Palindrome,43.3%,Medium,0.2179550763753923, https://leetcode.com/problems/break-a-palindrome,Not Done
+31,Next Permutation,32.6%,Medium,0.1148080865266429, https://leetcode.com/problems/next-permutation,Not Done
+273,Integer to English Words,27.1%,Hard,0.1038096327122969, https://leetcode.com/problems/integer-to-english-words,Not Done
+9,Palindrome Number,48.4%,Easy,0.0880440324310896, https://leetcode.com/problems/palindrome-number,Not Done
+1,Two Sum,45.6%,Easy,0.0788990380125067, https://leetcode.com/problems/two-sum,Not Done
+7,Reverse Integer,25.8%,Easy,0.0548243821737286, https://leetcode.com/problems/reverse-integer,Not Done
+17,Letter Combinations of a Phone Number,46.8%,Medium,0.0526324216201235, https://leetcode.com/problems/letter-combinations-of-a-phone-number,Not Done
+200,Number of Islands,46.8%,Medium,0.0452629940835575, https://leetcode.com/problems/number-of-islands,Not Done
+53,Maximum Subarray,46.5%,Easy,0.0429934068559204, https://leetcode.com/problems/maximum-subarray,Not Done
+5,Longest Palindromic Substring,29.5%,Medium,0.0358601928798937, https://leetcode.com/problems/longest-palindromic-substring,Not Done
+4,Median of Two Sorted Arrays,29.6%,Hard,0.0345656531122808, https://leetcode.com/problems/median-of-two-sorted-arrays,Not Done
+33,Search in Rotated Sorted Array,34.5%,Medium,0.0287009496170278, https://leetcode.com/problems/search-in-rotated-sorted-array,Not Done
+146,LRU Cache,33.2%,Medium,0.0284110018327798, https://leetcode.com/problems/lru-cache,Not Done
+349,Intersection of Two Arrays,62.5%,Easy,0.0162399815984884, https://leetcode.com/problems/intersection-of-two-arrays,Not Done
+79,Word Search,35.6%,Medium,0.01488368801474, https://leetcode.com/problems/word-search,Not Done
+215,Kth Largest Element in an Array,55.4%,Medium,0.0087591800898815, https://leetcode.com/problems/kth-largest-element-in-an-array,Not Done
+39,Combination Sum,56.1%,Medium,0.0057159343964409, https://leetcode.com/problems/combination-sum,Not Done
+387,First Unique Character in a String,53.4%,Easy,0.0041854199427069, https://leetcode.com/problems/first-unique-character-in-a-string,Not Done

@@ -1,0 +1,38 @@
+ID,Title,Acceptance,Difficulty,Frequency,Leetcode Question Link,Status
+146,LRU Cache,33.2%,Medium,0.1733638084790114, https://leetcode.com/problems/lru-cache,Not Done
+387,First Unique Character in a String,53.4%,Easy,0.1579070649214689, https://leetcode.com/problems/first-unique-character-in-a-string,Not Done
+236,Lowest Common Ancestor of a Binary Tree,45.7%,Medium,0.1296162763136424, https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree,Not Done
+273,Integer to English Words,27.1%,Hard,0.111803036808516, https://leetcode.com/problems/integer-to-english-words,Not Done
+449,Serialize and Deserialize BST,52.0%,Medium,0.0835122482006895, https://leetcode.com/problems/serialize-and-deserialize-bst,Not Done
+981,Time Based Key-Value Store,53.1%,Medium,0.0826917158451133, https://leetcode.com/problems/time-based-key-value-store,Not Done
+353,Design Snake Game,34.2%,Medium,0.058071466403899, https://leetcode.com/problems/design-snake-game,Not Done
+443,String Compression,41.3%,Easy,0.0523337200490236, https://leetcode.com/problems/string-compression,Not Done
+437,Path Sum III,47.2%,Medium,0.04550116684579, https://leetcode.com/problems/path-sum-iii,Not Done
+43,Multiply Strings,33.9%,Medium,0.0345308368723914, https://leetcode.com/problems/multiply-strings,Not Done
+362,Design Hit Counter,63.7%,Medium,0.0243173076507063, https://leetcode.com/problems/design-hit-counter,Not Done
+127,Word Ladder,29.6%,Medium,0.0227314802590232, https://leetcode.com/problems/word-ladder,Not Done
+739,Daily Temperatures,63.3%,Medium,0.0213379361736577, https://leetcode.com/problems/daily-temperatures,Not Done
+285,Inorder Successor in BST,40.4%,Medium,0.0212660858461784, https://leetcode.com/problems/inorder-successor-in-bst,Not Done
+113,Path Sum II,46.7%,Medium,0.020970013522095, https://leetcode.com/problems/path-sum-ii,Not Done
+112,Path Sum,41.2%,Easy,0.0207557068297192, https://leetcode.com/problems/path-sum,Not Done
+289,Game of Life,54.5%,Medium,0.016625486846134, https://leetcode.com/problems/game-of-life,Not Done
+299,Bulls and Cows,42.4%,Easy,0.0155041865359652, https://leetcode.com/problems/bulls-and-cows,Not Done
+4,Median of Two Sorted Arrays,29.6%,Hard,0.0147863335303115, https://leetcode.com/problems/median-of-two-sorted-arrays,Not Done
+150,Evaluate Reverse Polish Notation,36.3%,Medium,0.0135549347517152, https://leetcode.com/problems/evaluate-reverse-polish-notation,Not Done
+695,Max Area of Island,62.7%,Medium,0.0121323902482378, https://leetcode.com/problems/max-area-of-island,Not Done
+212,Word Search II,34.9%,Hard,0.0094051951231012, https://leetcode.com/problems/word-search-ii,Not Done
+20,Valid Parentheses,39.0%,Easy,0.0087618982317597, https://leetcode.com/problems/valid-parentheses,Not Done
+53,Maximum Subarray,46.5%,Easy,0.0082726287412289, https://leetcode.com/problems/maximum-subarray,Not Done
+33,Search in Rotated Sorted Array,34.5%,Medium,0.0069616617794876, https://leetcode.com/problems/search-in-rotated-sorted-array,Not Done
+79,Word Search,35.6%,Medium,0.0065480078446905, https://leetcode.com/problems/word-search,Not Done
+3,Longest Substring Without Repeating Characters,30.4%,Medium,0.0059276996332752, https://leetcode.com/problems/longest-substring-without-repeating-characters,Not Done
+268,Missing Number,51.7%,Easy,0.0046685425596334, https://leetcode.com/problems/missing-number,Not Done
+121,Best Time to Buy and Sell Stock,50.5%,Easy,0.0045803937783092, https://leetcode.com/problems/best-time-to-buy-and-sell-stock,Not Done
+23,Merge k Sorted Lists,40.2%,Hard,0.0038759738446929, https://leetcode.com/problems/merge-k-sorted-lists,Not Done
+139,Word Break,40.1%,Medium,0.0037551677623236, https://leetcode.com/problems/word-break,Not Done
+8,String to Integer (atoi),15.4%,Medium,0.0036231923694203, https://leetcode.com/problems/string-to-integer-atoi,Not Done
+13,Roman to Integer,55.7%,Easy,0.0032749333347487, https://leetcode.com/problems/roman-to-integer,Not Done
+1,Two Sum,45.6%,Easy,0.003139596786381, https://leetcode.com/problems/two-sum,Not Done
+283,Move Zeroes,57.8%,Easy,0.0027586224390797, https://leetcode.com/problems/move-zeroes,Not Done
+140,Word Break II,32.6%,Hard,0.0026759448668004, https://leetcode.com/problems/word-break-ii,Not Done
+151,Reverse Words in a String,21.9%,Medium,0.0015260771341435, https://leetcode.com/problems/reverse-words-in-a-string,Not Done

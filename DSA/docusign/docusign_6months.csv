@@ -1,0 +1,8 @@
+ID,Title,Acceptance,Difficulty,Frequency,Leetcode Question Link,Status
+92,Reverse Linked List II,38.8%,Medium,0.0094298692527832, https://leetcode.com/problems/reverse-linked-list-ii,Not Done
+73,Set Matrix Zeroes,43.1%,Medium,0.0070151111959223, https://leetcode.com/problems/set-matrix-zeroes,Not Done
+146,LRU Cache,33.2%,Medium,0.0046003531390613, https://leetcode.com/problems/lru-cache,Not Done
+242,Valid Anagram,56.9%,Easy,0.0041541237431159, https://leetcode.com/problems/valid-anagram,Not Done
+49,Group Anagrams,56.9%,Medium,0.003804093983556, https://leetcode.com/problems/group-anagrams,Not Done
+2,Add Two Numbers,33.9%,Medium,0.0037953910529002, https://leetcode.com/problems/add-two-numbers,Not Done
+79,Word Search,35.6%,Medium,0.0016647248725526, https://leetcode.com/problems/word-search,Not Done

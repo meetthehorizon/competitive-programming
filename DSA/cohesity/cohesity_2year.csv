@@ -1,0 +1,13 @@
+ID,Title,Acceptance,Difficulty,Frequency,Leetcode Question Link,Status
+76,Minimum Window Substring,34.6%,Hard,0.0369100007206846, https://leetcode.com/problems/minimum-window-substring,Not Done
+845,Longest Mountain in Array,37.2%,Medium,0.0293355070739255, https://leetcode.com/problems/longest-mountain-in-array,Not Done
+25,Reverse Nodes in k-Group,42.1%,Hard,0.0217610134271664, https://leetcode.com/problems/reverse-nodes-in-k-group,Not Done
+166,Fraction to Recurring Decimal,21.6%,Medium,0.0193056188941533, https://leetcode.com/problems/fraction-to-recurring-decimal,Not Done
+269,Alien Dictionary,33.3%,Hard,0.0121397545506105, https://leetcode.com/problems/alien-dictionary,Not Done
+207,Course Schedule,43.1%,Medium,0.0106258378762261, https://leetcode.com/problems/course-schedule,Not Done
+127,Word Ladder,29.6%,Medium,0.0057314958446896, https://leetcode.com/problems/word-ladder,Not Done
+23,Merge k Sorted Lists,40.2%,Hard,0.0038759738446929, https://leetcode.com/problems/merge-k-sorted-lists,Not Done
+56,Merge Intervals,39.3%,Medium,0.0033129067901687, https://leetcode.com/problems/merge-intervals,Not Done
+200,Number of Islands,46.8%,Medium,0.0027652973031151, https://leetcode.com/problems/number-of-islands,Not Done
+283,Move Zeroes,57.8%,Easy,0.0027586224390797, https://leetcode.com/problems/move-zeroes,Not Done
+26,Remove Duplicates from Sorted Array,45.1%,Easy,0.0018681118827202, https://leetcode.com/problems/remove-duplicates-from-sorted-array,Not Done

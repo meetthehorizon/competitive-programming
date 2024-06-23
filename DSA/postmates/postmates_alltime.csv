@@ -1,0 +1,10 @@
+ID,Title,Acceptance,Difficulty,Frequency,Leetcode Question Link,Status
+301,Remove Invalid Parentheses,43.3%,Hard,0.1331039384743148, https://leetcode.com/problems/remove-invalid-parentheses,Not Done
+1190,Reverse Substrings Between Each Pair of Parentheses,61.5%,Medium,0.0992867004292193, https://leetcode.com/problems/reverse-substrings-between-each-pair-of-parentheses,Not Done
+55,Jump Game,34.6%,Medium,0.0598542285814966, https://leetcode.com/problems/jump-game,Not Done
+253,Meeting Rooms II,45.7%,Medium,0.0494562805906621, https://leetcode.com/problems/meeting-rooms-ii,Not Done
+227,Basic Calculator II,36.9%,Medium,0.048701041581253, https://leetcode.com/problems/basic-calculator-ii,Not Done
+759,Employee Free Time,66.3%,Hard,0.0486122440550937, https://leetcode.com/problems/employee-free-time,Not Done
+56,Merge Intervals,39.3%,Medium,0.0417330422533176, https://leetcode.com/problems/merge-intervals,Not Done
+20,Valid Parentheses,39.0%,Easy,0.0023005704055949, https://leetcode.com/problems/valid-parentheses,Not Done
+15,3Sum,26.8%,Medium,0.0021990113314367, https://leetcode.com/problems/3sum,Not Done

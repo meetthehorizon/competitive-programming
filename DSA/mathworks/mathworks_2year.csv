@@ -1,0 +1,40 @@
+ID,Title,Acceptance,Difficulty,Frequency,Leetcode Question Link,Status
+1130,Minimum Cost Tree From Leaf Values,66.1%,Medium,2.354986953663386, https://leetcode.com/problems/minimum-cost-tree-from-leaf-values,Not Done
+255,Verify Preorder Sequence in Binary Search Tree,45.7%,Medium,1.6804984402728165, https://leetcode.com/problems/verify-preorder-sequence-in-binary-search-tree,Not Done
+25,Reverse Nodes in k-Group,42.1%,Hard,1.0060099268822469, https://leetcode.com/problems/reverse-nodes-in-k-group,Not Done
+1163,Last Substring in Lexicographical Order,33.9%,Hard,0.9532793012434956, https://leetcode.com/problems/last-substring-in-lexicographical-order,Not Done
+317,Shortest Distance from All Buildings,41.4%,Hard,0.4817811959810462, https://leetcode.com/problems/shortest-distance-from-all-buildings,Not Done
+697,Degree of an Array,53.8%,Easy,0.4217256289799447, https://leetcode.com/problems/degree-of-an-array,Not Done
+500,Keyboard Row,64.7%,Easy,0.3911791508606879, https://leetcode.com/problems/keyboard-row,Not Done
+206,Reverse Linked List,62.5%,Easy,0.3555322708386157, https://leetcode.com/problems/reverse-linked-list,Not Done
+526,Beautiful Arrangement,57.8%,Medium,0.2903101948580504, https://leetcode.com/problems/beautiful-arrangement,Not Done
+63,Unique Paths II,34.6%,Medium,0.2738591247074177, https://leetcode.com/problems/unique-paths-ii,Not Done
+259,3Sum Smaller,47.6%,Medium,0.1848564123971426, https://leetcode.com/problems/3sum-smaller,Not Done
+741,Cherry Pickup,33.9%,Hard,0.1229376862450479, https://leetcode.com/problems/cherry-pickup,Not Done
+199,Binary Tree Right Side View,54.1%,Medium,0.0674815433694624, https://leetcode.com/problems/binary-tree-right-side-view,Not Done
+338,Counting Bits,69.5%,Medium,0.0661616900899074, https://leetcode.com/problems/counting-bits,Not Done
+319,Bulb Switcher,45.4%,Medium,0.0659579677917974, https://leetcode.com/problems/bulb-switcher,Not Done
+115,Distinct Subsequences,38.3%,Hard,0.0614947816078062, https://leetcode.com/problems/distinct-subsequences,Not Done
+1319,Number of Operations to Make Network Connected,53.1%,Medium,0.0458796057506936, https://leetcode.com/problems/number-of-operations-to-make-network-connected,Not Done
+232,Implement Queue using Stacks,49.6%,Easy,0.0442305372273395, https://leetcode.com/problems/implement-queue-using-stacks,Not Done
+62,Unique Paths,54.1%,Medium,0.0408405214445083, https://leetcode.com/problems/unique-paths,Not Done
+225,Implement Stack using Queues,45.1%,Easy,0.0366192258067424, https://leetcode.com/problems/implement-stack-using-queues,Not Done
+200,Number of Islands,46.8%,Medium,0.0257120292126023, https://leetcode.com/problems/number-of-islands,Not Done
+836,Rectangle Overlap,48.6%,Easy,0.0242289259743798, https://leetcode.com/problems/rectangle-overlap,Not Done
+49,Group Anagrams,56.9%,Medium,0.0235415768218774, https://leetcode.com/problems/group-anagrams,Not Done
+314,Binary Tree Vertical Order Traversal,45.3%,Medium,0.0180103922744653, https://leetcode.com/problems/binary-tree-vertical-order-traversal,Not Done
+404,Sum of Left Leaves,50.9%,Easy,0.0139813532303405, https://leetcode.com/problems/sum-of-left-leaves,Not Done
+695,Max Area of Island,62.7%,Medium,0.0126865006310038, https://leetcode.com/problems/max-area-of-island,Not Done
+647,Palindromic Substrings,60.6%,Medium,0.010400509768078, https://leetcode.com/problems/palindromic-substrings,Not Done
+43,Multiply Strings,33.9%,Medium,0.0091450111500627, https://leetcode.com/problems/multiply-strings,Not Done
+133,Clone Graph,34.8%,Medium,0.0081367413930617, https://leetcode.com/problems/clone-graph,Not Done
+509,Fibonacci Number,67.2%,Easy,0.0071136704038555, https://leetcode.com/problems/fibonacci-number,Not Done
+20,Valid Parentheses,39.0%,Easy,0.0051688605776653, https://leetcode.com/problems/valid-parentheses,Not Done
+15,3Sum,26.8%,Medium,0.0049409927587425, https://leetcode.com/problems/3sum,Not Done
+23,Merge k Sorted Lists,40.2%,Hard,0.004051459000748, https://leetcode.com/problems/merge-k-sorted-lists,Not Done
+2,Add Two Numbers,33.9%,Medium,0.0037953910529002, https://leetcode.com/problems/add-two-numbers,Not Done
+102,Binary Tree Level Order Traversal,54.6%,Medium,0.003639014205004, https://leetcode.com/problems/binary-tree-level-order-traversal,Not Done
+1,Two Sum,45.6%,Easy,0.0032784227380416, https://leetcode.com/problems/two-sum,Not Done
+98,Validate Binary Search Tree,27.8%,Medium,0.0029437760440133, https://leetcode.com/problems/validate-binary-search-tree,Not Done
+106,Construct Binary Tree from Inorder and Postorder Traversal,47.2%,Medium,0.0023404141512175, https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal,Not Done
+5,Longest Palindromic Substring,29.5%,Medium,0.0022793331425074, https://leetcode.com/problems/longest-palindromic-substring,Not Done

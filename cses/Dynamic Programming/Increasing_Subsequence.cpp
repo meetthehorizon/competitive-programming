@@ -35,24 +35,12 @@ void solve([[maybe_unused]] int test_num)
     // CHILL BRO
     // I ASSUME YOU ARE HERE BECAUSE YOU HAVE A COMPLETE ALGORITHIM?
     int n; cin >> n;
-    int sm = n * (1 + n) / 2;
+    vector<int> dp(n+2, INF); dp[0] = -INF;
 
-    if (sm % 2) {
-        cout << 0;
-        return;
+    while(n--) {
+        int x; cin >> x;
+        auto itr = lower_bound(all(dp), x);
+        if (*(itr+1) >= x) *itr = x;
     }
-
-    vector<int> dp(sm+1); dp[0] = 1;
-
-    for (int i = 1; i <= n; ++i) {
-        for (int j = sm; j >= 0; --j) {
-            if (i + j <= sm) {
-                dp[i+j] += dp[j];
-                if (dp[i+j] >= MOD) dp[i+j] -= MOD;
-            }
-        }
-    }
-    
-    for (auto &d: dp) cout << d << ' '; cout << '\n';
-    cout << dp[sm>>1] / 2;
+    cout << find(all(dp), INF) - dp.begin() - 1;
 }

@@ -1,0 +1,23 @@
+ID,Title,Acceptance,Difficulty,Frequency,Leetcode Question Link,Status
+1071,Greatest Common Divisor of Strings,52.9%,Easy,0.1195423767681919, https://leetcode.com/problems/greatest-common-divisor-of-strings,Not Done
+366,Find Leaves of Binary Tree,70.6%,Medium,0.1180240366638968, https://leetcode.com/problems/find-leaves-of-binary-tree,Not Done
+1223,Dice Roll Simulation,45.6%,Medium,0.1021294950763798, https://leetcode.com/problems/dice-roll-simulation,Not Done
+362,Design Hit Counter,63.7%,Medium,0.0978775753095706, https://leetcode.com/problems/design-hit-counter,Not Done
+981,Time Based Key-Value Store,53.1%,Medium,0.0862138352523445, https://leetcode.com/problems/time-based-key-value-store,Not Done
+1366,Rank Teams by Votes,53.8%,Medium,0.0722335573593715, https://leetcode.com/problems/rank-teams-by-votes,Not Done
+300,Longest Increasing Subsequence,42.6%,Medium,0.0626563074955562, https://leetcode.com/problems/longest-increasing-subsequence,Not Done
+359,Logger Rate Limiter,70.8%,Easy,0.0467617659080393, https://leetcode.com/problems/logger-rate-limiter,Not Done
+17,Letter Combinations of a Phone Number,46.8%,Medium,0.0389364637500942, https://leetcode.com/problems/letter-combinations-of-a-phone-number,Not Done
+150,Evaluate Reverse Polish Notation,36.3%,Medium,0.0315262536467739, https://leetcode.com/problems/evaluate-reverse-polish-notation,Not Done
+284,Peeking Iterator,45.7%,Medium,0.0311067071322548, https://leetcode.com/problems/peeking-iterator,Not Done
+31,Next Permutation,32.6%,Medium,0.0237470345628781, https://leetcode.com/problems/next-permutation,Not Done
+540,Single Element in a Sorted Array,57.9%,Medium,0.0192128868599912, https://leetcode.com/problems/single-element-in-a-sorted-array,Not Done
+98,Validate Binary Search Tree,27.8%,Medium,0.0182580110170558, https://leetcode.com/problems/validate-binary-search-tree,Not Done
+706,Design HashMap,61.3%,Easy,0.0175289326057621, https://leetcode.com/problems/design-hashmap,Not Done
+872,Leaf-Similar Trees,64.5%,Easy,0.0175212541871478, https://leetcode.com/problems/leaf-similar-trees,Not Done
+173,Binary Search Tree Iterator,56.6%,Medium,0.0084890153249113, https://leetcode.com/problems/binary-search-tree-iterator,Not Done
+236,Lowest Common Ancestor of a Binary Tree,45.7%,Medium,0.0047142102627264, https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree,Not Done
+22,Generate Parentheses,62.7%,Medium,0.0043611059090124, https://leetcode.com/problems/generate-parentheses,Not Done
+46,Permutations,63.5%,Medium,0.0042163022301392, https://leetcode.com/problems/permutations,Not Done
+102,Binary Tree Level Order Traversal,54.6%,Medium,0.003639014205004, https://leetcode.com/problems/binary-tree-level-order-traversal,Not Done
+3,Longest Substring Without Repeating Characters,30.4%,Medium,0.0015556336509412, https://leetcode.com/problems/longest-substring-without-repeating-characters,Not Done

@@ -1,0 +1,13 @@
+ID,Title,Acceptance,Difficulty,Frequency,Leetcode Question Link,Status
+593,Valid Square,43.1%,Medium,2.012428334541107, https://leetcode.com/problems/valid-square,Not Done
+647,Palindromic Substrings,60.6%,Medium,1.4078595470997393, https://leetcode.com/problems/palindromic-substrings,Not Done
+730,Count Different Palindromic Subsequences,41.8%,Hard,0.8032907596583713, https://leetcode.com/problems/count-different-palindromic-subsequences,Not Done
+203,Remove Linked List Elements,38.6%,Easy,0.5359603141290598, https://leetcode.com/problems/remove-linked-list-elements,Not Done
+202,Happy Number,50.4%,Easy,0.0710031636562294, https://leetcode.com/problems/happy-number,Not Done
+75,Sort Colors,47.3%,Medium,0.0570984528145971, https://leetcode.com/problems/sort-colors,Not Done
+716,Max Stack,42.6%,Easy,0.0410313966778625, https://leetcode.com/problems/max-stack,Not Done
+380,Insert Delete GetRandom O(1),47.5%,Medium,0.0208969758772161, https://leetcode.com/problems/insert-delete-getrandom-o1,Not Done
+5,Longest Palindromic Substring,29.5%,Medium,0.0194254206193164, https://leetcode.com/problems/longest-palindromic-substring,Not Done
+155,Min Stack,44.5%,Easy,0.0102007004880227, https://leetcode.com/problems/min-stack,Not Done
+167,Two Sum II - Input array is sorted,54.1%,Easy,0.0052805403230332, https://leetcode.com/problems/two-sum-ii-input-array-is-sorted,Not Done
+1206,Design Skiplist,57.3%,Hard,0.0, https://leetcode.com/problems/design-skiplist,Not Done

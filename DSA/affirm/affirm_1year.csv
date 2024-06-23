@@ -1,0 +1,6 @@
+ID,Title,Acceptance,Difficulty,Frequency,Leetcode Question Link,Status
+381,Insert Delete GetRandom O(1) - Duplicates allowed,34.1%,Hard,0.1058443509440389, https://leetcode.com/problems/insert-delete-getrandom-o1-duplicates-allowed,Not Done
+380,Insert Delete GetRandom O(1),47.5%,Medium,0.0570019805193323, https://leetcode.com/problems/insert-delete-getrandom-o1,Not Done
+49,Group Anagrams,56.9%,Medium,0.0081596100946258, https://leetcode.com/problems/group-anagrams,Not Done
+42,Trapping Rain Water,48.9%,Hard,0.0041194702952388, https://leetcode.com/problems/trapping-rain-water,Not Done
+322,Coin Change,35.5%,Medium,0.0038632460642155, https://leetcode.com/problems/coin-change,Not Done

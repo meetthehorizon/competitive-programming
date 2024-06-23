@@ -1,0 +1,21 @@
+ID,Title,Acceptance,Difficulty,Frequency,Leetcode Question Link,Status
+393,UTF-8 Validation,37.5%,Medium,5.339542531545812, https://leetcode.com/problems/utf-8-validation,Not Done
+539,Minimum Time Difference,51.5%,Medium,4.5282542854816565, https://leetcode.com/problems/minimum-time-difference,Not Done
+56,Merge Intervals,39.3%,Medium,2.796330558645081, https://leetcode.com/problems/merge-intervals,Not Done
+273,Integer to English Words,27.1%,Hard,1.064406831808506, https://leetcode.com/problems/integer-to-english-words,Not Done
+146,LRU Cache,33.2%,Medium,1.0128053210090022, https://leetcode.com/problems/lru-cache,Not Done
+200,Number of Islands,46.8%,Medium,0.475271166771, https://leetcode.com/problems/number-of-islands,Not Done
+277,Find the Celebrity,41.8%,Medium,0.3142660340639637, https://leetcode.com/problems/find-the-celebrity,Not Done
+733,Flood Fill,55.3%,Easy,0.2057339974186978, https://leetcode.com/problems/flood-fill,Not Done
+220,Contains Duplicate III,20.9%,Medium,0.2043278423953993, https://leetcode.com/problems/contains-duplicate-iii,Not Done
+285,Inorder Successor in BST,40.4%,Medium,0.1320480796207874, https://leetcode.com/problems/inorder-successor-in-bst,Not Done
+42,Trapping Rain Water,48.9%,Hard,0.1238927637867539, https://leetcode.com/problems/trapping-rain-water,Not Done
+10,Regular Expression Matching,26.8%,Hard,0.0284413055977219, https://leetcode.com/problems/regular-expression-matching,Not Done
+53,Maximum Subarray,46.5%,Easy,0.0134678542694139, https://leetcode.com/problems/maximum-subarray,Not Done
+219,Contains Duplicate II,37.7%,Easy,0.0127674891034526, https://leetcode.com/problems/contains-duplicate-ii,Not Done
+695,Max Area of Island,62.7%,Medium,0.0126865006310038, https://leetcode.com/problems/max-area-of-island,Not Done
+48,Rotate Image,56.7%,Medium,0.0114286958236227, https://leetcode.com/problems/rotate-image,Not Done
+217,Contains Duplicate,56.0%,Easy,0.0085252008233596, https://leetcode.com/problems/contains-duplicate,Not Done
+136,Single Number,65.5%,Easy,0.0064451669687133, https://leetcode.com/problems/single-number,Not Done
+303,Range Sum Query - Immutable,44.7%,Easy,0.0, https://leetcode.com/problems/range-sum-query-immutable,Not Done
+325,Maximum Size Subarray Sum Equals k,46.8%,Medium,0.0, https://leetcode.com/problems/maximum-size-subarray-sum-equals-k,Not Done

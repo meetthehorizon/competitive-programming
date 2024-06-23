@@ -1,0 +1,46 @@
+ID,Title,Acceptance,Difficulty,Frequency,Leetcode Question Link,Status
+1168,Optimize Water Distribution in a Village,60.9%,Hard,0.1524109816892329, https://leetcode.com/problems/optimize-water-distribution-in-a-village,Not Done
+1,Two Sum,45.6%,Easy,0.090865815586505, https://leetcode.com/problems/two-sum,Not Done
+384,Shuffle an Array,52.8%,Medium,0.088553397341445, https://leetcode.com/problems/shuffle-an-array,Not Done
+146,LRU Cache,33.2%,Medium,0.0270082312387171, https://leetcode.com/problems/lru-cache,Not Done
+11,Container With Most Water,50.8%,Medium,0.0262558839633655, https://leetcode.com/problems/container-with-most-water,Not Done
+605,Can Place Flowers,31.6%,Easy,0.0235028444547827, https://leetcode.com/problems/can-place-flowers,Not Done
+2,Add Two Numbers,33.9%,Medium,0.0196619767993204, https://leetcode.com/problems/add-two-numbers,Not Done
+60,Permutation Sequence,38.4%,Hard,0.019268418865877, https://leetcode.com/problems/permutation-sequence,Not Done
+75,Sort Colors,47.3%,Medium,0.0190052044116408, https://leetcode.com/problems/sort-colors,Not Done
+669,Trim a Binary Search Tree,63.0%,Easy,0.0183828706005334, https://leetcode.com/problems/trim-a-binary-search-tree,Not Done
+95,Unique Binary Search Trees II,40.6%,Medium,0.0161424005595428, https://leetcode.com/problems/unique-binary-search-trees-ii,Not Done
+178,Rank Scores,45.8%,Medium,0.0160646025038066, https://leetcode.com/problems/rank-scores,Not Done
+334,Increasing Triplet Subsequence,40.0%,Medium,0.0154443224274736, https://leetcode.com/problems/increasing-triplet-subsequence,Not Done
+215,Kth Largest Element in an Array,55.4%,Medium,0.0148618748832893, https://leetcode.com/problems/kth-largest-element-in-an-array,Not Done
+21,Merge Two Sorted Lists,53.5%,Easy,0.0134122182214081, https://leetcode.com/problems/merge-two-sorted-lists,Not Done
+131,Palindrome Partitioning,47.5%,Medium,0.0132364606258309, https://leetcode.com/problems/palindrome-partitioning,Not Done
+138,Copy List with Random Pointer,36.4%,Medium,0.0132179924160832, https://leetcode.com/problems/copy-list-with-random-pointer,Not Done
+13,Roman to Integer,55.7%,Easy,0.013035869788083, https://leetcode.com/problems/roman-to-integer,Not Done
+77,Combinations,54.7%,Medium,0.0119084467706354, https://leetcode.com/problems/combinations,Not Done
+518,Coin Change 2,50.2%,Medium,0.0118449711805489, https://leetcode.com/problems/coin-change-2,Not Done
+445,Add Two Numbers II,54.5%,Medium,0.0117856402484723, https://leetcode.com/problems/add-two-numbers-ii,Not Done
+200,Number of Islands,46.8%,Medium,0.0110156019215057, https://leetcode.com/problems/number-of-islands,Not Done
+23,Merge k Sorted Lists,40.2%,Hard,0.0086999098755459, https://leetcode.com/problems/merge-k-sorted-lists,Not Done
+416,Partition Equal Subset Sum,43.7%,Medium,0.008297081408754, https://leetcode.com/problems/partition-equal-subset-sum,Not Done
+1108,Defanging an IP Address,87.5%,Easy,0.0070151111959223, https://leetcode.com/problems/defanging-an-ip-address,Not Done
+33,Search in Rotated Sorted Array,34.5%,Medium,0.0069616617794876, https://leetcode.com/problems/search-in-rotated-sorted-array,Not Done
+114,Flatten Binary Tree to Linked List,49.3%,Medium,0.006618157842478, https://leetcode.com/problems/flatten-binary-tree-to-linked-list,Not Done
+448,Find All Numbers Disappeared in an Array,55.9%,Easy,0.0065520299913001, https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array,Not Done
+206,Reverse Linked List,62.5%,Easy,0.0050144968012456, https://leetcode.com/problems/reverse-linked-list,Not Done
+207,Course Schedule,43.1%,Medium,0.0047365393466732, https://leetcode.com/problems/course-schedule,Not Done
+160,Intersection of Two Linked Lists,40.6%,Easy,0.0046926411781922, https://leetcode.com/problems/intersection-of-two-linked-lists,Not Done
+53,Maximum Subarray,46.5%,Easy,0.0046617716249249, https://leetcode.com/problems/maximum-subarray,Not Done
+169,Majority Element,58.7%,Easy,0.0045131521939658, https://leetcode.com/problems/majority-element,Not Done
+22,Generate Parentheses,62.7%,Medium,0.0041523987827989, https://leetcode.com/problems/generate-parentheses,Not Done
+42,Trapping Rain Water,48.9%,Hard,0.0041194702952388, https://leetcode.com/problems/trapping-rain-water,Not Done
+560,Subarray Sum Equals K,43.9%,Medium,0.0040766464937634, https://leetcode.com/problems/subarray-sum-equals-k,Not Done
+7,Reverse Integer,25.8%,Easy,0.0040065939721289, https://leetcode.com/problems/reverse-integer,Not Done
+46,Permutations,63.5%,Medium,0.0039840690148744, https://leetcode.com/problems/permutations,Not Done
+4,Median of Two Sorted Arrays,29.6%,Hard,0.0037171309410709, https://leetcode.com/problems/median-of-two-sorted-arrays,Not Done
+49,Group Anagrams,56.9%,Medium,0.0036347154963361, https://leetcode.com/problems/group-anagrams,Not Done
+283,Move Zeroes,57.8%,Easy,0.0027586224390797, https://leetcode.com/problems/move-zeroes,Not Done
+20,Valid Parentheses,39.0%,Easy,0.0021976823306058, https://leetcode.com/problems/valid-parentheses,Not Done
+5,Longest Palindromic Substring,29.5%,Medium,0.0021771085723255, https://leetcode.com/problems/longest-palindromic-substring,Not Done
+260,Single Number III,64.3%,Medium,0.0020221431489919, https://leetcode.com/problems/single-number-iii,Not Done
+3,Longest Substring Without Repeating Characters,30.4%,Medium,0.0014852223137141, https://leetcode.com/problems/longest-substring-without-repeating-characters,Not Done

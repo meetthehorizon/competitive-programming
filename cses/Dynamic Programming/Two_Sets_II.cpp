@@ -29,6 +29,15 @@ signed main(void) {
     return 0;
 }
 
+int biexp(int a, int b, int m=0) {
+    int y = 1;
+    while (b > 0) {
+        if (b&1) y *= a;
+        a *= a; b >>= 1;
+        if (m) { y %= m; a %= m; }
+    }
+    return y; 
+} 
 
 void solve([[maybe_unused]] int test_num)
 {
@@ -48,11 +57,10 @@ void solve([[maybe_unused]] int test_num)
         for (int j = sm; j >= 0; --j) {
             if (i + j <= sm) {
                 dp[i+j] += dp[j];
-                if (dp[i+j] >= MOD) dp[i+j] -= MOD;
+                while (dp[i+j] >= MOD) dp[i+j] -= MOD;
             }
         }
     }
     
-    for (auto &d: dp) cout << d << ' '; cout << '\n';
-    cout << dp[sm>>1] / 2;
+    cout << dp[sm>>1] * biexp(2, MOD-2, MOD) % MOD;
 }

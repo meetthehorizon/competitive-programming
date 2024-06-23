@@ -1,0 +1,19 @@
+ID,Title,Acceptance,Difficulty,Frequency,Leetcode Question Link,Status
+128,Longest Consecutive Sequence,45.1%,Hard,0.1209051997865089, https://leetcode.com/problems/longest-consecutive-sequence,Not Done
+383,Ransom Note,53.1%,Easy,0.1053605156578263, https://leetcode.com/problems/ransom-note,Not Done
+286,Walls and Gates,54.5%,Medium,0.089897664246389, https://leetcode.com/problems/walls-and-gates,Not Done
+480,Sliding Window Median,37.2%,Hard,0.0743529801177063, https://leetcode.com/problems/sliding-window-median,Not Done
+20,Valid Parentheses,39.0%,Easy,0.0673524026442898, https://leetcode.com/problems/valid-parentheses,Not Done
+22,Generate Parentheses,62.7%,Medium,0.0521561213459884, https://leetcode.com/problems/generate-parentheses,Not Done
+146,LRU Cache,33.2%,Medium,0.0406605982112689, https://leetcode.com/problems/lru-cache,Not Done
+215,Kth Largest Element in an Array,55.4%,Medium,0.0345855796497799, https://leetcode.com/problems/kth-largest-element-in-an-array,Not Done
+443,String Compression,41.3%,Easy,0.0310262735631005, https://leetcode.com/problems/string-compression,Not Done
+66,Plus One,43.0%,Easy,0.0289828690909856, https://leetcode.com/problems/plus-one,Not Done
+200,Number of Islands,46.8%,Medium,0.0257120292126023, https://leetcode.com/problems/number-of-islands,Not Done
+784,Letter Case Permutation,64.6%,Medium,0.0202641179190555, https://leetcode.com/problems/letter-case-permutation,Not Done
+127,Word Ladder,29.6%,Medium,0.0134030301273403, https://leetcode.com/problems/word-ladder,Not Done
+3,Longest Substring Without Repeating Characters,30.4%,Medium,0.0096832424447395, https://leetcode.com/problems/longest-substring-without-repeating-characters,Not Done
+206,Reverse Linked List,62.5%,Easy,0.0093267945119749, https://leetcode.com/problems/reverse-linked-list,Not Done
+1,Two Sum,45.6%,Easy,0.0073613942765888, https://leetcode.com/problems/two-sum,Not Done
+412,Fizz Buzz,62.3%,Easy,0.0071659210261436, https://leetcode.com/problems/fizz-buzz,Not Done
+347,Top K Frequent Elements,61.2%,Medium,0.0033396446491217, https://leetcode.com/problems/top-k-frequent-elements,Not Done

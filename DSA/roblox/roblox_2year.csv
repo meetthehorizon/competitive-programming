@@ -1,0 +1,20 @@
+ID,Title,Acceptance,Difficulty,Frequency,Leetcode Question Link,Status
+811,Subdomain Visit Count,69.9%,Easy,1.219366809852767, https://leetcode.com/problems/subdomain-visit-count,Not Done
+829,Consecutive Numbers Sum,37.5%,Hard,0.9369106040185756, https://leetcode.com/problems/consecutive-numbers-sum,Not Done
+770,Basic Calculator IV,48.1%,Hard,0.6957297563903937, https://leetcode.com/problems/basic-calculator-iv,Not Done
+1163,Last Substring in Lexicographical Order,33.9%,Hard,0.4636668007546091, https://leetcode.com/problems/last-substring-in-lexicographical-order,Not Done
+224,Basic Calculator,36.8%,Hard,0.4495102904973574, https://leetcode.com/problems/basic-calculator,Not Done
+1297,Maximum Number of Occurrences of a Substring,47.3%,Medium,0.1670540846631662, https://leetcode.com/problems/maximum-number-of-occurrences-of-a-substring,Not Done
+1328,Break a Palindrome,43.3%,Medium,0.1283811666482067, https://leetcode.com/problems/break-a-palindrome,Not Done
+1248,Count Number of Nice Subarrays,56.4%,Medium,0.1005310110120055, https://leetcode.com/problems/count-number-of-nice-subarrays,Not Done
+146,LRU Cache,33.2%,Medium,0.0549465554587454, https://leetcode.com/problems/lru-cache,Not Done
+239,Sliding Window Maximum,43.0%,Hard,0.0483746857022364, https://leetcode.com/problems/sliding-window-maximum,Not Done
+1290,Convert Binary Number in a Linked List to Integer,80.4%,Easy,0.0416184899825148, https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer,Not Done
+37,Sudoku Solver,43.6%,Hard,0.0182154398913411, https://leetcode.com/problems/sudoku-solver,Not Done
+17,Letter Combinations of a Phone Number,46.8%,Medium,0.0174925199324997, https://leetcode.com/problems/letter-combinations-of-a-phone-number,Not Done
+36,Valid Sudoku,48.7%,Medium,0.0162575835095609, https://leetcode.com/problems/valid-sudoku,Not Done
+647,Palindromic Substrings,60.6%,Medium,0.010400509768078, https://leetcode.com/problems/palindromic-substrings,Not Done
+212,Word Search II,34.9%,Hard,0.0098450216788048, https://leetcode.com/problems/word-search-ii,Not Done
+5,Longest Palindromic Substring,29.5%,Medium,0.0090863252209608, https://leetcode.com/problems/longest-palindromic-substring,Not Done
+200,Number of Islands,46.8%,Medium,0.0028897578265903, https://leetcode.com/problems/number-of-islands,Not Done
+1,Two Sum,45.6%,Easy,0.0008206138651873, https://leetcode.com/problems/two-sum,Not Done

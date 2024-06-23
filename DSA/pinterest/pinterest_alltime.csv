@@ -1,0 +1,43 @@
+ID,Title,Acceptance,Difficulty,Frequency,Leetcode Question Link,Status
+759,Employee Free Time,66.3%,Hard,2.6397139923561346, https://leetcode.com/problems/employee-free-time,Not Done
+811,Subdomain Visit Count,69.9%,Easy,1.9912475836494696, https://leetcode.com/problems/subdomain-visit-count,Not Done
+277,Find the Celebrity,41.8%,Medium,1.606721339679852, https://leetcode.com/problems/find-the-celebrity,Not Done
+770,Basic Calculator IV,48.1%,Hard,0.9582549309731871, https://leetcode.com/problems/basic-calculator-iv,Not Done
+269,Alien Dictionary,33.3%,Hard,0.6552836497974878, https://leetcode.com/problems/alien-dictionary,Not Done
+362,Design Hit Counter,63.7%,Medium,0.6551596398987732, https://leetcode.com/problems/design-hit-counter,Not Done
+224,Basic Calculator,36.8%,Hard,0.5668534552356532, https://leetcode.com/problems/basic-calculator,Not Done
+632,Smallest Range Covering Elements from K Lists,52.4%,Hard,0.5071491490366821, https://leetcode.com/problems/smallest-range-covering-elements-from-k-lists,Not Done
+68,Text Justification,27.7%,Hard,0.3705239422049318, https://leetcode.com/problems/text-justification,Not Done
+564,Find the Closest Palindrome,19.7%,Hard,0.3007541540191337, https://leetcode.com/problems/find-the-closest-palindrome,Not Done
+254,Factor Combinations,46.7%,Medium,0.213574100298059, https://leetcode.com/problems/factor-combinations,Not Done
+126,Word Ladder II,22.1%,Hard,0.2008357460092558, https://leetcode.com/problems/word-ladder-ii,Not Done
+718,Maximum Length of Repeated Subarray,49.4%,Medium,0.1652828991666479, https://leetcode.com/problems/maximum-length-of-repeated-subarray,Not Done
+146,LRU Cache,33.2%,Medium,0.1535741447867858, https://leetcode.com/problems/lru-cache,Not Done
+158,Read N Characters Given Read4 II - Call multiple times,33.8%,Hard,0.1534868895606017, https://leetcode.com/problems/read-n-characters-given-read4-ii-call-multiple-times,Not Done
+772,Basic Calculator III,41.3%,Hard,0.137201121513485, https://leetcode.com/problems/basic-calculator-iii,Not Done
+202,Happy Number,50.4%,Easy,0.1198240128936422, https://leetcode.com/problems/happy-number,Not Done
+392,Is Subsequence,49.2%,Easy,0.0789710750882198, https://leetcode.com/problems/is-subsequence,Not Done
+341,Flatten Nested List Iterator,52.9%,Medium,0.0776335361177607, https://leetcode.com/problems/flatten-nested-list-iterator,Not Done
+726,Number of Atoms,49.0%,Hard,0.0637158143861076, https://leetcode.com/problems/number-of-atoms,Not Done
+428,Serialize and Deserialize N-ary Tree,59.4%,Hard,0.0613689463762921, https://leetcode.com/problems/serialize-and-deserialize-n-ary-tree,Not Done
+295,Find Median from Data Stream,44.3%,Hard,0.0549588842807574, https://leetcode.com/problems/find-median-from-data-stream,Not Done
+36,Valid Sudoku,48.7%,Medium,0.0445230228887641, https://leetcode.com/problems/valid-sudoku,Not Done
+935,Knight Dialer,45.2%,Medium,0.0444517625708338, https://leetcode.com/problems/knight-dialer,Not Done
+56,Merge Intervals,39.3%,Medium,0.0417330422533176, https://leetcode.com/problems/merge-intervals,Not Done
+79,Word Search,35.6%,Medium,0.0408086655410548, https://leetcode.com/problems/word-search,Not Done
+261,Graph Valid Tree,42.2%,Medium,0.0368365773564902, https://leetcode.com/problems/graph-valid-tree,Not Done
+127,Word Ladder,29.6%,Medium,0.0367959097020458, https://leetcode.com/problems/word-ladder,Not Done
+91,Decode Ways,24.7%,Medium,0.0236627426208481, https://leetcode.com/problems/decode-ways,Not Done
+698,Partition to K Equal Sum Subsets,45.0%,Medium,0.0210978289646358, https://leetcode.com/problems/partition-to-k-equal-sum-subsets,Not Done
+208,Implement Trie (Prefix Tree),49.4%,Medium,0.0203719132163493, https://leetcode.com/problems/implement-trie-prefix-tree,Not Done
+139,Word Break,40.1%,Medium,0.0154876776913513, https://leetcode.com/problems/word-break,Not Done
+986,Interval List Intersections,67.3%,Medium,0.0119690237953207, https://leetcode.com/problems/interval-list-intersections,Not Done
+236,Lowest Common Ancestor of a Binary Tree,45.7%,Medium,0.0105758917590581, https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree,Not Done
+380,Insert Delete GetRandom O(1),47.5%,Medium,0.0098208498640944, https://leetcode.com/problems/insert-delete-getrandom-o1,Not Done
+239,Sliding Window Maximum,43.0%,Hard,0.0078989352245344, https://leetcode.com/problems/sliding-window-maximum,Not Done
+14,Longest Common Prefix,35.4%,Easy,0.0074553029209059, https://leetcode.com/problems/longest-common-prefix,Not Done
+210,Course Schedule II,40.7%,Medium,0.0042893974831731, https://leetcode.com/problems/course-schedule-ii,Not Done
+140,Word Break II,32.6%,Hard,0.0027070942357783, https://leetcode.com/problems/word-break-ii,Not Done
+621,Task Scheduler,50.1%,Medium,0.0023417843381444, https://leetcode.com/problems/task-scheduler,Not Done
+571,Find Median Given Frequency of Numbers,44.7%,Hard,0.0, https://leetcode.com/problems/find-median-given-frequency-of-numbers,Not Done
+720,Longest Word in Dictionary,48.2%,Easy,0.0, https://leetcode.com/problems/longest-word-in-dictionary,Not Done

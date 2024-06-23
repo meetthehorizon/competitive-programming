@@ -1,0 +1,39 @@
+ID,Title,Acceptance,Difficulty,Frequency,Leetcode Question Link,Status
+1349,Maximum Students Taking Exam,42.0%,Hard,0.290115411660895, https://leetcode.com/problems/maximum-students-taking-exam,Not Done
+1341,Movie Rating,56.6%,Medium,0.2038634005687094, https://leetcode.com/problems/movie-rating,Not Done
+1,Two Sum,45.6%,Easy,0.1907553663473192, https://leetcode.com/problems/two-sum,Not Done
+1283,Find the Smallest Divisor Given a Threshold,47.6%,Medium,0.1045033552551337, https://leetcode.com/problems/find-the-smallest-divisor-given-a-threshold,Not Done
+146,LRU Cache,33.2%,Medium,0.0892662775540546, https://leetcode.com/problems/lru-cache,Not Done
+738,Monotone Increasing Digits,44.3%,Medium,0.0847965366600769, https://leetcode.com/problems/monotone-increasing-digits,Not Done
+283,Move Zeroes,57.8%,Easy,0.0568654029502901, https://leetcode.com/problems/move-zeroes,Not Done
+5,Longest Palindromic Substring,29.5%,Medium,0.0554804200598678, https://leetcode.com/problems/longest-palindromic-substring,Not Done
+240,Search a 2D Matrix II,43.2%,Medium,0.0464767658457288, https://leetcode.com/problems/search-a-2d-matrix-ii,Not Done
+8,String to Integer (atoi),15.4%,Medium,0.0454961490887401, https://leetcode.com/problems/string-to-integer-atoi,Not Done
+509,Fibonacci Number,67.2%,Easy,0.0436521817259363, https://leetcode.com/problems/fibonacci-number,Not Done
+160,Intersection of Two Linked Lists,40.6%,Easy,0.0432707810433811, https://leetcode.com/problems/intersection-of-two-linked-lists,Not Done
+559,Maximum Depth of N-ary Tree,68.7%,Easy,0.0431915985827739, https://leetcode.com/problems/maximum-depth-of-n-ary-tree,Not Done
+1048,Longest String Chain,54.7%,Medium,0.0430482535685136, https://leetcode.com/problems/longest-string-chain,Not Done
+53,Maximum Subarray,46.5%,Easy,0.0429934068559204, https://leetcode.com/problems/maximum-subarray,Not Done
+56,Merge Intervals,39.3%,Medium,0.0417330422533176, https://leetcode.com/problems/merge-intervals,Not Done
+20,Valid Parentheses,39.0%,Easy,0.0361887174223911, https://leetcode.com/problems/valid-parentheses,Not Done
+209,Minimum Size Subarray Sum,38.2%,Medium,0.0332394539286877, https://leetcode.com/problems/minimum-size-subarray-sum,Not Done
+917,Reverse Only Letters,58.0%,Easy,0.0286552557603761, https://leetcode.com/problems/reverse-only-letters,Not Done
+322,Coin Change,35.5%,Medium,0.024924029676386, https://leetcode.com/problems/coin-change,Not Done
+199,Binary Tree Right Side View,54.1%,Medium,0.0225393398460615, https://leetcode.com/problems/binary-tree-right-side-view,Not Done
+121,Best Time to Buy and Sell Stock,50.5%,Easy,0.0189549191072609, https://leetcode.com/problems/best-time-to-buy-and-sell-stock,Not Done
+3,Longest Substring Without Repeating Characters,30.4%,Medium,0.018891763947827, https://leetcode.com/problems/longest-substring-without-repeating-characters,Not Done
+23,Merge k Sorted Lists,40.2%,Hard,0.0161082713853282, https://leetcode.com/problems/merge-k-sorted-lists,Not Done
+102,Binary Tree Level Order Traversal,54.6%,Medium,0.0144772705882875, https://leetcode.com/problems/binary-tree-level-order-traversal,Not Done
+24,Swap Nodes in Pairs,50.4%,Medium,0.013945066390122, https://leetcode.com/problems/swap-nodes-in-pairs,Not Done
+94,Binary Tree Inorder Traversal,63.3%,Medium,0.0133535618061347, https://leetcode.com/problems/binary-tree-inorder-traversal,Not Done
+273,Integer to English Words,27.1%,Hard,0.0120810892503397, https://leetcode.com/problems/integer-to-english-words,Not Done
+98,Validate Binary Search Tree,27.8%,Medium,0.0117234636960592, https://leetcode.com/problems/validate-binary-search-tree,Not Done
+46,Permutations,63.5%,Medium,0.0094618031372884, https://leetcode.com/problems/permutations,Not Done
+16,3Sum Closest,46.0%,Medium,0.0075259057003469, https://leetcode.com/problems/3sum-closest,Not Done
+116,Populating Next Right Pointers in Each Node,45.2%,Medium,0.0073367900638543, https://leetcode.com/problems/populating-next-right-pointers-in-each-node,Not Done
+41,First Missing Positive,32.0%,Hard,0.0064113058208121, https://leetcode.com/problems/first-missing-positive,Not Done
+104,Maximum Depth of Binary Tree,66.0%,Easy,0.0062617612239762, https://leetcode.com/problems/maximum-depth-of-binary-tree,Not Done
+35,Search Insert Position,42.6%,Easy,0.0046468485103753, https://leetcode.com/problems/search-insert-position,Not Done
+22,Generate Parentheses,62.7%,Medium,0.0043611059090124, https://leetcode.com/problems/generate-parentheses,Not Done
+238,Product of Array Except Self,60.1%,Medium,0.0039304364247245, https://leetcode.com/problems/product-of-array-except-self,Not Done
+101,Symmetric Tree,46.8%,Easy,0.0034057078469827, https://leetcode.com/problems/symmetric-tree,Not Done

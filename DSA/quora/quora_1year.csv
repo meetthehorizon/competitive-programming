@@ -1,0 +1,18 @@
+ID,Title,Acceptance,Difficulty,Frequency,Leetcode Question Link,Status
+525,Contiguous Array,42.8%,Medium,0.4299061736123816, https://leetcode.com/problems/contiguous-array,Not Done
+498,Diagonal Traverse,48.2%,Medium,0.3266813325005607, https://leetcode.com/problems/diagonal-traverse,Not Done
+855,Exam Room,43.1%,Medium,0.2234564913887398, https://leetcode.com/problems/exam-room,Not Done
+1053,Previous Permutation With One Swap,48.5%,Medium,0.2006706954621511, https://leetcode.com/problems/previous-permutation-with-one-swap,Not Done
+437,Path Sum III,47.2%,Medium,0.1332767777281757, https://leetcode.com/problems/path-sum-iii,Not Done
+1027,Longest Arithmetic Sequence,53.4%,Medium,0.1112256351102243, https://leetcode.com/problems/longest-arithmetic-sequence,Not Done
+780,Reaching Points,29.4%,Hard,0.1040197878075301, https://leetcode.com/problems/reaching-points,Not Done
+390,Elimination Game,44.5%,Medium,0.0922312242160336, https://leetcode.com/problems/elimination-game,Not Done
+1329,Sort the Matrix Diagonally,78.4%,Medium,0.085848682730252, https://leetcode.com/problems/sort-the-matrix-diagonally,Not Done
+452,Minimum Number of Arrows to Burst Balloons,49.6%,Medium,0.0623470580185278, https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons,Not Done
+297,Serialize and Deserialize Binary Tree,47.5%,Hard,0.058898276773585, https://leetcode.com/problems/serialize-and-deserialize-binary-tree,Not Done
+113,Path Sum II,46.7%,Medium,0.0369813345287158, https://leetcode.com/problems/path-sum-ii,Not Done
+253,Meeting Rooms II,45.7%,Medium,0.0172088376806395, https://leetcode.com/problems/meeting-rooms-ii,Not Done
+48,Rotate Image,56.7%,Medium,0.0109330535089476, https://leetcode.com/problems/rotate-image,Not Done
+380,Insert Delete GetRandom O(1),47.5%,Medium,0.0093414971691129, https://leetcode.com/problems/insert-delete-getrandom-o1,Not Done
+162,Find Peak Element,43.3%,Medium,0.0060707425779798, https://leetcode.com/problems/find-peak-element,Not Done
+560,Subarray Sum Equals K,43.9%,Medium,0.0040766464937634, https://leetcode.com/problems/subarray-sum-equals-k,Not Done
