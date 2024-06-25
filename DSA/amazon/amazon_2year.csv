@@ -580,7 +580,7 @@ ID,Title,Acceptance,Difficulty,Frequency,Leetcode Question Link,Status
 334,Increasing Triplet Subsequence,40.0%,Medium,0.0627410750516826, https://leetcode.com/problems/increasing-triplet-subsequence,Not Done
 1299,Replace Elements with Greatest Element on Right Side,75.4%,Easy,0.0619777002758975, https://leetcode.com/problems/replace-elements-with-greatest-element-on-right-side,Not Done
 801,Minimum Swaps To Make Sequences Increasing,38.9%,Medium,0.0614632744304686, https://leetcode.com/problems/minimum-swaps-to-make-sequences-increasing,Not Done
-420,Strong Password Checker,14.0%,Hard,0.0610876919798381, https://leetcode.com/problems/strong-password-checker,Done
+420,Strong Password Checker,14.0%,Hard,0.0610876919798381, https://leetcode.com/problems/strong-password-checker,Not Done
 796,Rotate String,49.6%,Easy,0.0597787514258393, https://leetcode.com/problems/rotate-string,Not Done
 931,Minimum Falling Path Sum,62.5%,Medium,0.059149959824641, https://leetcode.com/problems/minimum-falling-path-sum,Not Done
 475,Heaters,33.1%,Easy,0.058155920157074, https://leetcode.com/problems/heaters,Not Done

@@ -453,7 +453,7 @@ ID,Title,Acceptance,Difficulty,Frequency,Leetcode Question Link,Status
 801,Minimum Swaps To Make Sequences Increasing,38.9%,Medium,0.0614632744304686, https://leetcode.com/problems/minimum-swaps-to-make-sequences-increasing,Not Done
 938,Range Sum of BST,81.3%,Easy,0.0614003568642566, https://leetcode.com/problems/range-sum-of-bst,Not Done
 28,Implement strStr(),34.5%,Easy,0.0612983901817817, https://leetcode.com/problems/implement-strstr,Not Done
-420,Strong Password Checker,14.0%,Hard,0.0610876919798381, https://leetcode.com/problems/strong-password-checker,Done
+420,Strong Password Checker,14.0%,Hard,0.0610876919798381, https://leetcode.com/problems/strong-password-checker,Not Done
 114,Flatten Binary Tree to Linked List,49.3%,Medium,0.0604210594747649, https://leetcode.com/problems/flatten-binary-tree-to-linked-list,Not Done
 567,Permutation in String,44.4%,Medium,0.0584962066816085, https://leetcode.com/problems/permutation-in-string,Not Done
 160,Intersection of Two Linked Lists,40.6%,Easy,0.0584473506456798, https://leetcode.com/problems/intersection-of-two-linked-lists,Not Done

@@ -34,25 +34,11 @@ void solve([[maybe_unused]] int test_num)
 {
     // CHILL BRO
     // I ASSUME YOU ARE HERE BECAUSE YOU HAVE A COMPLETE ALGORITHIM?
-    int n; cin >> n;
-    int sm = n * (1 + n) / 2;
+    int x; cin >> x;
+    int y; cin >> y;    
 
-    if (sm % 2) {
-        cout << 0;
-        return;
+    if (!cin) {
+        cout << "fuckup";
     }
 
-    vector<int> dp(sm+1); dp[0] = 1;
-
-    for (int i = 1; i <= n; ++i) {
-        for (int j = sm; j >= 0; --j) {
-            if (i + j <= sm) {
-                dp[i+j] += dp[j];
-                if (dp[i+j] >= MOD) dp[i+j] -= MOD;
-            }
-        }
-    }
-    
-    for (auto &d: dp) cout << d << ' '; cout << '\n';
-    cout << dp[sm>>1] / 2;
 }

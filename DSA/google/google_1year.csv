@@ -230,7 +230,7 @@ ID,Title,Acceptance,Difficulty,Frequency,Leetcode Question Link,Status
 286,Walls and Gates,54.5%,Medium,0.1371257482272494, https://leetcode.com/problems/walls-and-gates,Not Done
 1209,Remove All Adjacent Duplicates in String II,56.9%,Medium,0.1371257482272494, https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string-ii,Not Done
 99,Recover Binary Search Tree,39.7%,Hard,0.1363765523041528, https://leetcode.com/problems/recover-binary-search-tree,Not Done
-420,Strong Password Checker,14.0%,Hard,0.1325466559619831, https://leetcode.com/problems/strong-password-checker,Done
+420,Strong Password Checker,14.0%,Hard,0.1325466559619831, https://leetcode.com/problems/strong-password-checker,Not Done
 307,Range Sum Query - Mutable,34.6%,Medium,0.1314916521599796, https://leetcode.com/problems/range-sum-query-mutable,Not Done
 139,Word Break,40.1%,Medium,0.1314440532234174, https://leetcode.com/problems/word-break,Not Done
 66,Plus One,43.0%,Easy,0.1293156900748766, https://leetcode.com/problems/plus-one,Not Done

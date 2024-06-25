@@ -437,7 +437,7 @@ ID,Title,Acceptance,Difficulty,Frequency,Leetcode Question Link,Status
 195,Tenth Line,33.0%,Easy,0.1329388000145885, https://leetcode.com/problems/tenth-line,Not Done
 622,Design Circular Queue,43.8%,Medium,0.1327502812764459, https://leetcode.com/problems/design-circular-queue,Not Done
 238,Product of Array Except Self,60.1%,Medium,0.132583321017202, https://leetcode.com/problems/product-of-array-except-self,Not Done
-420,Strong Password Checker,14.0%,Hard,0.1325466559619831, https://leetcode.com/problems/strong-password-checker,Done
+420,Strong Password Checker,14.0%,Hard,0.1325466559619831, https://leetcode.com/problems/strong-password-checker,Not Done
 156,Binary Tree Upside Down,55.0%,Medium,0.1317692776311233, https://leetcode.com/problems/binary-tree-upside-down,Not Done
 333,Largest BST Subtree,35.8%,Medium,0.1313840028291084, https://leetcode.com/problems/largest-bst-subtree,Not Done
 730,Count Different Palindromic Subsequences,41.8%,Hard,0.1313360020610869, https://leetcode.com/problems/count-different-palindromic-subsequences,Not Done

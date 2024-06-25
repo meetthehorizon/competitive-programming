@@ -512,7 +512,7 @@ ID,Title,Acceptance,Difficulty,Frequency,Leetcode Question Link,Status
 579,Find Cumulative Salary of an Employee,37.0%,Hard,0.3371880562652357, https://leetcode.com/problems/find-cumulative-salary-of-an-employee,Not Done
 262,Trips and Users,32.7%,Hard,0.3362391635517509, https://leetcode.com/problems/trips-and-users,Not Done
 1405,Longest Happy String,49.0%,Medium,0.3360157198362929, https://leetcode.com/problems/longest-happy-string,Not Done
-420,Strong Password Checker,14.0%,Hard,0.3319626461152379, https://leetcode.com/problems/strong-password-checker,Done
+420,Strong Password Checker,14.0%,Hard,0.3319626461152379, https://leetcode.com/problems/strong-password-checker,Not Done
 827,Making A Large Island,45.7%,Hard,0.3287959951597756, https://leetcode.com/problems/making-a-large-island,Not Done
 1315,Sum of Nodes with Even-Valued Grandparent,83.5%,Medium,0.3281156420302715, https://leetcode.com/problems/sum-of-nodes-with-even-valued-grandparent,Not Done
 1062,Longest Repeating Substring,57.2%,Medium,0.3260915205666521, https://leetcode.com/problems/longest-repeating-substring,Not Done

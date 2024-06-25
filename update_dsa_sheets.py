@@ -12,6 +12,6 @@ for comp in os.listdir(r"DSA/"):
             if index in df.ID:
                 print(f"updating {file}...")
 
-                df.loc[df.ID == index, "Status"] = "Done"
+                df.loc[df.ID == index, "Status"] = "Not Done"
 
                 df.to_csv(file, index=False)

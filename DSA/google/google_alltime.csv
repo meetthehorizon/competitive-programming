@@ -541,7 +541,7 @@ ID,Title,Acceptance,Difficulty,Frequency,Leetcode Question Link,Status
 26,Remove Duplicates from Sorted Array,45.1%,Easy,0.4688615641826896, https://leetcode.com/problems/remove-duplicates-from-sorted-array,Not Done
 1131,Maximum of Absolute Value Expression,53.0%,Medium,0.4652530264871377, https://leetcode.com/problems/maximum-of-absolute-value-expression,Not Done
 787,Cheapest Flights Within K Stops,39.3%,Medium,0.4541421565034811, https://leetcode.com/problems/cheapest-flights-within-k-stops,Not Done
-420,Strong Password Checker,14.0%,Hard,0.4491177382659011, https://leetcode.com/problems/strong-password-checker,Done
+420,Strong Password Checker,14.0%,Hard,0.4491177382659011, https://leetcode.com/problems/strong-password-checker,Not Done
 385,Mini Parser,33.8%,Medium,0.4468503242710187, https://leetcode.com/problems/mini-parser,Not Done
 290,Word Pattern,37.0%,Easy,0.4458041633765048, https://leetcode.com/problems/word-pattern,Not Done
 1047,Remove All Adjacent Duplicates In String,68.6%,Easy,0.4417153800092769, https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string,Not Done
