@@ -17,7 +17,7 @@ using namespace std;
 #define rall(x) (x).rbegin(), (x).rend()
 
 void solve(int);
-bool test_cases = false;
+bool test_cases = true;
 template <typename T> T next() { T x; cin >> x; return x; }
  
 signed main(void) {
@@ -34,11 +34,5 @@ void solve([[maybe_unused]] int test_num)
 {
     // CHILL BRO
     // I ASSUME YOU ARE HERE BECAUSE YOU HAVE A COMPLETE ALGORITHIM?
-    int x; cin >> x;
-    int y; cin >> y;    
-
-    if (!cin) {
-        cout << "fuckup";
-    }
-
+        
 }

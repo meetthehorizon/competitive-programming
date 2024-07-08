@@ -35,25 +35,25 @@ void solve(int t)
     // CHILL BRO
     // I ASSUME YOU ARE HERE BECAUSE YOU HAVE A COMPLETE ALGORITHIM?
     int n, q; cin >> n >> q;
-    vector<int> vec(n); 
-    for (auto &v: vec) cin >> v, --v;
+    vector<int> par(n); 
+    for (auto &v: par) cin >> v, --v;
     
-    vector<int> sparse[30];
-    FOR(i, 30) {
-        sparse[i] = vec;
-        vector<int> temp(n);
-        FOR(i, n) temp[i] = vec[vec[i]];
-        swap(vec, temp);
+    vector<int> sparse[30]; sparse[0] = par;
+    for (int i = 1; i < 30; ++i) {
+        sparse[i].resize(n);
+        for (int j = 0; j < n; ++j)
+            sparse[i][j] = sparse[i-1][sparse[i-1][j]];
     }
+
+    auto query = [&](int v, int k) {
+        for (int i = 0; i < 30 && v != -1; ++i, k >>= 1) {
+            if (k&1) v = sparse[i][v];
+        }
+        return v;
+    };
 
     while(q--) {
         int x, k; cin >> x >> k;  
-        --x;
-
-        for (int i = 29; i >= 0; --i)
-            if (1 << i&k) x = sparse[i][x];
-
-        cout << ++x << '\n';    
+        cout << query(x-1, k) + 1 << '\n';
     }
-
 }
