@@ -1,9 +1,0 @@
-ID,Title,Acceptance,Difficulty,Frequency,Leetcode Question Link,Status
-250,Count Univalue Subtrees,52.0%,Medium,1.1142520926168622, https://leetcode.com/problems/count-univalue-subtrees,Not Done
-965,Univalued Binary Tree,67.7%,Easy,0.8592043555602473, https://leetcode.com/problems/univalued-binary-tree,Not Done
-68,Text Justification,27.7%,Hard,0.6976918484065334, https://leetcode.com/problems/text-justification,Not Done
-935,Knight Dialer,45.2%,Medium,0.4426441113499184, https://leetcode.com/problems/knight-dialer,Not Done
-191,Number of 1 Bits,49.8%,Easy,0.2044818442691365, https://leetcode.com/problems/number-of-1-bits,Not Done
-126,Word Ladder II,22.1%,Hard,0.0400409360555613, https://leetcode.com/problems/word-ladder-ii,Not Done
-23,Merge k Sorted Lists,40.2%,Hard,0.009092808657599, https://leetcode.com/problems/merge-k-sorted-lists,Not Done
-1,Two Sum,45.6%,Easy,0.0018454351235873, https://leetcode.com/problems/two-sum,Not Done

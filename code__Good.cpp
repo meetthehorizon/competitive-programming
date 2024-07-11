@@ -10,7 +10,7 @@ github: meetthehorizon
 using namespace std; 
 
 #define int long long
-#define MOD 1000000007
+#define MOD 1000000007u
 #define INF 10000000000000000
 #define FOR(i, n) for (int i = 0; (i) < (n); (i)++)
 #define all(x) (x).begin(), (x).end()

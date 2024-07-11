@@ -1,9 +1,0 @@
-ID,Title,Acceptance,Difficulty,Frequency,Leetcode Question Link,Status
-228,Summary Ranges,39.5%,Medium,0.162901550979972, https://leetcode.com/problems/summary-ranges,Not Done
-1071,Greatest Common Divisor of Strings,52.9%,Easy,0.1218234451933884, https://leetcode.com/problems/greatest-common-divisor-of-strings,Not Done
-290,Word Pattern,37.0%,Easy,0.1098074379387643, https://leetcode.com/problems/word-pattern,Not Done
-814,Binary Tree Pruning,74.5%,Medium,0.0687293321521806, https://leetcode.com/problems/binary-tree-pruning,Not Done
-328,Odd Even Linked List,55.7%,Medium,0.0468425836276117, https://leetcode.com/problems/odd-even-linked-list,Not Done
-204,Count Primes,31.5%,Easy,0.0279934304220021, https://leetcode.com/problems/count-primes,Not Done
-138,Copy List with Random Pointer,36.4%,Medium,0.02453734514188, https://leetcode.com/problems/copy-list-with-random-pointer,Not Done
-66,Plus One,43.0%,Easy,0.0032621134783293, https://leetcode.com/problems/plus-one,Not Done

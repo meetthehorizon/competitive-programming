@@ -1,7 +1,0 @@
-ID,Title,Acceptance,Difficulty,Frequency,Leetcode Question Link,Status
-326,Power of Three,42.1%,Easy,0.0290762387852653, https://leetcode.com/problems/power-of-three,Not Done
-907,Sum of Subarray Minimums,32.3%,Medium,0.0287788142635393, https://leetcode.com/problems/sum-of-subarray-minimums,Not Done
-394,Decode String,50.0%,Medium,0.017432167168671, https://leetcode.com/problems/decode-string,Not Done
-230,Kth Smallest Element in a BST,60.2%,Medium,0.0060855200738027, https://leetcode.com/problems/kth-smallest-element-in-a-bst,Not Done
-139,Word Break,40.1%,Medium,0.0037551677623236, https://leetcode.com/problems/word-break,Not Done
-49,Group Anagrams,56.9%,Medium,0.0036347154963361, https://leetcode.com/problems/group-anagrams,Not Done

@@ -1,8 +1,0 @@
-ID,Title,Acceptance,Difficulty,Frequency,Leetcode Question Link,Status
-312,Burst Balloons,51.8%,Hard,0.0233660227866494, https://leetcode.com/problems/burst-balloons,Not Done
-85,Maximal Rectangle,37.7%,Hard,0.0127715656794875, https://leetcode.com/problems/maximal-rectangle,Not Done
-5,Longest Palindromic Substring,29.5%,Medium,0.0021771085723255, https://leetcode.com/problems/longest-palindromic-substring,Not Done
-15,3Sum,26.8%,Medium,0.0020811662038245, https://leetcode.com/problems/3sum,Not Done
-190,Reverse Bits,39.8%,Easy,0.0018162010077772, https://leetcode.com/problems/reverse-bits,Not Done
-1,Two Sum,45.6%,Easy,0.0017672359146114, https://leetcode.com/problems/two-sum,Not Done
-103,Binary Tree Zigzag Level Order Traversal,48.3%,Medium,0.001688120257403, https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal,Not Done

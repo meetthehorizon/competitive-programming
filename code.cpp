@@ -9,12 +9,12 @@ github: meetthehorizon
 #include <bits/stdc++.h> 
 using namespace std; 
 
-#define int long long
-#define MOD 1000000007
-#define INF 10000000000000000
-#define FOR(i, n) for (int i = 0; (i) < (n); (i)++)
-#define all(x) (x).begin(), (x).end()
-#define rall(x) (x).rbegin(), (x).rend()
+#define int          long long
+#define MOD          1000000007
+#define INF          10000000000000000
+#define all(x)       (x).begin(), (x).end()
+#define rall(x)      (x).rbegin(), (x).rend()
+#define FOR(i, n)    for (int i = 0; (i) < (n); (i)++)
 
 void solve(int);
 bool test_cases = true;
@@ -29,10 +29,11 @@ signed main(void) {
     return 0;
 }
 
+template<typename T>
+class TD;
 
-void solve([[maybe_unused]] int test_num)
+void solve(int test_num)
 {
     // CHILL BRO
     // I ASSUME YOU ARE HERE BECAUSE YOU HAVE A COMPLETE ALGORITHIM?
-        
 }
