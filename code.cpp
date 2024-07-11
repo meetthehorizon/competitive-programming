@@ -23,17 +23,16 @@ template <typename T> T next() { T x; cin >> x; return x; }
 signed main(void) {
     ios_base::sync_with_stdio(false);
     cin.tie(NULL);
-    int t = 1; if(test_cases) cin >> t;
-    for(int i = 1; i <= t; i++)
+    int t = 1; if (test_cases) cin >> t;
+    for (int i = 1; i <= t; i++)
         solve(i);
     return 0;
 }
 
-template<typename T>
-class TD;
 
 void solve(int test_num)
 {
     // CHILL BRO
     // I ASSUME YOU ARE HERE BECAUSE YOU HAVE A COMPLETE ALGORITHIM?
+        
 }
