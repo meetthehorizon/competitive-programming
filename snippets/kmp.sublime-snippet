@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+vector<int> kmp(string s) {
+    int n = s.size();
+    vector<int> pi(n);
+    for (int i = 1, j = pi[i-1]; i < n; ++i) {
+        while (j && s[i] != s[j]) j = pi[j-1];
+        pi[i] = j += (s[i] == s[j]);
+    }
+    return pi;
+}
+]]></content>
+	<tabTrigger>kmp</tabTrigger>
+	<scope>source.c++</scope>
+</snippet>
