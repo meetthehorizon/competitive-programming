@@ -36,9 +36,8 @@ void solve(int test_num)
 {
     // CHILL BRO
     // I ASSUME YOU ARE HERE BECAUSE YOU HAVE A COMPLETE ALGORITHIM?
-    $0    
+    ${0:cout << "Hoi! I am horizon\n";}
 }
-
 ]]></content>
     <tabTrigger>meet_the_horizon</tabTrigger>
     <scope>source.c++</scope>
