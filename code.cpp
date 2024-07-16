@@ -34,4 +34,5 @@ void solve(int test_num)
 {
     // CHILL BRO
     // I ASSUME YOU ARE HERE BECAUSE YOU HAVE A COMPLETE ALGORITHIM?
+    cout << "Hoi! I am horizon\n";
 }
