@@ -17,7 +17,7 @@ using namespace std;
 #define FOR(i, n)    for (int i = 0; (i) < (n); (i)++)
 
 void solve(int);
-bool test_cases = false;
+bool test_cases = true;
 template <typename T> T next() { T x; cin >> x; return x; }
  
 signed main(void) {
@@ -29,21 +29,21 @@ signed main(void) {
     return 0;
 }
 
-pair<int, int> fib(int n) {
-	if (n == 0) return { 0, 1 };
-	
-	auto p = fib(n << 1);
-	int c = p.first * (2 * p.second - p.first);
-	int d = p.first * p.first + p.second * p.second;
-	
-	if (n&1) return { d, c + d };
-	return { c, d };
+pair<int, int> inter(pair<int, int> p1, pair<int, int> p2) {
+    int x = max(p1.first, p2.first), y = min(p1.second, p2.second);
+    if (x <= y) return {x, y};
+    return {-1, -1};
 }
-
 
 void solve(int test_num)
 {
     // CHILL BRO
     // I ASSUME YOU ARE HERE BECAUSE YOU HAVE A COMPLETE ALGORITHIM?
-    cout << "Hoi! I am horizon\n";
-}
+    int a, b, c, d; cin >> a >> b >> c >> d;
+
+    auto x = inter({a, b}, {c, d});
+    if (x.first == -1) cout << "1\n";
+    else {
+        cout << x.second - x.first + (max(b, d) != x.second) + (min(a, c) != x.first) << '\n';
+    }
+}me

@@ -32,18 +32,18 @@ signed main(void) {
 pair<int, int> fib(int n) {
 	if (n == 0) return { 0, 1 };
 	
-	auto p = fib(n << 1);
-	int c = p.first * (2 * p.second - p.first);
-	int d = p.first * p.first + p.second * p.second;
+	auto p = fib(n >> 1);
+	int c = p.first * (2 * p.second - p.first) % MOD;
+	int d = (p.first * p.first % MOD + p.second * p.second % MOD) % MOD;
 	
-	if (n&1) return { d, c + d };
+	if (n&1) return { d, (c + d) % MOD };
 	return { c, d };
 }
-
 
 void solve(int test_num)
 {
     // CHILL BRO
     // I ASSUME YOU ARE HERE BECAUSE YOU HAVE A COMPLETE ALGORITHIM?
-    cout << "Hoi! I am horizon\n";
+    int n; cin >> n;
+    cout << fib(n).first << '\n';
 }
