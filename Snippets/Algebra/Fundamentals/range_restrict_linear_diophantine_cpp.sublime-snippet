@@ -1,0 +1,68 @@
+<snippet>
+	<content><![CDATA[
+int exgcd(int a, int b, int& x, int& y) {
+    x = 1; y = 0;
+    int x1 = 0, y1 = 1;
+    while (b) {
+        int q = a / b;
+        tie(x, x1) = make_tuple(x1, x - q * x1);
+        tie(y, y1) = make_tuple(y1, y - q * y1);
+        tie(a, b) = make_tuple(b, a - q * b);
+    }
+    return a;
+}
+
+bool lindio(int a, int b, int c, int& x0, int& y0, int& g) {
+    g = exgcd(abs(a), abs(b), x0, y0);
+    if (c % g) return false;
+
+    x0 *= c / g;
+    y0 *= c / g;
+    if (a < 0) x0 *= -1;
+    if (b < 0) y0 *= -1;
+
+    return true;
+}
+
+int floor(int a, int b) {
+    if (a < 0) return -abs(a) / b - !!(abs(a) % b);        
+    return abs(a) / b;        
+}
+
+int ceil(int a, int b) {
+    if (a < 0) return -abs(a) / b;        
+    return abs(a) / b + !!(abs(a) % b);        
+} 
+
+pair<int, int> rangelindio (
+    int a, int b, int c, int& x0, int& y0, int xmin,
+    int xmax, int ymin, int ymax) 
+{
+
+    int g;
+    if (!lindio(a, b, c, x0, y0, g)) return {0, -1};
+
+    int min_x = g * (xmin - x0);
+    int max_x = g * (xmax - x0);
+
+    int min_y = g * (y0 - ymax);
+    int max_y = g * (y0 - ymin);
+
+    if (b < 0) {
+        swap(min_x, max_x);
+        min_x *= -1, max_x *= -1;
+        b = -b;
+    }
+
+    if (a < 0) {
+        swap(min_y, max_y);
+        min_y *= -1, max_y *= -1;
+        a = -a;
+    }
+    
+    return {max(ceil(min_x, b), ceil(min_y, a)), min(floor(max_x, b), floor(max_y, a))};
+}
+]]></content>
+	<tabTrigger>rangelindio</tabTrigger>
+	<scope>source.c++</scope>
+</snippet>

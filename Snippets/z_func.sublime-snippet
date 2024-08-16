@@ -1,0 +1,17 @@
+<snippet>
+	<content><![CDATA[
+vector<int> Z(string s) {
+    int n = s.size(); s.push_back('$');
+    vector<int> z(n);
+    int l = 0, r = 0;
+    for(int i = 1; i < n; i++) {
+        z[i] = min(max(r - i, 0LL), z[i - l]);
+        while(s[z[i]] == s[i + z[i]]) z[i]++;
+        if(i + z[i] > r) l = i, r = i + z[i];
+    }
+    return z;
+}
+]]></content>
+	<tabTrigger>z-function</tabTrigger>
+	<scope>source.c++</scope>
+</snippet>

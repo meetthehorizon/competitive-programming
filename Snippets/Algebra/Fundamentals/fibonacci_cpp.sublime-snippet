@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+pair<int, int> fib(int n) {
+	if (n == 0) return { 0, 1 };
+	
+	auto p = fib(n >> 1);
+	int c = p.first * (2 * p.second - p.first) % MOD;
+	int d = (p.first * p.first + p.second * p.second) % MOD;
+	
+	if (n&1) return { d, (c + d) % MOD };
+	return { c, d };
+}]]></content>
+	<tabTrigger>fibo</tabTrigger>
+	<scope>source.c++</scope>
+</snippet>

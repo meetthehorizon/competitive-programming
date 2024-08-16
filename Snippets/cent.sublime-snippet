@@ -1,0 +1,50 @@
+<snippet>
+	<content><![CDATA[
+struct CentroidDecomposition{
+    vector<int> sub;
+    vector<bool> vis;
+    vector<vector<int>> adj;
+    vector<vector<array<int, 2>>> anc;
+
+    CentroidDecomposition(vector<vector<int>>& gra) : adj(move(gra)) {
+        int n = adj.size();
+        sub.resize(n); anc.resize(n);
+        vis.assign(n, false);
+        build(0);
+        FOR(i, n) anc[i].push_back({i, 0});
+    }
+
+    int dfs_sub(int v, int p) {
+        sub[v] = 1;
+        for (auto u: adj[v]) {
+            if (p != u && !vis[u]) {
+                sub[v] += dfs_sub(u, v);
+            }
+        }
+        return sub[v];
+    }
+    int cent(int v, int p, int n) {
+        for (auto u: adj[v]) {
+            if (p == u || vis[u]) continue;
+            if (2 * sub[u] > n) return cent(u, v, n);
+        }
+        return v;
+    }
+    void add(int v, int p, int c, int d) {
+        if (v != c) anc[v].push_back({c, d});
+        for (int u: adj[v]) {
+            if (u == p || vis[u]) continue;
+            add(u, v, c, d+1);
+        }
+    }
+    void build(int v) {
+        int c = cent(v, v, dfs_sub(v, v));
+        add(c, -1, c, 0);
+        vis[c] = true;
+        for (int u: adj[c]) if (!vis[u]) build(u);
+    }
+};
+]]></content>
+	<tabTrigger>cent</tabTrigger>
+	<scope>source.c++</scope>
+</snippet>

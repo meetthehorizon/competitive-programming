@@ -1,0 +1,43 @@
+<snippet>
+	<content><![CDATA[
+long long biexp(long long a, long long b, long long m=0) {
+    long long y = 1;
+    while (b > 0) {
+        if (b&1) y *= a;
+        a *= a; b >>= 1;
+        if (m) { y %= m; a %= m; }
+    }
+    return y; 
+}
+
+bool cc(long long n, long long a, int d, int s) {
+	long long x = biexp(a, d, n);
+	if (x == 1 || x == n - 1)
+		return false;
+	for (int i = 1; i < s; ++i) {
+		x = x * x % n;
+		if (x == n - 1) return false;
+	}
+	return true;
+}
+
+bool miller(long long n) {
+	if (n < 4) return n >= 2;
+	int r = 0;
+	long long d = n - 1;
+	while (!(d&1)) 
+		d >>= 1, ++r;
+
+	for (int a: {2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37}) {
+		if (n == a) return true;
+		if (cc(n, a, d, r)) return false;
+	}
+
+	return true;
+}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>miller</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.c++</scope>
+</snippet>

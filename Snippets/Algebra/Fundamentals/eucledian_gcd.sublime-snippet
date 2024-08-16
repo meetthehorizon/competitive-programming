@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+int gcd(int a, int b) {
+    while (b) {
+        a %= b;
+        swap(a, b);
+    }
+    return a;
+}
+]]></content>
+	<tabTrigger>eucgcd</tabTrigger>
+	<scope>source.c++</scope>
+</snippet>
