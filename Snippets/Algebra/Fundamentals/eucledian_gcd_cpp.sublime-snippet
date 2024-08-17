@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-int gcd(int a, int b) {
+int euGCD(int a, int b) {
     while (b) {
         a %= b;
         swap(a, b);

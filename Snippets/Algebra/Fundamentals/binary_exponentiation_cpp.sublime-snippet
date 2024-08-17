@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-int biexp(int a, int b$1, int m=${2:0}) {
+int biExp(int a, int b$1, int m=${2:0}) {
     int y = 1;
     while (b > 0) {
         if (b&1) y *= a;
