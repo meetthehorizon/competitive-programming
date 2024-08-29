@@ -17,7 +17,7 @@ using namespace std;
 #define FOR(i, n)    for (int i = 0; (i) < (n); (i)++)
 
 void solve(int);
-bool test_cases = true;
+bool test_cases = false;
 template <typename T> T next() { T x; cin >> x; return x; }
  
 signed main(void) {
@@ -35,17 +35,32 @@ void solve(int test_num)
     // CHILL BRO
     // I ASSUME YOU ARE HERE BECAUSE YOU HAVE A COMPLETE ALGORITHIM?
     int n; cin >> n;
-    int cnt = 0, arr[4] { };
+    vector<array<int, 3>> vec(n);
 
-    map<char, int> mci { { 'A', 0 }, { 'B', 1 }, { 'C', 2 }, { 'D', 3 }};
-    for (auto &c: next<string>()) {
-        if (c != '?') {
-            if (arr[mci[c]] < n) {
-                cnt++;
-                arr[mci[c]]++;
-            }
-        }
-    }    
+    for (int i = 0; i < n; ++i) {
+        int l, r; cin >> l >> r;
+        vec[i] = {l, -r, i};
+    }
 
-    cout << cnt << '\n';
+    vector<int> in(n), out(n);
+    sort(vec.begin(), vec.end());
+
+    int mx = -1;
+    for (int i = 0; i < n; ++i) {
+        if (mx >= -vec[i][1])
+            in[vec[i][2]] = 1;
+
+        mx = max(mx, vec[i][1] *= -1);
+    }
+
+    int mi = INF;
+    for (int i = n-1; i >= 0; --i) {
+        if (mi <= vec[i][1])
+            out[vec[i][2]] = 1;
+        
+        mi = min(mi, vec[i][1]);
+    }
+
+    for (auto &o: out) cout << o << ' '; cout << '\n';
+    for (auto &i: in) cout << i << ' '; cout << '\n';
 }

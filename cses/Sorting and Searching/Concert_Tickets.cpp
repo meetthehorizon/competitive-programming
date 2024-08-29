@@ -17,7 +17,7 @@ using namespace std;
 #define FOR(i, n)    for (int i = 0; (i) < (n); (i)++)
 
 void solve(int);
-bool test_cases = true;
+bool test_cases = false;
 template <typename T> T next() { T x; cin >> x; return x; }
  
 signed main(void) {
@@ -34,18 +34,18 @@ void solve(int test_num)
 {
     // CHILL BRO
     // I ASSUME YOU ARE HERE BECAUSE YOU HAVE A COMPLETE ALGORITHIM?
-    int n; cin >> n;
-    int cnt = 0, arr[4] { };
+    int n, k; cin >> n >> k;
+    multiset<int> ms;
 
-    map<char, int> mci { { 'A', 0 }, { 'B', 1 }, { 'C', 2 }, { 'D', 3 }};
-    for (auto &c: next<string>()) {
-        if (c != '?') {
-            if (arr[mci[c]] < n) {
-                cnt++;
-                arr[mci[c]]++;
-            }
+    while(n--) ms.insert(next<int>());
+    while(k--) {
+        int x = next<int>();
+        auto it = ms.upper_bound(x);
+
+        if (it == ms.begin()) cout << "-1\n";
+        else {
+            cout << *(--it) << '\n';
+            ms.erase(it);
         }
-    }    
-
-    cout << cnt << '\n';
+    }
 }
