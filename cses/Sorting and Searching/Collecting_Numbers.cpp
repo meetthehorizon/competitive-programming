@@ -29,37 +29,18 @@ signed main(void) {
     return 0;
 }
 
-vector<int> Z(string s) {
-    int n = s.size(); s.push_back('$');
-    vector<int> z(n);
-    int l = 0, r = 0;
-    for(int i = 1; i < n; i++) {
-        z[i] = min(max(r - i, 0LL), z[i - l]);
-        while(s[z[i]] == s[i + z[i]]) z[i]++;
-        if(i + z[i] > r) l = i, r = i + z[i];
-    }
-    return z;
-}
 
 void solve(int test_num)
 {
     // CHILL BRO
     // I ASSUME YOU ARE HERE BECAUSE YOU HAVE A COMPLETE ALGORITHIM?
-    string s; cin >> s;
-    int n = s.size();
+    int n; cin >> n;
+    vector<int> vec(n);
+    FOR(i, n) vec[next<int>()-1] = i;
 
-    auto st = Z(s);
-    reverse(s.begin(), s.end());
-    auto eu = Z(s);
-    reverse(s.begin(), s.end());
+    int cnt = 1;
+    for (int i = 1; i < n; ++i)
+        cnt += (vec[i] < vec[i-1]);
 
-    cout << s << '\n';
-    for (auto &v: st) cout << v << ' '; cout << '\n';
-    for (auto &v: eu) cout << v << ' '; cout << '\n';
-    
-    for (int i = 1; i < n; ++i) {
-        int j = i + st[i];
-        cout << i << ' ' << j << '\n';
-    }
-
+    cout << cnt << '\n';
 }
