@@ -34,5 +34,21 @@ void solve(int test_num)
 {
     // CHILL BRO
     // I ASSUME YOU ARE HERE BECAUSE YOU HAVE A COMPLETE ALGORITHIM?
-    cout << "Hoi! I am horizon\n";
+    int n, q; cin >> n >> q;
+    vector<int> vec(n); for (auto &v: vec) cin >> v;
+    map<int, int> ms;
+
+    for (int i = 0; i < n-1; ++i) {
+        int cnt = (i + 1) * (n - i - 1);
+        ms[cnt] += vec[i+1] - vec[i] - 1;
+    }
+    for (int i =0; i < n; ++i) {
+        int cnt = (i + 1) * (n - i) - 1;
+        ms[cnt] += 1;
+    }
+
+    while(q--) {
+        cout << ms[next<int>()] << ' ';
+    } cout << '\n';
 }
+

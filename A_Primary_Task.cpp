@@ -34,5 +34,13 @@ void solve(int test_num)
 {
     // CHILL BRO
     // I ASSUME YOU ARE HERE BECAUSE YOU HAVE A COMPLETE ALGORITHIM?
-    cout << "Hoi! I am horizon\n";
+    string s; cin >> s;
+    if (s.size() < 3) {
+        cout << "NO\n";
+        return;
+    }
+
+    if (s.substr(0, 2) == "10" && stoi(s.substr(2, s.size()-2)) >= 2 && s[2] != '0')
+        cout << "YES\n";
+    else cout << "NO\n";
 }

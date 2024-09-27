@@ -34,5 +34,16 @@ void solve(int test_num)
 {
     // CHILL BRO
     // I ASSUME YOU ARE HERE BECAUSE YOU HAVE A COMPLETE ALGORITHIM?
-    cout << "Hoi! I am horizon\n";
+    int n; cin >> n;
+    vector<int> vec(n);
+
+    bool ret = true;
+    FOR(i, n) {
+        int x; cin >> x; --x;
+        vec[x] = true;
+
+        if ((!i) || (x && vec[x-1]) || ((x+1 < n) && vec[x+1])) ; else ret = false;
+    }
+    if (ret) cout << "YES\n";
+    else cout << "NO\n";
 }

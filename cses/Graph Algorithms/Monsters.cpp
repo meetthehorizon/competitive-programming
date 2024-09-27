@@ -59,8 +59,7 @@ void solve(int test_num)
     vector<int> per { s }, mon;
     FOR(i, n*m) if (grid[i] == 'M') mon.push_back(i);
 
-    vector<int> pp(n*m), pm(n*m);
-    vector<int> dp(n*m, -1), dm(n*m, -1);
+    vector<int> pp(n*m), pm(n*m), dp(n*m, -1), dm(n*m, -1);
     vector<bool> vp(n*m), vm(n*m);
 
     bfs(m, grid, per, dp, vp, pp);

@@ -34,5 +34,15 @@ void solve(int test_num)
 {
     // CHILL BRO
     // I ASSUME YOU ARE HERE BECAUSE YOU HAVE A COMPLETE ALGORITHIM?
-    cout << "Hoi! I am horizon\n";
+    int n, k; cin >> n >> k;
+    vector<int> vec(n); for (auto &v: vec) cin >> v;
+
+    int ans = 1, mx = *max_element(vec.begin(), vec.end()), sm = accumulate(vec.begin(), vec.end(), 0LL);
+    for (int i = 1; i <= n; ++i) {
+        int del = mx + max((sm - mx * i + i - 1) / i, 0LL);
+        del *= i;
+        if (del - sm <= k) ans = i;
+    }
+
+    cout << ans << '\n';
 }

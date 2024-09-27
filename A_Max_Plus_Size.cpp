@@ -34,5 +34,11 @@ void solve(int test_num)
 {
     // CHILL BRO
     // I ASSUME YOU ARE HERE BECAUSE YOU HAVE A COMPLETE ALGORITHIM?
-    cout << "Hoi! I am horizon\n";
+    int n; cin >> n;
+    vector<int> vec(n); for (auto &v: vec) cin >> v;
+    int o = 0, e = 0;
+    FOR(i, n) if (i % 2) o = max(o, vec[i]); else e = max(e, vec[i]);
+
+    cout << max(o + n / 2, e + n / 2 + n % 2) << '\n';
+
 }

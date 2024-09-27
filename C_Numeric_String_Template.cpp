@@ -34,5 +34,29 @@ void solve(int test_num)
 {
     // CHILL BRO
     // I ASSUME YOU ARE HERE BECAUSE YOU HAVE A COMPLETE ALGORITHIM?
-    cout << "Hoi! I am horizon\n";
+    int n; cin >> n;
+    vector<int> vec(n); for (auto &v: vec) cin >> v;
+    int q; cin >> q;
+
+    while (q--) {
+        string s; cin >> s;
+        map<int, char> ms;
+
+        string t;
+        if (s.size() != n) {
+            cout << "NO\n";
+            continue;
+        }
+
+        for (int i = 0; i < n; ++i) {
+            if (ms.find(vec[i]) == ms.end())
+                ms[vec[i]] = s[i];
+            t.push_back(ms[vec[i]]);
+        }
+
+        vector<bool> used(26);
+        for (auto &itr: ms) if (used[itr.second-'a']) t = ""; else used[itr.second-'a'] = 1;
+
+        cout << ((s == t) ? "YES\n" : "NO\n");
+    }
 }
