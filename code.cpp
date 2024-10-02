@@ -10,13 +10,13 @@ github: meetthehorizon
 using namespace std; 
 
 #define int          long long
-#define MOD          1000000007
 #define INF          10000000000000000
 #define all(x)       (x).begin(), (x).end()
 #define rall(x)      (x).rbegin(), (x).rend()
 #define FOR(i, n)    for (int i = 0; (i) < (n); (i)++)
 
 void solve(int);
+long long MOD = 1000000007;
 bool test_cases = true;
 template <typename T> T next() { T x; cin >> x; return x; }
  
