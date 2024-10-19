@@ -1,21 +1,17 @@
-"""
-Kshitij Sharma
-github: meetthehorizon
-   /\_/\
-  (= ._.)
-  / >  \>
-"""
+# Kshitij Sharma
+# github: meetthehorizon
+#    /\_/\
+#   (= ._.)
+#   / >  \>
+
 
 import sys
 
 def input(): return sys.stdin.readline().strip()
-def solve(): pass
+def solve():
+   pass
 
 is_test = True
 
 t = 1 if not is_test else int(input())
 for _ in range(t): solve()
-    
-def solve():
-   # Start From Here
-   
