@@ -9,9 +9,9 @@ import sys
 
 def input(): return sys.stdin.readline().strip()
 def solve():
-   pass
+   arr = [input() for _ in range(8)]
 
-is_test = True
+is_test = False
 
 t = 1 if not is_test else int(input())
 for _ in range(t): solve()

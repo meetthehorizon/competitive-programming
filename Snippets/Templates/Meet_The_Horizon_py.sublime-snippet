@@ -11,7 +11,7 @@ import sys
 
 def input(): return sys.stdin.readline().strip()
 def solve():
-	${0:pass}
+	${0:print("Hoi! I am horizon")}
 
 is_test = ${1:True}
 
